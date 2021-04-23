@@ -1,0 +1,3660 @@
+fileFormatVersion: 2
+guid: 07eb1d36f51e4474a935ce7060ec7b75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2323210574001795592
+    second: Missile_Normal_UL
+  - first:
+      213: -5721530639368232297
+    second: Missile_Normal_U
+  - first:
+      213: 7071813643670602206
+    second: Missile_Normal_UR
+  - first:
+      213: 7283522229928108900
+    second: SNES - Super Metroid - Weapons_3
+  - first:
+      213: 7598521155527801085
+    second: SNES - Super Metroid - Weapons_4
+  - first:
+      213: -4300117742503902640
+    second: SNES - Super Metroid - Weapons_5
+  - first:
+      213: -8049126981966276231
+    second: PowerBeam_UL
+  - first:
+      213: 49619405675747306
+    second: PowerBeam_U
+  - first:
+      213: 6724148142305213336
+    second: PowerBeam_UR
+  - first:
+      213: 7749267654719577873
+    second: MorphBallBomb_1
+  - first:
+      213: -3645009670714766423
+    second: SNES - Super Metroid - Weapons_10
+  - first:
+      213: 5994550176653696879
+    second: SNES - Super Metroid - Weapons_11
+  - first:
+      213: 2847741168913765655
+    second: MorphBallBomb_2
+  - first:
+      213: -7393880787659961388
+    second: SNES - Super Metroid - Weapons_13
+  - first:
+      213: 1378403005894480867
+    second: Missile_Normal_L
+  - first:
+      213: 6797300881363078172
+    second: Missile_Normal_R
+  - first:
+      213: -3674776977614794627
+    second: SNES - Super Metroid - Weapons_16
+  - first:
+      213: 1476197957732427229
+    second: SNES - Super Metroid - Weapons_17
+  - first:
+      213: -1874944507049117288
+    second: PowerBeam_L
+  - first:
+      213: -137906213946610438
+    second: PowerBeam_R
+  - first:
+      213: 15137535306441567
+    second: SNES - Super Metroid - Weapons_20
+  - first:
+      213: 5517966370400924708
+    second: Missile_Normal_DL
+  - first:
+      213: -2989984329530385766
+    second: Missile_Normal_D
+  - first:
+      213: -3500798094815579242
+    second: Missile_Normal_DR
+  - first:
+      213: 4595807136308800492
+    second: SNES - Super Metroid - Weapons_24
+  - first:
+      213: -3057832477756979291
+    second: SNES - Super Metroid - Weapons_25
+  - first:
+      213: 2129809518012884859
+    second: SNES - Super Metroid - Weapons_26
+  - first:
+      213: 405118157403910735
+    second: PowerBeam_DL
+  - first:
+      213: 2332934013959516350
+    second: PowerBeam_D
+  - first:
+      213: 8079073507366634211
+    second: PowerBeam_DR
+  - first:
+      213: -8822675619554901159
+    second: MorphBallBomb_4
+  - first:
+      213: 1540043415419442063
+    second: MorphBallBomb_3
+  - first:
+      213: -9069712934912054688
+    second: SNES - Super Metroid - Weapons_32
+  - first:
+      213: -6690574918638442569
+    second: SNES - Super Metroid - Weapons_33
+  - first:
+      213: 9143709201020531252
+    second: SNES - Super Metroid - Weapons_34
+  - first:
+      213: 2648328269903916578
+    second: SNES - Super Metroid - Weapons_35
+  - first:
+      213: 2656489079256414066
+    second: SNES - Super Metroid - Weapons_36
+  - first:
+      213: 6962103048236567006
+    second: SNES - Super Metroid - Weapons_37
+  - first:
+      213: 3817882419551770021
+    second: SNES - Super Metroid - Weapons_38
+  - first:
+      213: -2479852286982216641
+    second: SNES - Super Metroid - Weapons_39
+  - first:
+      213: -2662126887805760324
+    second: SNES - Super Metroid - Weapons_40
+  - first:
+      213: 2207548350016730127
+    second: SNES - Super Metroid - Weapons_41
+  - first:
+      213: -1805137928210377124
+    second: SNES - Super Metroid - Weapons_42
+  - first:
+      213: -7177809439192797965
+    second: SNES - Super Metroid - Weapons_43
+  - first:
+      213: 8134202706190100928
+    second: SNES - Super Metroid - Weapons_44
+  - first:
+      213: -3364212616306996006
+    second: SNES - Super Metroid - Weapons_45
+  - first:
+      213: -2745625794204672159
+    second: SNES - Super Metroid - Weapons_46
+  - first:
+      213: -4117036300720744220
+    second: SNES - Super Metroid - Weapons_47
+  - first:
+      213: -6428673668854176643
+    second: SNES - Super Metroid - Weapons_48
+  - first:
+      213: 5736622645157491441
+    second: SNES - Super Metroid - Weapons_49
+  - first:
+      213: -3040279868188757083
+    second: SNES - Super Metroid - Weapons_50
+  - first:
+      213: 65453952715054194
+    second: SNES - Super Metroid - Weapons_51
+  - first:
+      213: -4470325141763445214
+    second: SNES - Super Metroid - Weapons_52
+  - first:
+      213: 8343695378842129756
+    second: SNES - Super Metroid - Weapons_53
+  - first:
+      213: -4988264912101667880
+    second: SNES - Super Metroid - Weapons_54
+  - first:
+      213: -723605582986480237
+    second: SNES - Super Metroid - Weapons_55
+  - first:
+      213: -5078545018834161482
+    second: SNES - Super Metroid - Weapons_56
+  - first:
+      213: -5585162472401883500
+    second: SNES - Super Metroid - Weapons_57
+  - first:
+      213: 845605776156715781
+    second: SNES - Super Metroid - Weapons_58
+  - first:
+      213: 4362170924213585703
+    second: SNES - Super Metroid - Weapons_59
+  - first:
+      213: -267055970621915447
+    second: SNES - Super Metroid - Weapons_60
+  - first:
+      213: 7411786594261609395
+    second: SNES - Super Metroid - Weapons_61
+  - first:
+      213: 7903152678649095155
+    second: SNES - Super Metroid - Weapons_62
+  - first:
+      213: -2648836864578461624
+    second: SNES - Super Metroid - Weapons_63
+  - first:
+      213: -2774085746771477156
+    second: SNES - Super Metroid - Weapons_64
+  - first:
+      213: -8758271998354077673
+    second: SNES - Super Metroid - Weapons_65
+  - first:
+      213: -1710362738825961803
+    second: SNES - Super Metroid - Weapons_66
+  - first:
+      213: 1627531849418485314
+    second: SNES - Super Metroid - Weapons_67
+  - first:
+      213: -802728881048838133
+    second: SNES - Super Metroid - Weapons_68
+  - first:
+      213: 653420859783392139
+    second: SNES - Super Metroid - Weapons_69
+  - first:
+      213: 3984762189319037195
+    second: PowerBeam_Explosion_1
+  - first:
+      213: 6444760913455905140
+    second: PowerBeam_Explosion_2
+  - first:
+      213: 1529938734452419909
+    second: PowerBeam_Explosion_3
+  - first:
+      213: 7207777698100537616
+    second: PowerBeam_Explosion_4
+  - first:
+      213: -3045817303940594165
+    second: PowerBeam_Explosion_5
+  - first:
+      213: 4912054791086410775
+    second: SNES - Super Metroid - Weapons_75
+  - first:
+      213: -4171507276342423350
+    second: SNES - Super Metroid - Weapons_76
+  - first:
+      213: 571869860887032806
+    second: EnemyDeath_1
+  - first:
+      213: -683782294248726903
+    second: EnemyDeath_2
+  - first:
+      213: 1401638640033031541
+    second: EnemyDeath_3
+  - first:
+      213: -3186472246425852737
+    second: EnemyDeath_4
+  - first:
+      213: -5879873765955785773
+    second: EnemyDeath_5
+  - first:
+      213: 8799242426549939723
+    second: EnemyDeath_7
+  - first:
+      213: 4630349884965073564
+    second: EnemyDeath_8
+  - first:
+      213: 4703395895320699766
+    second: MorphBallBomb_Explosion_1
+  - first:
+      213: 1348131378907639542
+    second: MorphBallBomb_Explosion_2
+  - first:
+      213: -6250866831183035793
+    second: MorphBallBomb_Explosion_3
+  - first:
+      213: 3201408821047431700
+    second: MorphBallBomb_Explosion_4
+  - first:
+      213: -1493941159226520498
+    second: MorphBallBomb_Explosion_5
+  - first:
+      213: 1109633970650116568
+    second: EnemyDeath_9
+  - first:
+      213: 6315974894292872547
+    second: EnemyDeath_10
+  - first:
+      213: 5808681126347433636
+    second: SNES - Super Metroid - Weapons_98
+  - first:
+      213: 1991069731495553994
+    second: SNES - Super Metroid - Weapons_99
+  - first:
+      213: -9204111432299303970
+    second: SNES - Super Metroid - Weapons_100
+  - first:
+      213: 6949518988943528425
+    second: SNES - Super Metroid - Weapons_101
+  - first:
+      213: 5695604299570212835
+    second: SNES - Super Metroid - Weapons_102
+  - first:
+      213: -4944799363175844980
+    second: SNES - Super Metroid - Weapons_103
+  - first:
+      213: -8551901751307305947
+    second: SNES - Super Metroid - Weapons_104
+  - first:
+      213: 2868457384575578421
+    second: SNES - Super Metroid - Weapons_105
+  - first:
+      213: -6437882231929011814
+    second: SNES - Super Metroid - Weapons_106
+  - first:
+      213: 4635170627738672985
+    second: SNES - Super Metroid - Weapons_107
+  - first:
+      213: 2722757928995089521
+    second: SNES - Super Metroid - Weapons_108
+  - first:
+      213: -5170177781724168662
+    second: SNES - Super Metroid - Weapons_109
+  - first:
+      213: -6836332927097518985
+    second: SNES - Super Metroid - Weapons_110
+  - first:
+      213: 8468258002440832493
+    second: SNES - Super Metroid - Weapons_111
+  - first:
+      213: 1319392736517729314
+    second: SNES - Super Metroid - Weapons_112
+  - first:
+      213: -2040261468351646814
+    second: SNES - Super Metroid - Weapons_113
+  - first:
+      213: 778517492563455639
+    second: SNES - Super Metroid - Weapons_114
+  - first:
+      213: 1058743335568722014
+    second: SNES - Super Metroid - Weapons_115
+  - first:
+      213: 5220933572239300962
+    second: SNES - Super Metroid - Weapons_116
+  - first:
+      213: 3441583362699202986
+    second: SNES - Super Metroid - Weapons_117
+  - first:
+      213: 3408298030622486642
+    second: SNES - Super Metroid - Weapons_118
+  - first:
+      213: 9116374081016499639
+    second: SNES - Super Metroid - Weapons_119
+  - first:
+      213: 2468322539623759799
+    second: SNES - Super Metroid - Weapons_120
+  - first:
+      213: -2759301764485206120
+    second: SNES - Super Metroid - Weapons_121
+  - first:
+      213: -5342719236655608277
+    second: SNES - Super Metroid - Weapons_122
+  - first:
+      213: 4738612467739850070
+    second: SNES - Super Metroid - Weapons_123
+  - first:
+      213: -7907615756748405530
+    second: SNES - Super Metroid - Weapons_124
+  - first:
+      213: -8299693379039472513
+    second: SNES - Super Metroid - Weapons_125
+  - first:
+      213: 5278716774839449845
+    second: SNES - Super Metroid - Weapons_126
+  - first:
+      213: 8211829049777617222
+    second: SNES - Super Metroid - Weapons_127
+  - first:
+      213: -3268436279421257586
+    second: SNES - Super Metroid - Weapons_128
+  - first:
+      213: 6907042184286696590
+    second: SNES - Super Metroid - Weapons_129
+  - first:
+      213: -4042619855837612016
+    second: SNES - Super Metroid - Weapons_130
+  - first:
+      213: -2593137827837200849
+    second: SNES - Super Metroid - Weapons_131
+  - first:
+      213: 5255128773078856688
+    second: SNES - Super Metroid - Weapons_132
+  - first:
+      213: -214908840948561316
+    second: SNES - Super Metroid - Weapons_133
+  - first:
+      213: 2389407106458392993
+    second: SNES - Super Metroid - Weapons_134
+  - first:
+      213: 8857934224580909938
+    second: SNES - Super Metroid - Weapons_135
+  - first:
+      213: 9024927441991245222
+    second: SNES - Super Metroid - Weapons_136
+  - first:
+      213: 3954857910832628780
+    second: SNES - Super Metroid - Weapons_137
+  - first:
+      213: 7914407856381886977
+    second: SNES - Super Metroid - Weapons_138
+  - first:
+      213: 2891564509937049188
+    second: SNES - Super Metroid - Weapons_139
+  - first:
+      213: -3155526208396476760
+    second: SNES - Super Metroid - Weapons_140
+  - first:
+      213: 7438493102601701377
+    second: SNES - Super Metroid - Weapons_141
+  - first:
+      213: 2208439612962973750
+    second: SNES - Super Metroid - Weapons_142
+  - first:
+      213: -9161738924411698053
+    second: SNES - Super Metroid - Weapons_143
+  - first:
+      213: 1578001151686252209
+    second: SNES - Super Metroid - Weapons_144
+  - first:
+      213: 6896235722691032225
+    second: SNES - Super Metroid - Weapons_145
+  - first:
+      213: -5420058355473353153
+    second: SNES - Super Metroid - Weapons_146
+  - first:
+      213: -9182285537824818516
+    second: SNES - Super Metroid - Weapons_147
+  - first:
+      213: -5045133391842520895
+    second: SNES - Super Metroid - Weapons_148
+  - first:
+      213: -5358325999472909206
+    second: SNES - Super Metroid - Weapons_149
+  - first:
+      213: -6251124331796161867
+    second: SNES - Super Metroid - Weapons_150
+  - first:
+      213: 1758795481115978575
+    second: SNES - Super Metroid - Weapons_151
+  - first:
+      213: 7401770275010527177
+    second: SNES - Super Metroid - Weapons_152
+  - first:
+      213: -5730369727193714379
+    second: SNES - Super Metroid - Weapons_153
+  - first:
+      213: -3729824499225621090
+    second: EnemyDeath_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Missile_Normal_UL
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1154
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd0136ba4c42cfd0800000000000000
+      internalID: -2323210574001795592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Missile_Normal_U
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1153
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79261fc823a0990b0800000000000000
+      internalID: -5721530639368232297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Missile_Normal_UR
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1154
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14fb47a01242260800000000000000
+      internalID: 7071813643670602206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1154
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463a68cd0e4441560800000000000000
+      internalID: 7283522229928108900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1153
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df876857bbe537960800000000000000
+      internalID: 7598521155527801085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1154
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05243b932b9e254c0800000000000000
+      internalID: -4300117742503902640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_UL
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97953efe7a1cb4090800000000000000
+      internalID: -8049126981966276231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_U
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d449269840b000800000000000000
+      internalID: 49619405675747306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_UR
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b743ffb19f05d50800000000000000
+      internalID: 6724148142305213336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f1cf4efddea8b60800000000000000
+      internalID: 7749267654719577873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abce2e34035a6dc0800000000000000
+      internalID: -3645009670714766423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1158
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd2bb00abe03350800000000000000
+      internalID: 5994550176653696879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_2
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7155c515185358720800000000000000
+      internalID: 2847741168913765655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db41fb1998a36990800000000000000
+      internalID: -7393880787659961388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Missile_Normal_L
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1127
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3dba31b32112310800000000000000
+      internalID: 1378403005894480867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Missile_Normal_R
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1127
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c8811532dd45e50800000000000000
+      internalID: 6797300881363078172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1127
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d709c740fc1900dc0800000000000000
+      internalID: -3674776977614794627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1127
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd56cc8a8328c7410800000000000000
+      internalID: 1476197957732427229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_L
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1126
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89974cb97ebdaf5e0800000000000000
+      internalID: -1874944507049117288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_R
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1126
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afca461770f061ef0800000000000000
+      internalID: -137906213946610438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1126
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5327b61287c53000800000000000000
+      internalID: 15137535306441567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Missile_Normal_DL
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1094
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4247c4ead21c39c40800000000000000
+      internalID: 5517966370400924708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Missile_Normal_D
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1093
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a5b5a08117186d0800000000000000
+      internalID: -2989984329530385766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Missile_Normal_DR
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1094
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69337284eaaaa6fc0800000000000000
+      internalID: -3500798094815579242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1094
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb24e7ad3697cf30800000000000000
+      internalID: 4595807136308800492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1093
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a784a400956095d0800000000000000
+      internalID: -3057832477756979291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1094
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b776760f87a9e8d10800000000000000
+      internalID: 2129809518012884859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_DL
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1097
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42fe1851d44f9500800000000000000
+      internalID: 405118157403910735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_D
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1096
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0bb72102f306020800000000000000
+      internalID: 2332934013959516350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_DR
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1097
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e28bd8dc82ae1070800000000000000
+      internalID: 8079073507366634211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1096
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9534eefb44f8f8580800000000000000
+      internalID: -8822675619554901159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8351caa3555f5510800000000000000
+      internalID: 1540043415419442063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a2dcb9328e12280800000000000000
+      internalID: -9069712934912054688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1097
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7ea674f8d4623a0800000000000000
+      internalID: -6690574918638442569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_34
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1029
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432bc48a21bf4ee70800000000000000
+      internalID: 9143709201020531252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1029
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e6f30b780c0c420800000000000000
+      internalID: 2648328269903916578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_36
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1037
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27778ce2ebebdd420800000000000000
+      internalID: 2656489079256414066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1052
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed90ec7e5db5e9060800000000000000
+      internalID: 6962103048236567006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_38
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1034
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5979325d7dbf430800000000000000
+      internalID: 3817882419551770021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_39
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1034
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f342cfadb7bc59dd0800000000000000
+      internalID: -2479852286982216641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_40
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1034
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc425933b93e0bd0800000000000000
+      internalID: -2662126887805760324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_41
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1052
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f043f3b3789c2ae10800000000000000
+      internalID: 2207548350016730127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_42
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1038
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c569f6a4e9cd2f6e0800000000000000
+      internalID: -1805137928210377124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_43
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 990
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fca77f385c436c90800000000000000
+      internalID: -7177809439192797965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1033
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c96b71b34e72e070800000000000000
+      internalID: 8134202706190100928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_45
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 990
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc4228237aef41d0800000000000000
+      internalID: -3364212616306996006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_46
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1033
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fd74a13e395e9d0800000000000000
+      internalID: -2745625794204672159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_47
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1022
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d6282c495dd6c0800000000000000
+      internalID: -4117036300720744220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_48
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1024
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d742a07db53c8c6a0800000000000000
+      internalID: -6428673668854176643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_49
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1003
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2f21fd6e39c9f40800000000000000
+      internalID: 5736622645157491441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_50
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1003
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a376d66191cec5d0800000000000000
+      internalID: -3040279868188757083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_51
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 987
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cd9b0f50a88e000800000000000000
+      internalID: 65453952715054194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_52
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 987
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e21b6e7f636f1c0800000000000000
+      internalID: -4470325141763445214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_53
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 944
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5514f18db2cac370800000000000000
+      internalID: 8343695378842129756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_54
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 945
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db82accd7f16cab0800000000000000
+      internalID: -4988264912101667880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_55
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 971
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395f99c5e8c35f5f0800000000000000
+      internalID: -723605582986480237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_56
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 971
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b07f8076326589b0800000000000000
+      internalID: -5078545018834161482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_57
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 932
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ea4a3a2548d72b0800000000000000
+      internalID: -5585162472401883500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_58
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 920
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be6d329f13cbb00800000000000000
+      internalID: 845605776156715781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_59
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 921
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727c943085b898c30800000000000000
+      internalID: 4362170924213585703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_60
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 933
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cefee7720a3b4cf0800000000000000
+      internalID: -267055970621915447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_61
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 932
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb27fd53a4fbd660800000000000000
+      internalID: 7411786594261609395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_62
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 918
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f36e801d73adad60800000000000000
+      internalID: 7903152678649095155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_63
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 914
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84067d2e7e07d3bd0800000000000000
+      internalID: -2648836864578461624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_64
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 914
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d363706b77089d0800000000000000
+      internalID: -2774085746771477156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_65
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 914
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718cad3550e547680800000000000000
+      internalID: -8758271998354077673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_66
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 917
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bed633a6229348e0800000000000000
+      internalID: -1710362738825961803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_67
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 932
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e29311897269610800000000000000
+      internalID: 1627531849418485314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 904
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b002322f5522cd4f0800000000000000
+      internalID: -802728881048838133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_69
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 902
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b283c5fca611900800000000000000
+      internalID: 653420859783392139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_Explosion_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 871
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01e4c85918bc4730800000000000000
+      internalID: 3984762189319037195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_Explosion_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 867
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4797cdca7e3607950800000000000000
+      internalID: 6444760913455905140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_Explosion_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 867
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54da52b4c2f6b3510800000000000000
+      internalID: 1529938734452419909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_Explosion_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 867
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019e343c0ab270460800000000000000
+      internalID: 7207777698100537616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBeam_Explosion_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 867
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0602ebac451bb5d0800000000000000
+      internalID: -3045817303940594165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_75
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 871
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c06fbaecf1b2440800000000000000
+      internalID: 4912054791086410775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_76
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 867
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac017a7db34db16c0800000000000000
+      internalID: -4171507276342423350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 821
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e37cebcb90bfe700800000000000000
+      internalID: 571869860887032806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e5a9f40a7b286f0800000000000000
+      internalID: -683782294248726903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 813
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57561aabaee937310800000000000000
+      internalID: 1401638640033031541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 811
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb46521ef5067c3d0800000000000000
+      internalID: -3186472246425852737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 809
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db211876fd766ea0800000000000000
+      internalID: -5879873765955785773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 810
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e2e07dd503d1a70800000000000000
+      internalID: 8799242426549939723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_8
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 807
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c923d1f00be424040800000000000000
+      internalID: 4630349884965073564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_Explosion_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 769
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ee9aa5a1d54140800000000000000
+      internalID: 4703395895320699766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_Explosion_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 767
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fee85ea85685b210800000000000000
+      internalID: 1348131378907639542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_Explosion_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 761
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62401d4cb57049a0800000000000000
+      internalID: -6250866831183035793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_Explosion_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 759
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41295576c50bd6c20800000000000000
+      internalID: 3201408821047431700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MorphBallBomb_Explosion_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 759
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cc7f05e64744be0800000000000000
+      internalID: -1493941159226520498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 752
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d17e4b9736366f00800000000000000
+      internalID: 1109633970650116568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_10
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 751
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dac90f3b9d6a750800000000000000
+      internalID: 6315974894292872547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_98
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 721
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6647d65b49c9050800000000000000
+      internalID: 5808681126347433636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_99
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb23d42f53b1ab10800000000000000
+      internalID: 1991069731495553994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_100
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb20b4fa6d644080800000000000000
+      internalID: -9204111432299303970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_101
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e19fc743b6a17060800000000000000
+      internalID: 6949518988943528425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_102
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efe1111fe9da0f40800000000000000
+      internalID: 5695604299570212835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_103
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 710
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8373588d2b806bb0800000000000000
+      internalID: -4944799363175844980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_104
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 709
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c7947caaa815980800000000000000
+      internalID: -8551901751307305947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_105
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53139f42bcecec720800000000000000
+      internalID: 2868457384575578421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91821c283c08a6a0800000000000000
+      internalID: -6437882231929011814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_107
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 643
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f10b3b02f635040800000000000000
+      internalID: 4635170627738672985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_108
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 641
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c612f19ed29c520800000000000000
+      internalID: 2722757928995089521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_109
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eb6b643b6df38b0800000000000000
+      internalID: -5170177781724168662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_110
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 611
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774cb0a5c677021a0800000000000000
+      internalID: -6836332927097518985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_111
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 604
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de548d559cb458570800000000000000
+      internalID: 8468258002440832493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_112
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 517
+        width: 8
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cae5314bc6f4210800000000000000
+      internalID: 1319392736517729314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_113
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 505
+        width: 8
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3bbf911098fa3e0800000000000000
+      internalID: -2040261468351646814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_114
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 611
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e2ca3e889ddca00800000000000000
+      internalID: 778517492563455639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_115
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 604
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58c2e8447961be00800000000000000
+      internalID: 1058743335568722014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_116
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 517
+        width: 8
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2691c391c6b747840800000000000000
+      internalID: 5220933572239300962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_117
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 505
+        width: 8
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1949685d5f2cf20800000000000000
+      internalID: 3441583362699202986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_118
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 509
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270baeb3005bc4f20800000000000000
+      internalID: 3408298030622486642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_119
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 497
+        width: 16
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd01921dedd38e70800000000000000
+      internalID: 9116374081016499639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_120
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 509
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf3d55a54e314220800000000000000
+      internalID: 2468322539623759799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_121
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 497
+        width: 16
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f20c32aadf4b9d0800000000000000
+      internalID: -2759301764485206120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_122
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 461
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e0f744929dad5b0800000000000000
+      internalID: -5342719236655608277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_123
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 461
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655fed3eeeee2c140800000000000000
+      internalID: 4738612467739850070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_124
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 457
+        width: 52
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4cab69d51824290800000000000000
+      internalID: -7907615756748405530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_125
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 457
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74d0bd68d091dc80800000000000000
+      internalID: -8299693379039472513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_126
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 461
+        width: 96
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8733a50f4c14940800000000000000
+      internalID: 5278716774839449845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_127
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 461
+        width: 120
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6497a3c330746f170800000000000000
+      internalID: 8211829049777617222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_128
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 411
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88b812558e24a2d0800000000000000
+      internalID: -3268436279421257586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_129
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 411
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84fb03854ebadf50800000000000000
+      internalID: 6907042184286696590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_130
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 407
+        width: 52
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018bbdae8aab5e7c0800000000000000
+      internalID: -4042619855837612016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_131
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 407
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b22672e2530cd0800000000000000
+      internalID: -2593137827837200849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_132
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 411
+        width: 96
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3bc48b6c7fde840800000000000000
+      internalID: 5255128773078856688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_133
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 411
+        width: 120
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a8b2c3c8d740df0800000000000000
+      internalID: -214908840948561316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_134
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 361
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a91f3c8a11e82120800000000000000
+      internalID: 2389407106458392993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_135
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 317
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b9be3fe34bdea70800000000000000
+      internalID: 8857934224580909938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_136
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 310
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad109f31bbfe3d70800000000000000
+      internalID: 9024927441991245222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_137
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 301
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c248250f05a72e630800000000000000
+      internalID: 3954857910832628780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_138
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 300
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10204375300a5dd60800000000000000
+      internalID: 7914407856381886977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_139
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 261
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e9ce30a96e02820800000000000000
+      internalID: 2891564509937049188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_140
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 217
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aeb715d1a15534d0800000000000000
+      internalID: -3155526208396476760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_141
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 210
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10884c4e016da3760800000000000000
+      internalID: 7438493102601701377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_142
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 201
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6382f8e8024f5ae10800000000000000
+      internalID: 2208439612962973750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_143
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 200
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74429d3df6fad080800000000000000
+      internalID: -9161738924411698053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_144
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b69a65dfaf26e510800000000000000
+      internalID: 1578001151686252209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_145
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 117
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4bb5a1ad954bf50800000000000000
+      internalID: 6896235722691032225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_146
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 110
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f367f1474a518c4b0800000000000000
+      internalID: -5420058355473353153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_147
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 101
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caabeb304f7f19080800000000000000
+      internalID: -9182285537824818516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_148
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 100
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0d3ce09e51cf9b0800000000000000
+      internalID: -5045133391842520895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_149
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a646da2a4e663a5b0800000000000000
+      internalID: -5358325999472909206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_150
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 17
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba1d744a8b8f39a0800000000000000
+      internalID: -6251124331796161867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_151
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 10
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bea7ceb2f786810800000000000000
+      internalID: 1758795481115978575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_152
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf3c0f49de58b660800000000000000
+      internalID: 7401770275010527177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Weapons_153
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53177fa0813a970b0800000000000000
+      internalID: -5730369727193714379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeath_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 809
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d8b1121600d3cc0800000000000000
+      internalID: -3729824499225621090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

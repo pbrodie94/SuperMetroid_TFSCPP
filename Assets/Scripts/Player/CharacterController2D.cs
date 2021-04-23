@@ -20,19 +20,15 @@ public class CharacterController2D : MonoBehaviour
     private Vector3 smoothingVelocity = Vector3.zero;
 
     //Components
+    private SpriteRenderer characterRenderer;
     private Animator anim;
     private Rigidbody2D rb;
-
-    public CharacterController2D(float jump, bool twoWayAnimations)
-    {
-        jumpForce = jump;
-        twoWayAnims = twoWayAnimations;
-    }
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = transform.GetComponentInChildren<Animator>();
+        characterRenderer = transform.GetComponentInChildren<SpriteRenderer>();
     }
 
     public void Move(float move, bool jump)
@@ -99,10 +95,7 @@ public class CharacterController2D : MonoBehaviour
             anim.SetBool(AnimationVars.FacingRight, facingRight);
         } else
         {
-            // Multiply the player's x local scale by -1.
-            Vector3 theScale = transform.localScale;
-            theScale.x *= -1;
-            transform.localScale = theScale;
+            characterRenderer.flipX = !characterRenderer.flipX;
         }
     }
 }
