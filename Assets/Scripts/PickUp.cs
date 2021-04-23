@@ -5,7 +5,7 @@ using UnityEngine;
 public class PickUp : MonoBehaviour
 {
 
-    public enum PickupType {Missile, Health}
+    public enum PickupType {Missile, Health, MissileBoost, ReserveTank, EnergyTank}
     public PickupType pickup;
     [SerializeField] private int value;
 
@@ -13,19 +13,45 @@ public class PickUp : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            WeaponManager wm = collision.gameObject.GetComponent<WeaponManager>();
+            SamusStatus stats = collision.gameObject.GetComponent<SamusStatus>();
+
             switch (pickup)
             {
                 case PickupType.Missile:
-
-                    WeaponManager wm = collision.gameObject.GetComponent<WeaponManager>();
+                    
                     wm.PickupMissiles(value);
-
                     Destroy(gameObject);
 
                     break;
 
                 case PickupType.Health:
+                    //Add health
 
+                    stats.PickupEnergy(value);
+                    Destroy(gameObject);
+
+                    break;
+
+                case PickupType.MissileBoost:
+                    //Increase max missiles by 5
+
+                    wm.IncreaseMissiles(value);
+                    Destroy(gameObject);
+
+                    break;
+
+                case PickupType.ReserveTank:
+                    //Max health
+                    stats.PickupReserveTank();
+                    Destroy(gameObject);
+
+                    break;
+
+                case PickupType.EnergyTank:
+                    //Increase energy tanks by 1
+
+                    stats.PickupEnergyTank();
                     Destroy(gameObject);
 
                     break;

@@ -11,8 +11,8 @@ public class WeaponManager : MonoBehaviour
     }
 
     [Header("Inventory")]
-    [SerializeField] private int missiles = 5;
-    [SerializeField] private int maxMissiles = 99;
+    [SerializeField] private int missiles = 0;
+    [SerializeField] private int maxMissiles = 0;
 
     [Header("Weapon Stats")]
     [SerializeField] private float projectileVelocity = 1000;
@@ -146,6 +146,14 @@ public class WeaponManager : MonoBehaviour
                 missiles = maxMissiles;
             }
         }
+
+        hud.UpdateMissiles(missiles);
+    }
+
+    public void IncreaseMissiles(int amount)
+    {
+        maxMissiles += amount;
+        missiles = maxMissiles;
 
         hud.UpdateMissiles(missiles);
     }
