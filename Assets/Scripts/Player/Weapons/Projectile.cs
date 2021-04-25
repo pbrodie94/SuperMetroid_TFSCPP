@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    private int damage;
+    private GameObject shooter;
     private Rigidbody2D rb;
     private Animator anim;
 
@@ -13,10 +15,28 @@ public class Projectile : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    public void SetStats(GameObject go, int dam)
+    {
+        shooter = go;
+        damage = dam;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag != "Player" && collision.tag != "Projectile")
+        if (collision.gameObject != shooter && collision.tag != "Projectile")
         {
+            if (shooter.tag == "Player")
+            {
+                if (collision.tag == "Enemy")
+                {
+                    Stats s = collision.gameObject.GetComponent<Stats>();
+                    s.TakeDamage(damage);
+                }
+            } else
+            {
+                
+            }
+
             rb.velocity = Vector2.zero;
 
             if (anim)

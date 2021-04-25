@@ -2,79 +2,90 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SamusStatus : MonoBehaviour
+public class SamusStatus : Stats
 {
-    private int energy = 99;
     private int energyTanks = 0;
     private int maxEnergyTanks = 0;
 
     HUDManager hud;
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
+
         hud = GameObject.Find("HUD").GetComponent<HUDManager>();
 
-        hud.InitializeEnergy(energy, energyTanks, maxEnergyTanks);
+        hud.InitializeEnergy(health, energyTanks, maxEnergyTanks);
+
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        defaultMaterial = spriteRenderer.material;
+
+        if (health <= 0)
+        {
+            health = 99;
+        }
     }
 
-    public void TakeDamage(int damage)
+    public override void TakeDamage(int damage)
     {
-        energy -= damage;
+        health -= damage;
 
-        if (energy <= 0 && energyTanks > 0)
+        StartCoroutine(Flash(flashInterval, flashDuration, Time.time));
+
+        if (health <= 0 && energyTanks > 0)
         {
-            int excessDamage = Mathf.Abs(energy);
+            int excessDamage = Mathf.Abs(health);
 
             energyTanks--;
-            energy = 99;
+            health = 99;
 
-            energy -= excessDamage;
+            health -= excessDamage;
         } else
         {
             Die();
         }
 
-        hud.UpdateEnergy(energy, energyTanks, maxEnergyTanks);
+        hud.UpdateEnergy(health, energyTanks, maxEnergyTanks);
     }
 
     public void PickupEnergyTank()
     {
         maxEnergyTanks++;
         energyTanks = maxEnergyTanks;
-        energy = 99;
+        health = 99;
 
-        hud.UpgradeEnergyTanks(energy, energyTanks, maxEnergyTanks);
+        hud.UpgradeEnergyTanks(health, energyTanks, maxEnergyTanks);
     }
 
     public void PickupReserveTank()
     {
         energyTanks = maxEnergyTanks;
-        energy = 99;
+        health = 99;
 
-        hud.UpdateEnergy(energy, energyTanks, maxEnergyTanks);
+        hud.UpdateEnergy(health, energyTanks, maxEnergyTanks);
     }
 
     public void PickupEnergy(int value)
     {
-        energy += value;
+        health += value;
 
-        if (energy > 99)
+        if (health > 99)
         {
             if (maxEnergyTanks > 0 && energyTanks < maxEnergyTanks)
             {
-                int excess = energy - 99;
+                int excess = health - 99;
                 energyTanks++;
-                energy = excess;
+                health = excess;
             } else
             {
-                energy = 99;
+                health = 99;
             }
         }
 
-        hud.UpdateEnergy(energy, energyTanks, maxEnergyTanks);
+        hud.UpdateEnergy(health, energyTanks, maxEnergyTanks);
     }
 
-    void Die()
+    protected override void Die()
     {
         //Dying animation, restart at checkpoint, or start
     }

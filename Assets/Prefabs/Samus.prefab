@@ -132,8 +132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e499177953654284f96e2bd409e6f47c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missiles: 5
-  maxMissiles: 99
+  missiles: 0
+  maxMissiles: 0
   projectileVelocity: 1000
   fireRate: 300
   powerBeamProjectile: {fileID: 6915447095321942738, guid: d9621a5d58ccaac46955e470a53e93dc, type: 3}
@@ -155,6 +155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f555841e29876d245882e7d3f9e745f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 99
+  flashInterval: 0.1
+  flashDuration: 0.2
 --- !u!1 &8332674194739317963
 GameObject:
   m_ObjectHideFlags: 0

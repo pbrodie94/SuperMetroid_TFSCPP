@@ -1,0 +1,2154 @@
+fileFormatVersion: 2
+guid: 2b7064ab91067a84ab8f79595a789128
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1680471932318676095
+    second: WallZebesian_Crawl_1
+  - first:
+      213: -1374263880530720408
+    second: WallZebesian_Crawl_2
+  - first:
+      213: 9047003310352223285
+    second: WallZebesian_Crawl_3
+  - first:
+      213: -7748670863938004251
+    second: WallZebesian_Crawl_4
+  - first:
+      213: -2789244204651870320
+    second: WallZebesian_Crawl_5
+  - first:
+      213: -8783272529235572837
+    second: WallZebesian_Crawl_6
+  - first:
+      213: 2725434980462466014
+    second: WallZebesian_Crawl_7
+  - first:
+      213: -4357787632195592957
+    second: WallZebesian_Crawl_8
+  - first:
+      213: 1655596700290177742
+    second: WallZebesian_Idle_1
+  - first:
+      213: -3930035666052400241
+    second: WallZebesian_Idle_2
+  - first:
+      213: -2260087427020079876
+    second: WallZebesian_Idle_3
+  - first:
+      213: -4843312206404301368
+    second: WallZebesian_Idle_4
+  - first:
+      213: -6284838584799439149
+    second: WallZebesian_Idle_5
+  - first:
+      213: 5811606631665990507
+    second: WallZebesian_Idle_6
+  - first:
+      213: -1604839182650719191
+    second: WallZebesian_Idle_7
+  - first:
+      213: -3167381415407165957
+    second: WallZebesian_Idle_8
+  - first:
+      213: -6158036299950234979
+    second: WallZebesian_Idle_9
+  - first:
+      213: -5223436557879290356
+    second: WallZebesian_Idle_10
+  - first:
+      213: -711530968193274518
+    second: WallZebesian_Idle_11
+  - first:
+      213: 1059472012557613035
+    second: WallZebesian_Idle_12
+  - first:
+      213: 4051973760126092982
+    second: WallZebesian_Idle_13
+  - first:
+      213: 6657099908485605389
+    second: WallZebesian_Idle_14
+  - first:
+      213: 132555922826560925
+    second: WallZebesian_Idle_15
+  - first:
+      213: 5025037995310316058
+    second: WallZebesian_Idle_16
+  - first:
+      213: 3289807087717424745
+    second: WallZebesian_Idle_17
+  - first:
+      213: 1291278942672399420
+    second: WallZebesian_Idle_18
+  - first:
+      213: 3119494283668447155
+    second: WallZebesian_Idle_19
+  - first:
+      213: -7156206826267089606
+    second: WallZebesian_Idle2_1
+  - first:
+      213: 2322399437161459518
+    second: WallZebesian_Idle2_2
+  - first:
+      213: -5099883372637585465
+    second: WallZebesian_Idle2_3
+  - first:
+      213: 1627042941872192832
+    second: WallZebesian_Idle2_4
+  - first:
+      213: 8241251512017733037
+    second: WallZebesian_Idle2_5
+  - first:
+      213: -1082248032754547775
+    second: WallZebesian_Idle2_6
+  - first:
+      213: -3939208111465526336
+    second: WallZebesian_Idle2_7
+  - first:
+      213: -5068837583803403316
+    second: WallZebesian_Idle2_8
+  - first:
+      213: 8316423724261184918
+    second: WallZebesian_Idle2_9
+  - first:
+      213: -1966850140999555612
+    second: WallZebesian_Idle2_10
+  - first:
+      213: 4541872936500749995
+    second: WallZebesian_Idle2_11
+  - first:
+      213: -6901872438469450111
+    second: WallZebesian_Idle2_12
+  - first:
+      213: -6316949547334014360
+    second: WallZebesian_Idle2_13
+  - first:
+      213: -5313689850197217805
+    second: WallZebesian_LookBack_1
+  - first:
+      213: 1437502239854144106
+    second: WallZebesian_LookBack_2
+  - first:
+      213: 7026554737717824996
+    second: WallZebesian_TakeDamage_1
+  - first:
+      213: -2349122196422645891
+    second: WallZebesian_TakeDamage_2
+  - first:
+      213: 2326542893641864982
+    second: WallZebesian_TakeDamage_3
+  - first:
+      213: 2817362364827446460
+    second: WallZebesian_TakeDamage_4
+  - first:
+      213: 4182555702854137501
+    second: WallZebesian_TakeDamage_5
+  - first:
+      213: 3890212662198096125
+    second: WallZebesian_Juice_1
+  - first:
+      213: 1485146343684220410
+    second: WallZebesian_TakeDamage_6
+  - first:
+      213: -3470570710519871369
+    second: WallZebesian_Juice_2
+  - first:
+      213: 7261035724192960168
+    second: WallZebesian_TakeDamage_7
+  - first:
+      213: 4988109848695803123
+    second: WallZebesian_Shoot_1
+  - first:
+      213: -8938389048887902844
+    second: WallZebesian_Shoot_2
+  - first:
+      213: -3324790737381301630
+    second: WallZebesian_Shoot_3
+  - first:
+      213: -6448960195737745198
+    second: WallZebesian_Shoot_4
+  - first:
+      213: -1820012879427304187
+    second: WallZebesian_Shoot_5
+  - first:
+      213: 2732129301067792750
+    second: WallZebesian_Shoot_6
+  - first:
+      213: -3511077706637612711
+    second: WallZebesian_Shoot_7
+  - first:
+      213: 3689433447851206648
+    second: WallZebesian_Shoot_8
+  - first:
+      213: 5986041551435115586
+    second: WallZebesian_Shoot_9
+  - first:
+      213: -2526402725421731604
+    second: WallZebesian_Shoot_10
+  - first:
+      213: -4866976216710908899
+    second: WallZebesian_Shoot_11
+  - first:
+      213: -1320103283953674858
+    second: WallZebesian_Shoot_12
+  - first:
+      213: 8097294099666545787
+    second: WallZebesian_Shoot_13
+  - first:
+      213: 1715772573556596356
+    second: WallZebesian_Shoot_14
+  - first:
+      213: 5922584004032187874
+    second: WallZebesian_Shoot_15
+  - first:
+      213: 8037113161208148914
+    second: WallZebesian_Shoot_16
+  - first:
+      213: -1819727939325302799
+    second: WallZebesian_Shoot_17
+  - first:
+      213: -314957613769261615
+    second: WallZebesian_Shoot_18
+  - first:
+      213: -9034508751102131132
+    second: WallZebesian_Shoot_19
+  - first:
+      213: -1090120040778659260
+    second: WallZebesian_Shoot_20
+  - first:
+      213: 1854373485210524591
+    second: WallZebesian_Shoot_21
+  - first:
+      213: -5412791478251943805
+    second: WallZebesian_Shoot_22
+  - first:
+      213: 7937277752317137283
+    second: WallZebesian_Shoot_23
+  - first:
+      213: -1030891347591864105
+    second: WallZebesian_Shoot_24
+  - first:
+      213: 5998585877830035104
+    second: WallZebesian_Shoot_25
+  - first:
+      213: 5294042331656537528
+    second: WallZebesian_Shoot_26
+  - first:
+      213: 8694442241100402182
+    second: WallZebesian_Beam_1
+  - first:
+      213: -8273772482503726132
+    second: WallZebesian_Beam_2
+  - first:
+      213: -7678974531306625086
+    second: WallZebesian_Beam_3
+  - first:
+      213: -8272476776772116723
+    second: WallZebesian_Beam_4
+  - first:
+      213: -3635050902151908273
+    second: WallZebesian_Beam_5
+  - first:
+      213: -1304455241309343418
+    second: WallZebesian_ShortBeam_1
+  - first:
+      213: -6527860520228497348
+    second: WallZebesian_ShortBeam_2
+  - first:
+      213: -3603746291551844412
+    second: WallZebesian_ShortBeam_3
+  - first:
+      213: 4611872990486033792
+    second: WallZebesian_ShortBeam_4
+  - first:
+      213: 2984222533298997954
+    second: Game Boy Advance - Metroid Fusion - Wall Zebesian_86
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WallZebesian_Crawl_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 505
+        width: 27
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f747ed4a15c325710800000000000000
+      internalID: 1680471932318676095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Crawl_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 510
+        width: 28
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86901552842adece0800000000000000
+      internalID: -1374263880530720408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Crawl_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 514
+        width: 28
+        height: 56
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cc353e3996d8d70800000000000000
+      internalID: 9047003310352223285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Crawl_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 512
+        width: 28
+        height: 63
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea5e8947e0377490800000000000000
+      internalID: -7748670863938004251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Crawl_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 508
+        width: 26
+        height: 68
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09788e58c2d9a49d0800000000000000
+      internalID: -2789244204651870320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Crawl_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 512
+        width: 28
+        height: 63
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b978771ab2c8b1680800000000000000
+      internalID: -8783272529235572837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Crawl_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 514
+        width: 28
+        height: 56
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed393ecbca0b2d520800000000000000
+      internalID: 2725434980462466014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Crawl_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 510
+        width: 28
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d1460bc370683c0800000000000000
+      internalID: -4357787632195592957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 434
+        width: 28
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecada1c5d6cd9f610800000000000000
+      internalID: 1655596700290177742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 434
+        width: 29
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bb45a4265b579c0800000000000000
+      internalID: -3930035666052400241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 434
+        width: 30
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc3427a57e82a0e0800000000000000
+      internalID: -2260087427020079876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 434
+        width: 30
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd45f0953919ccb0800000000000000
+      internalID: -4843312206404301368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 434
+        width: 29
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d65c5a0b94c7c8a0800000000000000
+      internalID: -6284838584799439149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 434
+        width: 28
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b71c6b079f6a050800000000000000
+      internalID: 5811606631665990507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 434
+        width: 29
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924c97424477ab9e0800000000000000
+      internalID: -1604839182650719191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 434
+        width: 30
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd5b7a52633b04d0800000000000000
+      internalID: -3167381415407165957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 434
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d926183ac924a8aa0800000000000000
+      internalID: -6158036299950234979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 434
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06d0d42020a287b0800000000000000
+      internalID: -5223436557879290356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 434
+        width: 30
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d6622ba522026f0800000000000000
+      internalID: -711530968193274518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 434
+        width: 29
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7f6fd9e2004be00800000000000000
+      internalID: 1059472012557613035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 363
+        width: 29
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b60583aaa08b3830800000000000000
+      internalID: 4051973760126092982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 363
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08e19f8815c26c50800000000000000
+      internalID: 6657099908485605389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 363
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9583f4d8eee6d100800000000000000
+      internalID: 132555922826560925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 363
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aff45de658cb540800000000000000
+      internalID: 5025037995310316058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 363
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e95fabd1eb7ad20800000000000000
+      internalID: 3289807087717424745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 363
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c2eeb5b5b8be110800000000000000
+      internalID: 1291278942672399420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 363
+        width: 29
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf5be0f58baa4b20800000000000000
+      internalID: 3119494283668447155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 292
+        width: 30
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35ef158ecb00bc90800000000000000
+      internalID: -7156206826267089606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 292
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f6396cbf1da3020800000000000000
+      internalID: 2322399437161459518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 292
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cff30ac7139939b0800000000000000
+      internalID: -5099883372637585465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 292
+        width: 30
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d39986fea649610800000000000000
+      internalID: 1627042941872192832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 292
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5c77e069ece5270800000000000000
+      internalID: 8241251512017733037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 292
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3ccc0f5251bf0f0800000000000000
+      internalID: -1082248032754547775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_7
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 292
+        width: 30
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb82cbe71f1559c0800000000000000
+      internalID: -3939208111465526336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_8
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 292
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3bf39c21fd7a9b0800000000000000
+      internalID: -5068837583803403316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 292
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695183e905fd96370800000000000000
+      internalID: 8316423724261184918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 292
+        width: 30
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e56b43b73854b4e0800000000000000
+      internalID: -1966850140999555612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 292
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba666133f59f70f30800000000000000
+      internalID: 4541872936500749995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_12
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 292
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18628fbb59f9730a0800000000000000
+      internalID: -6901872438469450111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Idle2_13
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 292
+        width: 28
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a6717fadfa558a0800000000000000
+      internalID: -6316949547334014360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_LookBack_1
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 292
+        width: 31
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd65600c3bf146b0800000000000000
+      internalID: -5313689850197217805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_LookBack_2
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 292
+        width: 33
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aa552cba803f310800000000000000
+      internalID: 1437502239854144106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_TakeDamage_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 229
+        width: 33
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed42804e46538160800000000000000
+      internalID: 7026554737717824996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_TakeDamage_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 230
+        width: 36
+        height: 56
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d772e3cfecd366fd0800000000000000
+      internalID: -2349122196422645891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_TakeDamage_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 230
+        width: 40
+        height: 55
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6179b3a6f6a894020800000000000000
+      internalID: 2326542893641864982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_TakeDamage_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 233
+        width: 43
+        height: 47
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc281fc428491720800000000000000
+      internalID: 2817362364827446460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_TakeDamage_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 238
+        width: 47
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96b7e9604c6b0a30800000000000000
+      internalID: 4182555702854137501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_TakeDamage_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 238
+        width: 52
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5a4ce1bbc4c9410800000000000000
+      internalID: 1485146343684220410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_TakeDamage_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 238
+        width: 32
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae41f1458164c460800000000000000
+      internalID: 7261035724192960168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 32
+        height: 69
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc0420ba73593540800000000000000
+      internalID: 4988109848695803123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 150
+        width: 31
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d7bc4848674f380800000000000000
+      internalID: -8938389048887902844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 150
+        width: 33
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282e0e99078fbd1d0800000000000000
+      internalID: -3324790737381301630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 150
+        width: 48
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d80b6abed0b086a0800000000000000
+      internalID: -6448960195737745198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 150
+        width: 50
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5058913dde30eb6e0800000000000000
+      internalID: -1820012879427304187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 150
+        width: 44
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e610596bf197ae520800000000000000
+      internalID: 2732129301067792750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9596215ad65264fc0800000000000000
+      internalID: -3511077706637612711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7ad916c20833330800000000000000
+      internalID: 3689433447851206648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ca40c5311b21350800000000000000
+      internalID: 5986041551435115586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0b8af4b1a60fcd0800000000000000
+      internalID: -2526402725421731604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14fba0dae6057cb0800000000000000
+      internalID: -4866976216710908899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_12
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6955d15be0d0eade0800000000000000
+      internalID: -1320103283953674858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_13
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cad74151e5f5070800000000000000
+      internalID: 8097294099666545787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_14
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 150
+        width: 45
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ed23aa016afc710800000000000000
+      internalID: 1715772573556596356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_15
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edcfb0c5ce313250800000000000000
+      internalID: 5922584004032187874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_16
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 150
+        width: 45
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3bd6176df898f60800000000000000
+      internalID: 8037113161208148914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_17
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f769ac94170fb6e0800000000000000
+      internalID: -1819727939325302799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_18
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 150
+        width: 45
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd7aff08bb01abf0800000000000000
+      internalID: -314957613769261615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_19
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4444662682afe9280800000000000000
+      internalID: -9034508751102131132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_20
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 150
+        width: 45
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a8ade399d1fd0f0800000000000000
+      internalID: -1090120040778659260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_21
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 150
+        width: 45
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab50e22cde0cb910800000000000000
+      internalID: 1854373485210524591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_22
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 150
+        width: 41
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388088724d6e1e4b0800000000000000
+      internalID: -5412791478251943805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_23
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 150
+        width: 42
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381597eef00e62e60800000000000000
+      internalID: 7937277752317137283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_24
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 150
+        width: 48
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d063c008c981b1f0800000000000000
+      internalID: -1030891347591864105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_25
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 150
+        width: 33
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6ebb2f2124f3350800000000000000
+      internalID: 5998585877830035104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Shoot_26
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 150
+        width: 31
+        height: 59
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5c44c9377387940800000000000000
+      internalID: 5294042331656537528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Beam_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 109
+        width: 48
+        height: 6
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec0f4372dd8a870800000000000000
+      internalID: 8694442241100402182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Beam_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 109
+        width: 48
+        height: 6
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccba6f373c7ad2d80800000000000000
+      internalID: -8273772482503726132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Beam_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 109
+        width: 48
+        height: 6
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c76236495dce6590800000000000000
+      internalID: -7678974531306625086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Beam_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 109
+        width: 48
+        height: 6
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f54d37332423d80800000000000000
+      internalID: -8272476776772116723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_Beam_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 109
+        width: 48
+        height: 6
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44b5ccb674bd8dc0800000000000000
+      internalID: -3635050902151908273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_ShortBeam_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 39
+        width: 16
+        height: 4
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6413c5c8ed4a5ede0800000000000000
+      internalID: -1304455241309343418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_ShortBeam_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 39
+        width: 16
+        height: 4
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38db7461716865a0800000000000000
+      internalID: -6527860520228497348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_ShortBeam_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 39
+        width: 16
+        height: 4
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7cb6f57dbecfdc0800000000000000
+      internalID: -3603746291551844412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallZebesian_ShortBeam_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 16
+        height: 4
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0857323dc0aa00040800000000000000
+      internalID: 4611872990486033792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Metroid Fusion - Wall Zebesian_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1430
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cac00c35961a6920800000000000000
+      internalID: 2984222533298997954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

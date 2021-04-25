@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class HUDManager : MonoBehaviour
 {
+    [SerializeField] private Slider energySider;
     [SerializeField] private Text energyText;
     [SerializeField] private Text missileText;
 
@@ -21,6 +22,8 @@ public class HUDManager : MonoBehaviour
             missileText = transform.Find("missileText").GetComponent<Text>();
 
         emptyColour.a = 150;
+
+        energySider.maxValue = 99;
     }
 
     public void InitializeEnergy(int energy, int energyTanks, int maxEnergyTanks)
@@ -40,7 +43,8 @@ public class HUDManager : MonoBehaviour
 
         SetEnergyTanks(energyTanks, maxEnergyTanks);
 
-        energyText.text = "ENERGY: " + energy;
+        energyText.text = energy.ToString();
+        energySider.value = energy;
     }
 
     public void UpgradeEnergyTanks(int energy, int energyTanks, int maxEnergyTanks)
@@ -60,14 +64,16 @@ public class HUDManager : MonoBehaviour
 
         SetEnergyTanks(energyTanks, maxEnergyTanks);
 
-        energyText.text = "ENERGY: " + energy;
+        energyText.text = energy.ToString();
+        energySider.value = energy;
     }
 
     public void UpdateEnergy(int energy, int energyTanks, int maxEnergyTanks)
     {
         SetEnergyTanks(energyTanks, maxEnergyTanks);
 
-        energyText.text = "ENERGY: " + energy;
+        energyText.text = energy.ToString();
+        energySider.value = energy;
     }
 
     void SetEnergyTanks(int energyTanks, int maxEnergyTanks)

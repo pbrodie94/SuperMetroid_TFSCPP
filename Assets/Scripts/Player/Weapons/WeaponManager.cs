@@ -22,11 +22,11 @@ public class WeaponManager : MonoBehaviour
 
     [Header("Powerbeam Stats")]
     [SerializeField] GameObject powerBeamProjectile;
-    [SerializeField] private float powerBeamDamage = 10;
+    [SerializeField] private int powerBeamDamage = 10;
     
     [Header("Missile Stats")]
     [SerializeField] private GameObject missileProjectile;
-    [SerializeField] private float missileDamage = 20;
+    [SerializeField] private int missileDamage = 20;
     
 
     [Header("Barrel Locations")]
@@ -79,6 +79,7 @@ public class WeaponManager : MonoBehaviour
         Vector3 barrel;
         Vector2 dir;
         int projectileDirection = 0;
+        int damage = powerBeamDamage;
 
         if (controller.IsFacingRight())
         {
@@ -100,23 +101,26 @@ public class WeaponManager : MonoBehaviour
             case WeaponType.PowerBeam:
 
                 proj = powerBeamProjectile;
+                damage = powerBeamDamage;
 
                 break;
 
             case WeaponType.Missile:
 
                 proj = missileProjectile;
-
+                damage = missileDamage;
                 break;
 
             default:
 
                 proj = powerBeamProjectile;
+                damage = powerBeamDamage;
 
                 break;
         }
 
         GameObject go = Instantiate(proj, barrel, Quaternion.identity);
+        go.gameObject.GetComponent<Projectile>().SetStats(gameObject, damage);
         Rigidbody2D b = go.GetComponent<Rigidbody2D>();
 
         if (weapon == WeaponType.Missile)
