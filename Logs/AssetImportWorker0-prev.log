@@ -15,11 +15,11 @@ C:/Users/pbrod/Documents/VGD Toronto Film School/Semester 2/Cross-Platform Progr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57366
+53443
 Successfully changed project path to: C:/Users/pbrod/Documents/VGD Toronto Film School/Semester 2/Cross-Platform Programming 1/Assignments/SuperMetroid_TFSCPP
 C:/Users/pbrod/Documents/VGD Toronto Film School/Semester 2/Cross-Platform Programming 1/Assignments/SuperMetroid_TFSCPP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,409 +35,921 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001626 seconds.
+Registered in 0.001736 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
+- Completed reload, in  0.854 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000760 seconds.
+Registered in 0.000771 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.737 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.9 MB.
 System memory in use after: 85.8 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 2.270600 ms (FindLiveObjects: 0.274500 ms CreateObjectMapping: 0.153300 ms MarkObjects: 1.691200 ms  DeleteObjects: 0.150400 ms)
+Total: 1.980400 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.562200 ms  DeleteObjects: 0.112400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Misc/SNES - Super Metroid - Helper Animals.gif
-  artifactKey: Guid(1a82f74404534b54bb2d75c0ddb4f295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Misc/SNES - Super Metroid - Helper Animals.gif using Guid(1a82f74404534b54bb2d75c0ddb4f295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90097742055e3ce2a4147452801d3f7d') in 0.123754 seconds
-  Import took 0.127148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.909726 seconds.
-  path: Assets/Sprites/Misc/SNES - Super Metroid - General Sprites.gif
-  artifactKey: Guid(1e3064ced9bd7454db80051e0134b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Misc/SNES - Super Metroid - General Sprites.gif using Guid(1e3064ced9bd7454db80051e0134b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643c20471ac7ee538322d2a2b6bb122e') in 0.012927 seconds
-  Import took 0.017284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.243602 seconds.
-  path: Assets/Sprites/Misc/SNES - Super Metroid - Insects.png
-  artifactKey: Guid(fd74c262160bf2546a2231156dfb09a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Misc/SNES - Super Metroid - Insects.png using Guid(fd74c262160bf2546a2231156dfb09a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3448ae09b654eaf81386c108aa2f3341') in 0.012374 seconds
-  Import took 0.015680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.647156 seconds.
-  path: Assets/Sprites/Misc/SNES - Super Metroid - Maridia Tube.png
-  artifactKey: Guid(b28b1c6f474856e4181df6479e850d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Misc/SNES - Super Metroid - Maridia Tube.png using Guid(b28b1c6f474856e4181df6479e850d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7021613642e2e6b545c9933a1b87192f') in 0.012616 seconds
-  Import took 0.015805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.256187 seconds.
-  path: Assets/Sprites/Misc/SNES - Super Metroid - Metroid Larva.png
-  artifactKey: Guid(4c1585ec0d07a53479e4ee646f59a8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Misc/SNES - Super Metroid - Metroid Larva.png using Guid(4c1585ec0d07a53479e4ee646f59a8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74564116c77efbf8e6cdf145b75155f7') in 0.012183 seconds
-  Import took 0.015335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 353.580352 seconds.
-  path: Assets/Sprites/Misc/SNES - Super Metroid - Misc Sprites.png
-  artifactKey: Guid(d4b2cc8fbc1f1924499c80aef06202b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Misc/SNES - Super Metroid - Misc Sprites.png using Guid(d4b2cc8fbc1f1924499c80aef06202b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d75d00a5e48bbb36bffb40c5277f7c') in 0.014204 seconds
-  Import took 0.017900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.351415 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Covern.png
-  artifactKey: Guid(71d4742d643047e44a0052360789b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Covern.png using Guid(71d4742d643047e44a0052360789b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881d5a3b42f9532c0da48cbc135b961f') in 0.012647 seconds
-  Import took 0.016725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.986384 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Crocomire.png
-  artifactKey: Guid(dab8321af8c2eac43a9bda4fe5aa33ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Crocomire.png using Guid(dab8321af8c2eac43a9bda4fe5aa33ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31354a052724766fa0e256e9a01b88ea') in 0.016922 seconds
-  Import took 0.019886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.175132 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Draygon.png
-  artifactKey: Guid(a21b7489dc7cf2d4e8c04490486ebf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Draygon.png using Guid(a21b7489dc7cf2d4e8c04490486ebf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf6478cb9374c51cfb6568b29f7d79') in 0.016315 seconds
-  Import took 0.019111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.716606 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Enemies.png
-  artifactKey: Guid(f45183183af29f34dabdd7253e49d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Enemies.png using Guid(f45183183af29f34dabdd7253e49d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb44c009c7e9c78219f6f4506047792') in 0.017035 seconds
-  Import took 0.021251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.971807 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Fake Kraid.gif
-  artifactKey: Guid(ae223a2da925b9743adcef8062f47314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Fake Kraid.gif using Guid(ae223a2da925b9743adcef8062f47314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e75b89615b46c8f4ce0550571c4789') in 0.014670 seconds
-  Import took 0.017720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.630815 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Gadora.png
-  artifactKey: Guid(a96ae3f6bb610ff449bd88c032d67ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Gadora.png using Guid(a96ae3f6bb610ff449bd88c032d67ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f609a331822f78dfd31eb0665c620582') in 0.012168 seconds
-  Import took 0.015242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.912529 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Kraid.gif
-  artifactKey: Guid(e2b51d2161ed0924caf7a62b088262a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Kraid.gif using Guid(e2b51d2161ed0924caf7a62b088262a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aaa563bbf4a78bf0b94c4683616d90') in 0.015220 seconds
-  Import took 0.019794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.897183 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Last Metroid Adult.png
-  artifactKey: Guid(cf630124f754150448b4886fe35c37f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Last Metroid Adult.png using Guid(cf630124f754150448b4886fe35c37f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0e9a53c6ad75f574232e549c437fb2') in 0.021285 seconds
-  Import took 0.024083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.386374 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Metroid.png
-  artifactKey: Guid(347f8e6a2e6fa754993d69eeee643214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Metroid.png using Guid(347f8e6a2e6fa754993d69eeee643214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966457276dc5eb433d2f9cf697e41bd1') in 0.012108 seconds
-  Import took 0.014909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.184052 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Mother Brain Phase 2.png
-  artifactKey: Guid(2c724daf4aec5744b88b1e2559fd6a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Mother Brain Phase 2.png using Guid(2c724daf4aec5744b88b1e2559fd6a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543c35f004806f1cd0ec10625ef8bce1') in 0.013943 seconds
-  Import took 0.018551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.126605 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Mother Brain.png
-  artifactKey: Guid(41eb6d6d9fabb7443bdfa783db5fb883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Mother Brain.png using Guid(41eb6d6d9fabb7443bdfa783db5fb883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2162e71fec938ae7c1dd01f17785b623') in 0.012944 seconds
-  Import took 0.016364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.060425 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Phantoon.png
-  artifactKey: Guid(b39826214f0c0d34cab79ac3cd1f2eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Phantoon.png using Guid(b39826214f0c0d34cab79ac3cd1f2eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a86896ebdf39e2db5ff6df05649b182') in 0.013418 seconds
-  Import took 0.016207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.485422 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Ridley.png
-  artifactKey: Guid(3c50e1b36d1ac224a8c9eea1a9f513a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Ridley.png using Guid(3c50e1b36d1ac224a8c9eea1a9f513a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79731a943e84796fe1026dadb01aa966') in 0.011594 seconds
-  Import took 0.016471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.463128 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Space Pirates.gif
-  artifactKey: Guid(76fac36ca74b8ef4787720387e17d08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Space Pirates.gif using Guid(76fac36ca74b8ef4787720387e17d08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dd61dcf99ccc1737044a58a25f0ec6') in 0.011546 seconds
-  Import took 0.014819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.822825 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Spore Spawn.png
-  artifactKey: Guid(49897aa509db1bb4cbb0c69e6bcfc28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Spore Spawn.png using Guid(49897aa509db1bb4cbb0c69e6bcfc28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16d17a18213a0ea267e020999180023') in 0.013440 seconds
-  Import took 0.017554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.228191 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Torizo Dust.png
-  artifactKey: Guid(ba8b822832093434c8235fd2eb326f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Torizo Dust.png using Guid(ba8b822832093434c8235fd2eb326f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992f543ad96f52f653ce72e9fc53ab97') in 0.013181 seconds
-  Import took 0.016009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.221383 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Torizo.png
-  artifactKey: Guid(2e4fea4561d97f444b728b1477e3731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Torizo.png using Guid(2e4fea4561d97f444b728b1477e3731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd9b2f53918defd5fd8c18b69471dd1') in 0.013705 seconds
-  Import took 0.016675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.460867 seconds.
-  path: Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Work Robots.gif
-  artifactKey: Guid(6c2aad16f09cbf04b812d112cc8d9b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses/SNES - Super Metroid - Work Robots.gif using Guid(6c2aad16f09cbf04b812d112cc8d9b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723b75ca9db33f9cbd916682a7137669') in 0.014224 seconds
-  Import took 0.017008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.040467 seconds.
-  path: Assets/Sprites/Enemies and Bosses
-  artifactKey: Guid(3142016253757234fa4bb568fab98a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies and Bosses using Guid(3142016253757234fa4bb568fab98a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbdd7e87d94f91943c804add38c8c97') in 0.007556 seconds
-  Import took 0.010374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.246106 seconds.
-  path: Assets/Sprites/Misc/SNES - Super Metroid - Background Tiles.png
-  artifactKey: Guid(fe1b1cab038e66848a9a51e7eb0e5b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Misc/SNES - Super Metroid - Background Tiles.png using Guid(fe1b1cab038e66848a9a51e7eb0e5b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2642d34b9a4a03538e58a7c0d6e93205') in 0.021354 seconds
-  Import took 0.024122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2412.519379 seconds.
-  path: Assets/Sprites/Ememies
-  artifactKey: Guid(70664d04b1b150440abb02100c2d1ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ememies using Guid(70664d04b1b150440abb02100c2d1ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f672d3538746f65a4345cf1cecebeb64') in 0.006565 seconds
-  Import took 0.009798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.887102 seconds.
-  path: Assets/Sprites/Enemies
-  artifactKey: Guid(70664d04b1b150440abb02100c2d1ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies using Guid(70664d04b1b150440abb02100c2d1ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17df2e4c74a2fbe2501f97136d1634cd') in 0.005701 seconds
-  Import took 0.010240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.756553 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Arachnus.png
-  artifactKey: Guid(1523789813f8d1e47b1fdb64f7188d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Arachnus.png using Guid(1523789813f8d1e47b1fdb64f7188d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e683ad5225067bf2ca98253bfeef80') in 0.029489 seconds
-  Import took 0.032270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.945673 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Geemer.png
-  artifactKey: Guid(8c71054d491cf5a42a508b5ab37488a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Geemer.png using Guid(8c71054d491cf5a42a508b5ab37488a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bc642e5fa6d22b3b1419e2316a8ed3') in 0.012575 seconds
-  Import took 0.015334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.749182 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Genesis.png
-  artifactKey: Guid(7f0087e3bc8d43e4ca102701296ace1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Genesis.png using Guid(7f0087e3bc8d43e4ca102701296ace1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4099f0cb121beeb7c43bc20adb1cf5') in 0.013205 seconds
-  Import took 0.016244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.364850 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Geruboss.png
-  artifactKey: Guid(ca1c21526ca773c4c93463d8633fe234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Geruboss.png using Guid(ca1c21526ca773c4c93463d8633fe234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f1256c26c2dd34fdde4802bfd42d19') in 0.012762 seconds
-  Import took 0.021274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.319625 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Geruda.png
-  artifactKey: Guid(291d8d99da0337547a587d5f1459917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Geruda.png using Guid(291d8d99da0337547a587d5f1459917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b8930e9e2f84efc24fabc286eecfab') in 0.012017 seconds
-  Import took 0.014919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.228146 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Halzyn.png
-  artifactKey: Guid(7042e4574c0d9834dab965cfe7805628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Halzyn.png using Guid(7042e4574c0d9834dab965cfe7805628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f298bf1e771317a57b53ad9bfdaa4d8') in 0.013979 seconds
-  Import took 0.017158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.113924 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Moto.png
-  artifactKey: Guid(3132550c1fe0cd04da5c8285fcfaa647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Moto.png using Guid(3132550c1fe0cd04da5c8285fcfaa647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b7a88f631c5340b5a000fd09896fea') in 0.011036 seconds
-  Import took 0.015571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.626214 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Powamp.png
-  artifactKey: Guid(4c88d9274922b234b8b5b1d431e3a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Powamp.png using Guid(4c88d9274922b234b8b5b1d431e3a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2365afcb497cbdb81cb316837d2c2037') in 0.011933 seconds
-  Import took 0.016635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.763057 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - SA-X Beast.png
-  artifactKey: Guid(99dddc9e3bcc5414093cdfbfc06bd07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - SA-X Beast.png using Guid(99dddc9e3bcc5414093cdfbfc06bd07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3c9729185cc494150b9af74d959d5a') in 0.012527 seconds
-  Import took 0.015627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.246453 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Security Room Objects.png
-  artifactKey: Guid(45e5038caf7799346a3fefa0f76838fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Security Room Objects.png using Guid(45e5038caf7799346a3fefa0f76838fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407e13138ef48c9bc3ee3dfb02cea801') in 0.011868 seconds
-  Import took 0.014830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.818540 seconds.
   path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png
   artifactKey: Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab028eba3705c7c756383967a1192e9') in 0.014484 seconds
-  Import took 0.017420 seconds .
+Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfab7e237b347285a90da2ba600b150') in 0.168758 seconds
+  Import took 0.171638 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.248669 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png
-  artifactKey: Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a3cc76a8c0749d4b8344128725548c') in 0.012596 seconds
-  Import took 0.016005 seconds .
+  Time since last request: 224.943630 seconds.
+  path: Assets/Sprites/Enemies/Animations/Wall Zebesian/Idle2.anim
+  artifactKey: Guid(6059d27822ea03a4d9c95ac11b37df04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Animations/Wall Zebesian/Idle2.anim using Guid(6059d27822ea03a4d9c95ac11b37df04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4858e3e76faf41cbf04f21935615d09c') in 0.011048 seconds
+  Import took 0.014355 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.361098 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png
-  artifactKey: Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd2d8987b31bfc51511ce2f7a2d1336') in 0.012295 seconds
-  Import took 0.015209 seconds .
+  Time since last request: 8.834171 seconds.
+  path: Assets/Sprites/Enemies/Animations/Wall Zebesian/Alerted.anim
+  artifactKey: Guid(6059d27822ea03a4d9c95ac11b37df04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Animations/Wall Zebesian/Alerted.anim using Guid(6059d27822ea03a4d9c95ac11b37df04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a245d49e58ed7bf2f3716f0a90a50b21') in 0.006206 seconds
+  Import took 0.009489 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.125734 seconds.
+  Time since last request: 196.783836 seconds.
   path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png
   artifactKey: Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a425e168038c0d9a93cb84542aecad') in 0.011329 seconds
-  Import took 0.014386 seconds .
+Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f263c32c4c8755ce46bc439a4878cf16') in 0.088478 seconds
+  Import took 0.092138 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.541484 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png
-  artifactKey: Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8283b6a31e66c46461376c2735aa462') in 0.013354 seconds
-  Import took 0.016185 seconds .
+  Time since last request: 112.504868 seconds.
+  path: Assets/Sprites/Enemies/Animations/Wall Zebesian/WallZebesian.controller
+  artifactKey: Guid(cb7680109a941674b8a7d5d302c35aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Animations/Wall Zebesian/WallZebesian.controller using Guid(cb7680109a941674b8a7d5d302c35aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945944eeb57cd3eb84b76908a77ae932') in 0.008420 seconds
+  Import took 0.011463 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 75.748622 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png
-  artifactKey: Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39211fdb750d86d17fbb8c672879bb1') in 0.013132 seconds
-  Import took 0.016569 seconds .
+  Time since last request: 0.000618 seconds.
+  path: Assets/Sprites/Enemies/Animations/Wall Zebesian/WallZebesian.controller
+  artifactKey: Guid(cb7680109a941674b8a7d5d302c35aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Animations/Wall Zebesian/WallZebesian.controller using Guid(cb7680109a941674b8a7d5d302c35aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945944eeb57cd3eb84b76908a77ae932') in 0.002160 seconds
+  Import took 0.004733 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.414352 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png
-  artifactKey: Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e313d38245a984dfdab782128cbe360') in 0.011324 seconds
-  Import took 0.014462 seconds .
+  Time since last request: 81.727763 seconds.
+  path: Assets/Scripts/Stats.cs
+  artifactKey: Guid(09fbf9d6cdfcec340adae6d8fd568d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Stats.cs using Guid(09fbf9d6cdfcec340adae6d8fd568d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa75c380bec90eb23c9b4bd2e0ea46e') in 0.010025 seconds
+  Import took 0.013075 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 2.052000 ms (FindLiveObjects: 0.321900 ms CreateObjectMapping: 0.054500 ms MarkObjects: 1.573400 ms  DeleteObjects: 0.101000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 698.963032 seconds.
-  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png
-  artifactKey: Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Wall Zebesian.png using Guid(2b7064ab91067a84ab8f79595a789128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c138e658e66ffbe0a2ec8a5902f921') in 0.101624 seconds
-  Import took 0.105441 seconds .
+  Time since last request: 19.887989 seconds.
+  path: Assets/Scripts/Player/SamusStatus.cs
+  artifactKey: Guid(f555841e29876d245882e7d3f9e745f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/SamusStatus.cs using Guid(f555841e29876d245882e7d3f9e745f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211e94395d464b695b995be2d33ed75c') in 0.010133 seconds
+  Import took 0.013392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018204 seconds.
+  path: Assets/Scripts/Player/SamusStatus.cs
+  artifactKey: Guid(f555841e29876d245882e7d3f9e745f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/SamusStatus.cs using Guid(f555841e29876d245882e7d3f9e745f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211e94395d464b695b995be2d33ed75c') in 0.002727 seconds
+  Import took 0.005583 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 2.011000 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.055300 ms MarkObjects: 1.589300 ms  DeleteObjects: 0.107200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1275.715502 seconds.
+  path: Assets/Scripts/Player/SamusStatus.cs
+  artifactKey: Guid(f555841e29876d245882e7d3f9e745f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/SamusStatus.cs using Guid(f555841e29876d245882e7d3f9e745f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0748af402b9f911fcbb1444eac0ed9b4') in 0.004569 seconds
+  Import took 0.007237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.420908 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(5c3f43d23ecaa94489e66b858ff04a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(5c3f43d23ecaa94489e66b858ff04a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08422d3727f3c2614ca0378097cd4b') in 0.006239 seconds
+  Import took 0.008917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.733654 seconds.
+  path: Assets/Sprites/Backgrounds/Wrecked Ship/Entrance.bmp
+  artifactKey: Guid(d41174d9ba2e87a46a0ce4f75e1c8ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Backgrounds/Wrecked Ship/Entrance.bmp using Guid(d41174d9ba2e87a46a0ce4f75e1c8ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876a4c4b6217ee09eb61eb4b5737d53f') in 0.048958 seconds
+  Import took 0.052270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/Backgrounds/Wrecked Ship/Hallway.bmp
+  artifactKey: Guid(572fc08a1630c44459e75435b81f74ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Backgrounds/Wrecked Ship/Hallway.bmp using Guid(572fc08a1630c44459e75435b81f74ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e990d8858d7f75313a0edf0e5b60559') in 0.017002 seconds
+  Import took 0.019407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sprites/Backgrounds/Wrecked Ship/Entrance.bmp
+  artifactKey: Guid(d41174d9ba2e87a46a0ce4f75e1c8ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Backgrounds/Wrecked Ship/Entrance.bmp using Guid(d41174d9ba2e87a46a0ce4f75e1c8ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876a4c4b6217ee09eb61eb4b5737d53f') in 0.007316 seconds
+  Import took 0.009805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sprites/Backgrounds/Wrecked Ship/Haunted Hallway.bmp
+  artifactKey: Guid(b5842d8b6e21e6944bab3bc55d900c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Backgrounds/Wrecked Ship/Haunted Hallway.bmp using Guid(b5842d8b6e21e6944bab3bc55d900c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42901400dc38e4b6434cd284313f489') in 0.016095 seconds
+  Import took 0.018662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Zero Mission - Brinstar Enemies.png
+  artifactKey: Guid(6797003148ec58a45a9b7ec16b8a5812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Zero Mission - Brinstar Enemies.png using Guid(6797003148ec58a45a9b7ec16b8a5812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277f64d7ada80254772732160b71cc03') in 0.019630 seconds
+  Import took 0.022323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/Backgrounds/Wrecked Ship/Haunted Room.bmp
+  artifactKey: Guid(a33193f2cf6829f4e92a3c322660df78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Backgrounds/Wrecked Ship/Haunted Room.bmp using Guid(a33193f2cf6829f4e92a3c322660df78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602105d01741a63b00589a15effe8796') in 0.015693 seconds
+  Import took 0.018824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Yakuza.png
+  artifactKey: Guid(65fea43051d9f5b47837b3c0b1c0873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Fusion - Yakuza.png using Guid(65fea43051d9f5b47837b3c0b1c0873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bab7aecac2548ed7623ca0a1f9901d6') in 0.022703 seconds
+  Import took 0.025904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/Backgrounds/Wrecked Ship/Haunted Entrance.bmp
+  artifactKey: Guid(65f1608afe2d1c1408a3611f5024be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Backgrounds/Wrecked Ship/Haunted Entrance.bmp using Guid(65f1608afe2d1c1408a3611f5024be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22e955ffb41f8ee20f1e2dab6b5d48c') in 0.015580 seconds
+  Import took 0.018890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sprites/Backgrounds/Wrecked Ship/Haunted Metroid Research Lab.bmp
+  artifactKey: Guid(8b03d321458672f4bb73cb4211be6809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Backgrounds/Wrecked Ship/Haunted Metroid Research Lab.bmp using Guid(8b03d321458672f4bb73cb4211be6809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388362cc8a0a3f5a209a266dfa6e4498') in 0.016063 seconds
+  Import took 0.019340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Zero Mission - Kraid Enemies.png
+  artifactKey: Guid(b75b3f31d72ce2c488237cfae0cb6f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Zero Mission - Kraid Enemies.png using Guid(b75b3f31d72ce2c488237cfae0cb6f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465c03d0b3f41af21ec1a6161f2acb8a') in 0.018178 seconds
+  Import took 0.021086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sprites/Enemies/Game Boy Advance - Metroid Zero Mission - Norfair Enemies.png
+  artifactKey: Guid(f13484e4b014928458f803847d8eb7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Game Boy Advance - Metroid Zero Mission - Norfair Enemies.png using Guid(f13484e4b014928458f803847d8eb7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e2064e2cb489ed260aa0d4d7a2c56f') in 0.019424 seconds
+  Import took 0.022151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.993938 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(5c3f43d23ecaa94489e66b858ff04a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(5c3f43d23ecaa94489e66b858ff04a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b1bd18f2e42ebe923c374108ecbf55') in 0.006538 seconds
+  Import took 0.009547 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 1.815300 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.040200 ms MarkObjects: 1.461900 ms  DeleteObjects: 0.096800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 1.883100 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.498500 ms  DeleteObjects: 0.095100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 1.932300 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.547900 ms  DeleteObjects: 0.121900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 481.337807 seconds.
+  path: Assets/Prefabs/Weapons/Missile.prefab
+  artifactKey: Guid(462345bc704cf3844aeb36da9dff3d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Missile.prefab using Guid(462345bc704cf3844aeb36da9dff3d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3c1d397614fbfbc626be42cdad1712') in 0.053255 seconds
+  Import took 0.056192 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 1.886500 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.522900 ms  DeleteObjects: 0.100500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000990 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2364.
+Total: 2.046600 ms (FindLiveObjects: 0.263300 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.611900 ms  DeleteObjects: 0.107400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2368.
+Total: 2.047500 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.650700 ms  DeleteObjects: 0.105100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 483.028481 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f594ddf6ea907affc45163f0352a8527') in 0.016149 seconds
+  Import took 0.019318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f594ddf6ea907affc45163f0352a8527') in 0.002669 seconds
+  Import took 0.004548 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2372.
+Total: 2.204200 ms (FindLiveObjects: 0.389600 ms CreateObjectMapping: 0.122600 ms MarkObjects: 1.595100 ms  DeleteObjects: 0.095800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 2.007000 ms (FindLiveObjects: 0.252900 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.597300 ms  DeleteObjects: 0.105500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 508.588148 seconds.
+  path: Assets/Sprites/Enemies/Animations/Wall Zebesian/WallZebesian.controller
+  artifactKey: Guid(cb7680109a941674b8a7d5d302c35aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Animations/Wall Zebesian/WallZebesian.controller using Guid(cb7680109a941674b8a7d5d302c35aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a34aac9741b74bca042589802fcf9f') in 0.016543 seconds
+  Import took 0.019901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 637.642169 seconds.
+  path: Assets/Scripts/Player/Enemies
+  artifactKey: Guid(71ff5e0ca1f6b61408c70582e6905928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Enemies using Guid(71ff5e0ca1f6b61408c70582e6905928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715fabe9ee7092f3976acb9792c94280') in 0.005462 seconds
+  Import took 0.008305 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 2.151300 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.635700 ms  DeleteObjects: 0.105800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.793337 seconds.
+  path: Assets/Scripts/Player/Enemies/EnemyStats.cs
+  artifactKey: Guid(81cc0643840cedb4ca4194ab20b38243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Enemies/EnemyStats.cs using Guid(81cc0643840cedb4ca4194ab20b38243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a77c77d5a8e284c9182f6b0a8e80e8') in 0.009387 seconds
+  Import took 0.012406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 1.764900 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.426500 ms  DeleteObjects: 0.093400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000959 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2389.
+Total: 2.095400 ms (FindLiveObjects: 0.386700 ms CreateObjectMapping: 0.078800 ms MarkObjects: 1.520900 ms  DeleteObjects: 0.107200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.019616 seconds.
+  path: Assets/Scripts/Player/Enemies/EnemyStats.cs
+  artifactKey: Guid(81cc0643840cedb4ca4194ab20b38243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Enemies/EnemyStats.cs using Guid(81cc0643840cedb4ca4194ab20b38243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3386b834849645be09d163a43ec828c') in 0.004737 seconds
+  Import took 0.007412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Scripts/Player/SamusControl.cs
+  artifactKey: Guid(1525d809967f0da47b9947b1a5a7923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/SamusControl.cs using Guid(1525d809967f0da47b9947b1a5a7923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5c0e901f007ca6ecf126bc3f0ded67') in 0.005404 seconds
+  Import took 0.007810 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2393.
+Total: 1.847700 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.499800 ms  DeleteObjects: 0.097700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 242.234167 seconds.
+  path: Assets/Scripts/Player/SamusStatus.cs
+  artifactKey: Guid(f555841e29876d245882e7d3f9e745f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/SamusStatus.cs using Guid(f555841e29876d245882e7d3f9e745f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16b77d6896f59de9b8ad74fe19f6bab') in 0.004472 seconds
+  Import took 0.007061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.325557 seconds.
+  path: Assets/Sprites/Enemies/Animations/Wall Zebesian/LookBack.anim
+  artifactKey: Guid(9812bc6475794af4180ec731f0b20876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Animations/Wall Zebesian/LookBack.anim using Guid(9812bc6475794af4180ec731f0b20876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2012a33349f8e0afe504ccde96237066') in 0.011559 seconds
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.860294 seconds.
+  path: Assets/Sprites/Enemies/Animations/Wall Zebesian/Shoot.anim
+  artifactKey: Guid(64f462d3ec1969a4eaa9ec6a705cce93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Animations/Wall Zebesian/Shoot.anim using Guid(64f462d3ec1969a4eaa9ec6a705cce93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee8f47575a8f5850463e1c508f3f567') in 0.006152 seconds
+  Import took 0.008915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.841928 seconds.
+  path: Assets/Sprites/Enemies/Animations/Wall Zebesian/Die.anim
+  artifactKey: Guid(40ec23a374e3aa6438484d5b3507ba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Animations/Wall Zebesian/Die.anim using Guid(40ec23a374e3aa6438484d5b3507ba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701b539a693c73fb5b9241ad688aae31') in 0.006530 seconds
+  Import took 0.009803 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 1.890400 ms (FindLiveObjects: 0.236100 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.509500 ms  DeleteObjects: 0.094800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000894 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 2.004900 ms (FindLiveObjects: 0.257100 ms CreateObjectMapping: 0.049500 ms MarkObjects: 1.589800 ms  DeleteObjects: 0.107300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2405.
+Total: 1.999700 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.605300 ms  DeleteObjects: 0.105600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2409.
+Total: 1.996200 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.610400 ms  DeleteObjects: 0.103100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.838310 seconds.
+  path: Assets/Scripts/HUDManager.cs
+  artifactKey: Guid(4e1487e975f3f0241b503b333a953774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUDManager.cs using Guid(4e1487e975f3f0241b503b333a953774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f9224f21537a4dc071d362a8b7c78f') in 0.008809 seconds
+  Import took 0.011618 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001323 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2413.
+Total: 1.780200 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.439500 ms  DeleteObjects: 0.093300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.314298 seconds.
+  path: Assets/Scripts/HUDManager.cs
+  artifactKey: Guid(4e1487e975f3f0241b503b333a953774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUDManager.cs using Guid(4e1487e975f3f0241b503b333a953774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a4b8b0f41719376ba44a5b3b131bd3') in 0.004748 seconds
+  Import took 0.009168 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000939 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2417.
+Total: 2.198600 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.771200 ms  DeleteObjects: 0.103100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2421.
+Total: 1.884900 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.509800 ms  DeleteObjects: 0.095500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 1.923400 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.530700 ms  DeleteObjects: 0.100900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1028.689910 seconds.
+  path: Assets/Scripts/Player/Enemies/WallZebesian.cs
+  artifactKey: Guid(7d3865882c0f9c24c862c12d52f72241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Enemies/WallZebesian.cs using Guid(7d3865882c0f9c24c862c12d52f72241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3061d1a0516dbc8cfc3b066bb8ebf67c') in 0.005100 seconds
+  Import took 0.008051 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2430.
+Total: 1.846600 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.461100 ms  DeleteObjects: 0.104100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2434.
+Total: 1.847200 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.476900 ms  DeleteObjects: 0.103600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.194976 seconds.
+  path: Assets/Scripts/Player/Enemies/WallZebesian.cs
+  artifactKey: Guid(7d3865882c0f9c24c862c12d52f72241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Enemies/WallZebesian.cs using Guid(7d3865882c0f9c24c862c12d52f72241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f6c5bf1c4b91c09ec38f8793c94ce4') in 0.004777 seconds
+  Import took 0.007425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.178191 seconds.
+  path: Assets/Prefabs/Enemies
+  artifactKey: Guid(ce89d10cd1e22b346b0ad4eeb7be4f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies using Guid(ce89d10cd1e22b346b0ad4eeb7be4f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416ce9e2cbd0df117f967f21a84c8331') in 0.002175 seconds
+  Import took 0.004855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.104941 seconds.
+  path: Assets/Prefabs/Enemies/WallZebesian.prefab
+  artifactKey: Guid(b2edef9aeda195c4c98acc324e328362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/WallZebesian.prefab using Guid(b2edef9aeda195c4c98acc324e328362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186dab35a3f36872bb522f6521a393ea') in 0.050728 seconds
+  Import took 0.053809 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

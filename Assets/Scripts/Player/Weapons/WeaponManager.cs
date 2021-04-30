@@ -133,7 +133,7 @@ public class WeaponManager : MonoBehaviour
             hud.UpdateMissiles(missiles);
         }
 
-        b.gravityScale = 0;
+        //b.gravityScale = 0;
         b.AddForce(dir);
 
         Destroy(go, 60);

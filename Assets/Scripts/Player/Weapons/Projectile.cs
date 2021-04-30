@@ -23,7 +23,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject != shooter && collision.tag != "Projectile")
+        if (collision.gameObject != shooter && collision.tag != "Projectile" && collision.tag != "Pickup")
         {
             if (shooter.tag == "Player")
             {
@@ -34,7 +34,13 @@ public class Projectile : MonoBehaviour
                 }
             } else
             {
-                
+                if (collision.tag == "Player")
+                {
+                    //Damage player
+
+                    Stats ps = collision.gameObject.GetComponent<Stats>();
+                    ps.TakeDamage(damage);
+                }
             }
 
             rb.velocity = Vector2.zero;
