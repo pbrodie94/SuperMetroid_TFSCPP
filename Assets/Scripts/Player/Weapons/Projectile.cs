@@ -42,6 +42,12 @@ public class Projectile : MonoBehaviour
                     Stats s = collision.gameObject.GetComponent<Stats>();
                     s.TakeDamage(damage);
                 }
+
+                if (collision.tag == "Door")
+                {
+                    Door d = collision.gameObject.GetComponent<Door>();
+                    d.UnlockDoor();
+                }
             }
 
             rb.velocity = Vector2.zero;
