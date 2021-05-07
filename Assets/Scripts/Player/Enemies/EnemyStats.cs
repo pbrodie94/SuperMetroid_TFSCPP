@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyStats : Stats
 {
+    private EnemyAI ai;
 
     private Animator anim;
 
@@ -11,16 +12,31 @@ public class EnemyStats : Stats
     {
         base.Start();
 
+        ai = GetComponent<EnemyAI>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultMaterial = spriteRenderer.material;
         anim = GetComponent<Animator>();
+
+        GameManager.OnPlayerSpawn += ai.GetPlayerLocation;
+        GameManager.OnPlayerDeath += ai.PlayerDeath;
     }
 
-    protected override void Die()
+    public override void TakeDamage(int damage)
     {
-        base.Die();
+        base.TakeDamage(damage);
 
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    protected void Die()
+    {
         anim.SetBool("Dead", true);
+
+        GameManager.OnPlayerSpawn -= ai.GetPlayerLocation;
+        GameManager.OnPlayerDeath -= ai.PlayerDeath;
 
         Destroy(gameObject, 1);
     }

@@ -7,7 +7,7 @@ TextureImporter:
     second: Samus Power Suit_0
   - first:
       213: 3529670988631098711
-    second: Samus Power Suit_1
+    second: Samus_PS_PreDeath_L_1
   - first:
       213: 8539195368375398859
     second: Samus Power Suit_2
@@ -31,13 +31,13 @@ TextureImporter:
     second: Samus Power Suit_8
   - first:
       213: 579655211908013277
-    second: Samus Power Suit_9
+    second: Samus_PS_PreDeath_R_1
   - first:
       213: -9150291131405041430
     second: Samus Power Suit_10
   - first:
       213: -7178750180641853694
-    second: Samus Power Suit_11
+    second: Samus_PS_PreDeath_L_2
   - first:
       213: 133070403949824748
     second: Samus Power Suit_12
@@ -61,7 +61,7 @@ TextureImporter:
     second: Samus Power Suit_18
   - first:
       213: 3575254226075669337
-    second: Samus Power Suit_19
+    second: Samus_PS_PreDeath_R_2
   - first:
       213: -6852582043872394348
     second: Samus Power Suit_20
@@ -934,31 +934,31 @@ TextureImporter:
     second: Samus Power Suit_310
   - first:
       213: 5856950474441051577
-    second: Samus Power Suit_311
+    second: Samus_PS_Death_L_4
   - first:
       213: 124395465979167029
     second: Samus Power Suit_312
   - first:
       213: -7342875928972121661
-    second: Samus Power Suit_313
+    second: Samus_PS_Death_L_3
   - first:
       213: -4018420867350533274
-    second: Samus Power Suit_314
+    second: Samus_PS_Death_L_2
   - first:
       213: 4106951250656949997
-    second: Samus Power Suit_315
+    second: Samus_PS_Death_L_1
   - first:
       213: 6750095684984868344
-    second: Samus Power Suit_316
+    second: Samus_PS_Death_R_1
   - first:
       213: 1542087714169735423
-    second: Samus Power Suit_317
+    second: Samus_PS_Death_R_2
   - first:
       213: 7206459407500750135
-    second: Samus Power Suit_318
+    second: Samus_PS_Death_R_3
   - first:
       213: -3421132107504298093
-    second: Samus Power Suit_319
+    second: Samus_PS_Death_R_4
   - first:
       213: 3817587749360931694
     second: Samus Power Suit_320
@@ -991,13 +991,13 @@ TextureImporter:
     second: Samus Power Suit_329
   - first:
       213: -6646674647987512383
-    second: Samus Power Suit_330
+    second: Samus_PS_Death_L_5
   - first:
       213: 7311277602963260358
     second: Samus Power Suit_331
   - first:
       213: -4350912970015317025
-    second: Samus Power Suit_332
+    second: Samus_PS_Death_R_5
   - first:
       213: -5466926220232561102
     second: Samus Power Suit_333
@@ -1006,13 +1006,13 @@ TextureImporter:
     second: Samus Power Suit_334
   - first:
       213: -4594864528349966412
-    second: Samus Power Suit_335
+    second: Samus_PS_Death_L_7
   - first:
       213: -306074970981387713
     second: Samus Power Suit_336
   - first:
       213: 6261351560219817603
-    second: Samus Power Suit_337
+    second: Samus_PS_Death_L_6
   - first:
       213: -8531369546875952379
     second: Samus Power Suit_338
@@ -1021,13 +1021,13 @@ TextureImporter:
     second: Samus Power Suit_339
   - first:
       213: -1049843819203520817
-    second: Samus Power Suit_340
+    second: Samus_PS_Death_R_6
   - first:
       213: -3501585610797508562
     second: Samus Power Suit_341
   - first:
       213: -4718451040893244613
-    second: Samus Power Suit_342
+    second: Samus_PS_Death_R_7
   - first:
       213: -2470207531848999207
     second: Samus Power Suit_343
@@ -1036,10 +1036,10 @@ TextureImporter:
     second: Samus Power Suit_344
   - first:
       213: 2880302871393156547
-    second: Samus Power Suit_345
+    second: Samus_PS_Death_L_8
   - first:
       213: -3826847671280430045
-    second: Samus Power Suit_346
+    second: Samus_PS_Death_R_8
   - first:
       213: -7866384986079747374
     second: Samus Power Suit_347
@@ -1201,7 +1201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_1
+      name: Samus_PS_PreDeath_L_1
       rect:
         serializedVersion: 2
         x: 50
@@ -1369,7 +1369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_9
+      name: Samus_PS_PreDeath_R_1
       rect:
         serializedVersion: 2
         x: 400
@@ -1411,7 +1411,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_11
+      name: Samus_PS_PreDeath_L_2
       rect:
         serializedVersion: 2
         x: 50
@@ -1579,7 +1579,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_19
+      name: Samus_PS_PreDeath_R_2
       rect:
         serializedVersion: 2
         x: 400
@@ -7690,12 +7690,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_311
+      name: Samus_PS_Death_L_4
       rect:
         serializedVersion: 2
         x: 42
         y: 731
-        width: 37
+        width: 39
         height: 62
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -7711,33 +7711,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_312
+      name: Samus_PS_Death_L_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 786
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5318b596401f9b100800000000000000
-      internalID: 124395465979167029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_313
-      rect:
-        serializedVersion: 2
-        x: 98
+        x: 96
         y: 748
-        width: 30
+        width: 32
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -7753,7 +7732,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_314
+      name: Samus_PS_Death_L_2
       rect:
         serializedVersion: 2
         x: 151
@@ -7774,7 +7753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_315
+      name: Samus_PS_Death_L_1
       rect:
         serializedVersion: 2
         x: 201
@@ -7795,7 +7774,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_316
+      name: Samus_PS_Death_R_1
       rect:
         serializedVersion: 2
         x: 251
@@ -7816,7 +7795,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_317
+      name: Samus_PS_Death_R_2
       rect:
         serializedVersion: 2
         x: 301
@@ -7837,12 +7816,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_318
+      name: Samus_PS_Death_R_3
       rect:
         serializedVersion: 2
         x: 346
         y: 748
-        width: 30
+        width: 32
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -7858,12 +7837,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_319
+      name: Samus_PS_Death_R_4
       rect:
         serializedVersion: 2
-        x: 394
+        x: 392
         y: 731
-        width: 37
+        width: 39
         height: 62
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -7879,223 +7858,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_320
+      name: Samus_PS_Death_L_5
       rect:
         serializedVersion: 2
-        x: 418
-        y: 786
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e639a83e4dbcaf430800000000000000
-      internalID: 3817587749360931694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_321
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 779
-        width: 5
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9a46b12db04d8cf0800000000000000
-      internalID: -248471223376917858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_322
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 773
-        width: 7
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97d51a8b4615ce6d0800000000000000
-      internalID: -2959901362053096071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_323
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 773
-        width: 7
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc1b330cd3f4dcb90800000000000000
-      internalID: -7220027500968824372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_324
-      rect:
-        serializedVersion: 2
-        x: 392
-        y: 779
-        width: 5
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b4779ceb9a3ab940800000000000000
-      internalID: 5312623151800612018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_325
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 767
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6976d1a3434c64040800000000000000
-      internalID: 4631604995389482902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_326
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 767
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f6b4b808a1ba6a50800000000000000
-      internalID: 6515215146203526901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_327
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 759
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b88d6b6ebfda7e70800000000000000
-      internalID: 9113842804876740787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_328
-      rect:
-        serializedVersion: 2
-        x: 393
-        y: 759
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6957164c5179912b0800000000000000
-      internalID: -5613289340795783786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_329
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 723
-        width: 15
-        height: 17
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e13dcf4896349960800000000000000
-      internalID: 7607765698337386976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_330
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 669
-        width: 42
-        height: 65
+        x: 179
+        y: 660
+        width: 45
+        height: 74
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8110,34 +7879,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_331
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 724
-        width: 12
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c305ea3e30e67560800000000000000
-      internalID: 7311277602963260358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_332
+      name: Samus_PS_Death_R_5
       rect:
         serializedVersion: 2
         x: 249
-        y: 669
-        width: 42
-        height: 65
+        y: 660
+        width: 45
+        height: 74
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8152,49 +7900,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_333
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 724
-        width: 12
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23ee4c551939124b0800000000000000
-      internalID: -5466926220232561102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_334
-      rect:
-        serializedVersion: 2
-        x: 359
-        y: 723
-        width: 15
-        height: 17
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1fe4ce3b89f56a20800000000000000
-      internalID: 3055122298689613598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_335
+      name: Samus_PS_Death_L_7
       rect:
         serializedVersion: 2
         x: 47
@@ -8215,34 +7921,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_336
+      name: Samus_PS_Death_L_6
       rect:
         serializedVersion: 2
         x: 96
-        y: 673
-        width: 16
-        height: 42
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3234008f6a90cbf0800000000000000
-      internalID: -306074970981387713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_337
-      rect:
-        serializedVersion: 2
-        x: 119
         y: 654
-        width: 29
-        height: 68
+        width: 52
+        height: 86
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8257,55 +7942,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_338
-      rect:
-        serializedVersion: 2
-        x: 179
-        y: 693
-        width: 8
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 503afd6299c7a9980800000000000000
-      internalID: -8531369546875952379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_339
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 693
-        width: 8
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0449422a5ec4c21f0800000000000000
-      internalID: -1068394462442122176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_340
+      name: Samus_PS_Death_R_6
       rect:
         serializedVersion: 2
         x: 326
         y: 654
-        width: 29
-        height: 68
+        width: 52
+        height: 86
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8320,28 +7963,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_341
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 673
-        width: 16
-        height: 42
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e289bcd607ed76fc0800000000000000
-      internalID: -3501585610797508562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_342
+      name: Samus_PS_Death_R_7
       rect:
         serializedVersion: 2
         x: 397
@@ -8362,49 +7984,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_343
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 660
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9de55a6665f08bdd0800000000000000
-      internalID: -2470207531848999207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_344
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 660
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe36a01ff8e06ad40800000000000000
-      internalID: 5595175598441522159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samus Power Suit_345
+      name: Samus_PS_Death_L_8
       rect:
         serializedVersion: 2
         x: 47
@@ -8425,7 +8005,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_346
+      name: Samus_PS_Death_R_8
       rect:
         serializedVersion: 2
         x: 397

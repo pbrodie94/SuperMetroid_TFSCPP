@@ -5,7 +5,7 @@ using UnityEngine;
 public class PickUp : MonoBehaviour
 {
 
-    public enum PickupType {Missile, Health, MissileBoost, ReserveTank, EnergyTank}
+    public enum PickupType {Missile, Health, MissileBoost, ReserveTank, EnergyTank, LifeUp}
     public PickupType pickup;
     [SerializeField] private int value;
 
@@ -54,6 +54,13 @@ public class PickUp : MonoBehaviour
                     stats.PickupEnergyTank();
                     Destroy(gameObject);
 
+                    break;
+
+                case PickupType.LifeUp:
+                    //Add lives
+
+                    stats.PickupLives();
+                    Destroy(gameObject);
                     break;
 
                 default:

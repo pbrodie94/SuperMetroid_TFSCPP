@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallZebesian : MonoBehaviour
+public class WallZebesian : EnemyAI
 {
     [SerializeField] private float crawlSpeed = 3;
-    [SerializeField] private float detectionRadius;
     [SerializeField] private float yMinMax;
     [SerializeField] private float minMoveTime = 1;
     private float lastPositionCheck;
@@ -15,7 +14,7 @@ public class WallZebesian : MonoBehaviour
     [SerializeField] private float projectileForce = 15;
     [SerializeField] private float attackFrequency = 3;
     [SerializeField] private float fireRate = 3;
-    private float timeLastAttacked;
+    
     private float timeLastFired;
     private bool canShoot = true;
     private bool shooting = false;
@@ -25,23 +24,11 @@ public class WallZebesian : MonoBehaviour
     [SerializeField] private Transform firePointR;
     [SerializeField] private Transform firePointL;
 
-    private bool alerted = false;
-    private float distToPlayer;
-
-    private Transform player;
-    private Animator anim;
-    private Rigidbody2D rb;
-    private SpriteRenderer zebesian;
-
-    private void Start()
+    protected override void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        base.Start();
 
-        anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        zebesian = GetComponent<SpriteRenderer>();
-
-        if (zebesian.flipX)
+        if (spriteRenderer.flipX)
         {
             Collider2D col = GetComponent<Collider2D>();
             Vector2 colPos = col.offset;
@@ -52,11 +39,11 @@ public class WallZebesian : MonoBehaviour
         fireRate = 60 / fireRate;
     }
 
-    private void Update()
+    protected override void Update()
     {
-        distToPlayer = Vector3.Distance(transform.position, player.position);
+        base.Update();
 
-        if (distToPlayer <= detectionRadius || alerted)
+        if (distToPlayer <= detectionRadius || alerted && !sms.isDead)
         {
             alerted = true;
             anim.SetBool("Alerted", true);
@@ -73,6 +60,7 @@ public class WallZebesian : MonoBehaviour
 
     void Alerted()
     {
+
         AdjustPosition();
 
         if (canShoot && Time.time >= timeLastAttacked + attackFrequency)
@@ -84,7 +72,7 @@ public class WallZebesian : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
 
-            if (Time.time >= timeLastFired + fireRate)
+            if (Time.time >= timeLastFired + fireRate && !sms.isDead)
             {
                 timeLastFired = Time.time;
 
@@ -144,7 +132,7 @@ public class WallZebesian : MonoBehaviour
     {
         Transform firePoint;
 
-        if (!zebesian.flipX)
+        if (!spriteRenderer.flipX)
         {
             firePoint = firePointR;
         } else

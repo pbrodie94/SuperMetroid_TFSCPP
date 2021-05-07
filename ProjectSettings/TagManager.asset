@@ -53,3 +53,6 @@ TagManager:
   - name: ForeGround
     uniqueID: 4099190049
     locked: 0
+  - name: DeathLayer
+    uniqueID: 2066424579
+    locked: 0

@@ -34,11 +34,6 @@ public class Stats : MonoBehaviour
         health -= damage;
 
         StartCoroutine(Flash(flashInterval, flashDuration, Time.time));
-
-        if (health <= 0)
-        {
-            Die();
-        }
     }
 
     protected virtual IEnumerator Flash(float interval, float duration, float flashStart)
@@ -54,10 +49,5 @@ public class Stats : MonoBehaviour
             yield return new WaitForSeconds(interval);
 
         } while (Time.time < flashStart + duration);
-    }
-
-    protected virtual void Die()
-    {
-        //Dying animation
     }
 }

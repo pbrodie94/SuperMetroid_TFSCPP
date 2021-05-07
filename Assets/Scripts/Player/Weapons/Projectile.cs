@@ -25,14 +25,7 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject != shooter && collision.tag != "Projectile" && collision.tag != "Pickup")
         {
-            if (shooter.tag == "Player")
-            {
-                if (collision.tag == "Enemy")
-                {
-                    Stats s = collision.gameObject.GetComponent<Stats>();
-                    s.TakeDamage(damage);
-                }
-            } else
+            if (!shooter || shooter.tag != "Player")
             {
                 if (collision.tag == "Player")
                 {
@@ -40,6 +33,14 @@ public class Projectile : MonoBehaviour
 
                     Stats ps = collision.gameObject.GetComponent<Stats>();
                     ps.TakeDamage(damage);
+                }
+               
+            } else
+            {
+                if (collision.tag == "Enemy")
+                {
+                    Stats s = collision.gameObject.GetComponent<Stats>();
+                    s.TakeDamage(damage);
                 }
             }
 
