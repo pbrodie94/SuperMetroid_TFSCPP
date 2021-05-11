@@ -18,6 +18,7 @@ public class EnemyStats : Stats
         anim = GetComponent<Animator>();
 
         GameManager.OnPlayerSpawn += ai.GetPlayerLocation;
+        GameManager.OnPlayerSpawn += ai.PlayerSpawned;
         GameManager.OnPlayerDeath += ai.PlayerDeath;
     }
 
@@ -36,6 +37,7 @@ public class EnemyStats : Stats
         anim.SetBool("Dead", true);
 
         GameManager.OnPlayerSpawn -= ai.GetPlayerLocation;
+        GameManager.OnPlayerSpawn -= ai.PlayerSpawned;
         GameManager.OnPlayerDeath -= ai.PlayerDeath;
 
         Destroy(gameObject, 1);

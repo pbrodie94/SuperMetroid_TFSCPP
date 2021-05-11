@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3749413114975703155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6149953012582545718}
+  m_Layer: 0
+  m_Name: TopCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6149953012582545718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749413114975703155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.142, y: 0.882, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7391568313730022027}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4549204262941854193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6243928389562128653}
+  m_Layer: 0
+  m_Name: BottomCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6243928389562128653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4549204262941854193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.143, y: -0.877, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7391568313730022027}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5871932830870006199
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,6 +155,8 @@ Transform:
   m_Children:
   - {fileID: 3763704987488731808}
   - {fileID: 7984181452503120129}
+  - {fileID: 6243928389562128653}
+  - {fileID: 6149953012582545718}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -227,8 +289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3865882c0f9c24c862c12d52f72241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crawlSpeed: 1
   detectionRadius: 7
+  crawlSpeed: 1
   yMinMax: 1
   minMoveTime: 1
   damage: 15
@@ -238,6 +300,8 @@ MonoBehaviour:
   projectile: {fileID: 6915447095321942738, guid: d9621a5d58ccaac46955e470a53e93dc, type: 3}
   firePointR: {fileID: 3763704987488731808}
   firePointL: {fileID: 7984181452503120129}
+  top: {fileID: 6149953012582545718}
+  bottom: {fileID: 6243928389562128653}
 --- !u!114 &7391568313730021751
 MonoBehaviour:
   m_ObjectHideFlags: 0

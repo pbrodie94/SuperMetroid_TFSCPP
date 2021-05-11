@@ -155,6 +155,10 @@ public class SamusStatus : Stats
             yield return new WaitForSeconds(5);
 
             dead = false;
+
+            yield return null;
+
+            gm.PlayerSpawned();
         }
         else
         {

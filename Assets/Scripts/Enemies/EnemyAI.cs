@@ -9,6 +9,7 @@ public class EnemyAI : MonoBehaviour
     protected float timeLastAttacked;
     protected bool alerted = false;
     protected float distToPlayer;
+    protected bool hostile = true;
 
     protected Transform player;
     protected SamusStatus sms;
@@ -33,7 +34,7 @@ public class EnemyAI : MonoBehaviour
 
     protected virtual void Update()
     {
-        if (player && !sms.isDead)
+        if (player && hostile)
         {
             distToPlayer = Vector3.Distance(transform.position, player.position);
         }
@@ -47,5 +48,11 @@ public class EnemyAI : MonoBehaviour
     public void PlayerDeath()
     {
         alerted = false;
+        hostile = false;
+    }
+
+    public void PlayerSpawned()
+    {
+        hostile = true;
     }
 }

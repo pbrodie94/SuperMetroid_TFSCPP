@@ -577,6 +577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallZebesian
       objectReference: {fileID: 0}
+    - target: {fileID: 7391568313730021744, guid: b2edef9aeda195c4c98acc324e328362, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7391568313730022027, guid: b2edef9aeda195c4c98acc324e328362, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1375,6 +1379,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6149953012582545718, guid: b2edef9aeda195c4c98acc324e328362, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.142
+      objectReference: {fileID: 0}
     - target: {fileID: 7391568313730021744, guid: b2edef9aeda195c4c98acc324e328362, type: 3}
       propertyPath: m_Name
       value: WallZebesian (1)

@@ -37,6 +37,10 @@ public class GameManager : MonoBehaviour
         {
             player.position = spawnPoint.position;
         }
-        
+    }
+
+    public void PlayerSpawned()
+    {
+        OnPlayerSpawn();
     }
 }

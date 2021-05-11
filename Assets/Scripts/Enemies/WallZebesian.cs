@@ -6,7 +6,7 @@ public class WallZebesian : EnemyAI
 {
     [SerializeField] private float crawlSpeed = 3;
     [SerializeField] private float yMinMax;
-    [SerializeField] private float minMoveTime = 1;
+    [SerializeField] private float minMoveTime = 0.5f;
     private float lastPositionCheck;
 
     [Header("Combat Preferences")]
@@ -24,6 +24,10 @@ public class WallZebesian : EnemyAI
     [SerializeField] private Transform firePointR;
     [SerializeField] private Transform firePointL;
 
+    [Header("Detection Points")]
+    [SerializeField] private Transform top;
+    [SerializeField] private Transform bottom;
+
     protected override void Start()
     {
         base.Start();
@@ -34,6 +38,14 @@ public class WallZebesian : EnemyAI
             Vector2 colPos = col.offset;
             colPos.x *= -1;
             col.offset = colPos;
+
+            Vector3 checkPos = top.localPosition;
+            checkPos.x *= -1;
+            top.localPosition = checkPos;
+
+            checkPos = bottom.localPosition;
+            checkPos.x *= -1;
+            bottom.localPosition = checkPos;
         }
 
         fireRate = 60 / fireRate;
@@ -44,25 +56,35 @@ public class WallZebesian : EnemyAI
         Collider2D col = Physics2D.OverlapCircle(transform.position, 2, LayerMask.GetMask("Wall"));
         Vector3 point = col.ClosestPoint(new Vector2(transform.position.x, transform.position.y));
 
+        //If the wall is to the right, flip the enemy
         if (point.x > transform.position.x)
         {
+            //Flip the sprite renderer
             SpriteRenderer sr = GetComponent<SpriteRenderer>();
             sr.flipX = true;
+            //Flip the collider
             Vector2 colPos = col.offset;
             colPos.x *= -1;
             col.offset = colPos;
+
+            //Set the check positions
+            Vector3 checkPos = top.localPosition;
+            checkPos.x *= -1;
+            top.localPosition = checkPos;
+
+            checkPos = bottom.localPosition;
+            checkPos.x *= -1;
+            bottom.localPosition = checkPos;
         }
 
         transform.position = point;
-
-        //Destroy(gameObject);
     }
 
     protected override void Update()
     {
         base.Update();
 
-        if (distToPlayer <= detectionRadius || alerted && !sms.isDead)
+        if (hostile && distToPlayer <= detectionRadius || alerted)
         {
             alerted = true;
             anim.SetBool("Alerted", true);
@@ -132,18 +154,65 @@ public class WallZebesian : EnemyAI
             if (player.position.y < transform.position.y && !shooting)
             {
                 //Move down
-                rb.velocity = new Vector2(0, -crawlSpeed);
+                if (PathClear(false))
+                {
+                    rb.velocity = new Vector2(0, -crawlSpeed);
 
-                anim.SetFloat("Speed", -crawlSpeed);
+                    anim.SetFloat("Speed", -crawlSpeed);
+                } else
+                {
+                    anim.SetFloat("Speed", 0);
+                    rb.velocity = Vector2.zero;
+                    canShoot = true;
+                    return;
+                }
 
             }
             else if (player.position.y > transform.position.y && !shooting)
             {
                 //Move up
-                rb.velocity = new Vector2(0, crawlSpeed);
+                if (PathClear(true))
+                {
+                    rb.velocity = new Vector2(0, crawlSpeed);
 
-                anim.SetFloat("Speed", crawlSpeed);
+                    anim.SetFloat("Speed", crawlSpeed);
+                } else
+                {
+                    anim.SetFloat("Speed", 0);
+                    rb.velocity = Vector2.zero;
+                    canShoot = true;
+                    return;
+                }
             }
+        }
+    }
+
+    bool PathClear(bool up)
+    {
+        Vector3 check;
+        Vector2 dir;
+
+        if (up)
+        {
+            //Check for top
+            check = top.position;
+            dir = Vector2.up;
+        } else
+        {
+            //Check for bottom
+            check = bottom.position;
+            dir = Vector2.down;
+        }
+
+        RaycastHit2D hit = Physics2D.Raycast(check, dir, 0.3f);
+
+        if (hit)
+        {
+            Debug.Log(hit.transform.gameObject);
+            return false;
+        } else
+        {
+            return true;
         }
     }
 
