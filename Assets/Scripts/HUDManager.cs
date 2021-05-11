@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class HUDManager : MonoBehaviour
 {
+    private ScreenFade fadeType = ScreenFade.Hud;
+    [SerializeField] private Image screenFade;
     [SerializeField] private Slider energySider;
     [SerializeField] private Text energyText;
     [SerializeField] private Text missileText;
@@ -14,8 +16,9 @@ public class HUDManager : MonoBehaviour
 
     private Color filledColour = Color.white;
     private Color emptyColour = Color.grey;
+    private Color fadeColour;
 
-    private float fadeRate = 3;
+    private float fadeRate = 4;
     private bool fade = false;
     private float timeFaded = 0;
 
@@ -30,6 +33,8 @@ public class HUDManager : MonoBehaviour
 
         cg = GetComponent<CanvasGroup>();
 
+        fadeColour = screenFade.color;
+
         emptyColour.a = 150;
 
         energySider.maxValue = 99;
@@ -41,19 +46,45 @@ public class HUDManager : MonoBehaviour
         if (Time.time < timeFaded + fadeRate)
         {
             float alpha = 0;
+            float a = 0;
 
             if (fade)
             {
-                alpha = 0;
+                if (fadeType == ScreenFade.Hud)
+                {
+                    a = cg.alpha;
+                    alpha = 0;
+                } else if (fadeType == ScreenFade.Screen)
+                {
+                    a = screenFade.color.a;
+                    alpha = 255;
+                }
             }
             else
             {
-                alpha = 1;
+                if (fadeType == ScreenFade.Hud)
+                {
+                    a = cg.alpha;
+                    alpha = 1;
+                }
+                else if (fadeType == ScreenFade.Screen)
+                {
+                    a = screenFade.color.a;
+                    alpha = 0;
+                }
             }
 
-            float a = cg.alpha;
             a = Mathf.Lerp(a, alpha, fadeRate * Time.deltaTime);
-            cg.alpha = a;
+
+            if (fadeType == ScreenFade.Hud)
+            {
+                cg.alpha = a;
+
+            } else if (fadeType == ScreenFade.Screen)
+            {
+                fadeColour.a = a;
+                screenFade.color = fadeColour;
+            }
         }
     }
 
@@ -136,7 +167,23 @@ public class HUDManager : MonoBehaviour
 
     public void FadeUI(bool fade)
     {
+        fadeType = ScreenFade.Hud;
         this.fade = fade;
         timeFaded = Time.time;
     }
+
+    public void FadeScreen(bool fade)
+    {
+        fadeType = ScreenFade.Screen;
+        this.fade = fade;
+        timeFaded = Time.time;
+    }
+
+    private enum ScreenFade
+    {
+        Hud,
+        Screen
+    }
 }
+
+

@@ -39,6 +39,25 @@ public class WallZebesian : EnemyAI
         fireRate = 60 / fireRate;
     }
 
+    public override void Initialize()
+    {
+        Collider2D col = Physics2D.OverlapCircle(transform.position, 2, LayerMask.GetMask("Wall"));
+        Vector3 point = col.ClosestPoint(new Vector2(transform.position.x, transform.position.y));
+
+        if (point.x > transform.position.x)
+        {
+            SpriteRenderer sr = GetComponent<SpriteRenderer>();
+            sr.flipX = true;
+            Vector2 colPos = col.offset;
+            colPos.x *= -1;
+            col.offset = colPos;
+        }
+
+        transform.position = point;
+
+        //Destroy(gameObject);
+    }
+
     protected override void Update()
     {
         base.Update();

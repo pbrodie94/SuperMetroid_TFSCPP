@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 5766041317415433897}
   - component: {fileID: 5766041317415433902}
   - component: {fileID: 1795901303780415403}
+  - component: {fileID: 3001748101502470820}
   - component: {fileID: 4746280820853908568}
   m_Layer: 0
   m_Name: Door_Grey
@@ -296,6 +297,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0554028, y: 2.1333334}
   m_EdgeRadius: 0
+--- !u!58 &3001748101502470820
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5766041317415433903}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.4
 --- !u!114 &4746280820853908568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,3 +325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2a41718338ffd4193c600d864eae59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destination: {fileID: 0}
+  unlockTime: 5
+  LeftDoor: 0
+  openDistance: 5

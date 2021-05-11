@@ -26,6 +26,11 @@ public class EnemyAI : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    public virtual void Initialize()
+    {
+
+    }
+
     protected virtual void Update()
     {
         if (player && !sms.isDead)

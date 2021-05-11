@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    [SerializeField] Transform destination;
+
     [SerializeField] private float unlockTime = 5;
     [SerializeField] private bool LeftDoor = false;
     [SerializeField] private float openDistance = 5;
@@ -15,6 +17,8 @@ public class Door : MonoBehaviour
 
     private Transform player;
 
+    private Room room;
+    private HUDManager hud;
     private Animator anim;
     private BoxCollider2D col;
 
@@ -22,6 +26,8 @@ public class Door : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
+        room = transform.GetComponentInParent<Room>();
+        hud = GameObject.Find("HUD").GetComponent<HUDManager>();
         anim = GetComponent<Animator>();
         col = GetComponent<BoxCollider2D>();
 
@@ -65,5 +71,40 @@ public class Door : MonoBehaviour
 
         timeUnlocked = Time.time;
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            StartCoroutine(TransitionToRoom(collision.transform));
+        }
+    }
+
+    private IEnumerator TransitionToRoom(Transform player)
+    {
+        //Fade screen to black
+        hud.FadeScreen(true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        //Destroy enemies and pickups in current room
+        room.DestroyEntities();
+
+        yield return null;
+
+        //Move player to new room
+        player.position = destination.position;
+
+        yield return null;
+
+        //Spawn enemies and pickups in new room
+        Room newRoom = destination.GetComponentInParent<Room>();
+        newRoom.SpawnEntities();
+
+        yield return null;
+
+        //Fade screen back
+        hud.FadeScreen(false);
     }
 }
