@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5529105562516088763
-    second: SNES - Super Metroid - Objects & Items_0
+    second: MissileDoor_R
   - first:
       213: -4392424347842619719
     second: SNES - Super Metroid - Objects & Items_1
@@ -25,7 +25,7 @@ TextureImporter:
     second: SNES - Super Metroid - Objects & Items_6
   - first:
       213: -7214552945346294982
-    second: SNES - Super Metroid - Objects & Items_7
+    second: MissileDoor_L
   - first:
       213: -242523821994941082
     second: SNES - Super Metroid - Objects & Items_8
@@ -52,7 +52,7 @@ TextureImporter:
     second: SNES - Super Metroid - Objects & Items_15
   - first:
       213: 848112955086998302
-    second: SNES - Super Metroid - Objects & Items_16
+    second: LockedDoor_R
   - first:
       213: 4885791308427191209
     second: SNES - Super Metroid - Objects & Items_17
@@ -73,7 +73,7 @@ TextureImporter:
     second: SNES - Super Metroid - Objects & Items_22
   - first:
       213: -4673723604235849164
-    second: SNES - Super Metroid - Objects & Items_23
+    second: LockedDoor_L
   - first:
       213: 8365424814296599434
     second: SNES - Super Metroid - Objects & Items_24
@@ -541,10 +541,10 @@ TextureImporter:
     second: MorphBall_Power_2
   - first:
       213: 3131331515063671017
-    second: SNES - Super Metroid - Objects & Items_179
+    second: DoubleJump_Power_1
   - first:
       213: -7251677499221185139
-    second: SNES - Super Metroid - Objects & Items_180
+    second: DoubleJump_Power_2
   - first:
       213: -7587552157358085822
     second: SNES - Super Metroid - Objects & Items_181
@@ -1144,7 +1144,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SNES - Super Metroid - Objects & Items_0
+      name: MissileDoor_R
       rect:
         serializedVersion: 2
         x: 6
@@ -1160,27 +1160,6 @@ TextureImporter:
       bones: []
       spriteID: 548979c09cba443b0800000000000000
       internalID: -5529105562516088763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Metroid - Objects & Items_1
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 721
-        width: 8
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b65014e359fa03c0800000000000000
-      internalID: -4392424347842619719
       vertices: []
       indices: 
       edges: []
@@ -1291,7 +1270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Metroid - Objects & Items_7
+      name: MissileDoor_L
       rect:
         serializedVersion: 2
         x: 93
@@ -1480,7 +1459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Metroid - Objects & Items_16
+      name: LockedDoor_R
       rect:
         serializedVersion: 2
         x: 222
@@ -1627,7 +1606,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Metroid - Objects & Items_23
+      name: LockedDoor_L
       rect:
         serializedVersion: 2
         x: 309
@@ -1822,7 +1801,7 @@ TextureImporter:
         x: 18
         y: 683
         width: 8
-        height: 26
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1832,27 +1811,6 @@ TextureImporter:
       bones: []
       spriteID: 8f9afba9d9515d600800000000000000
       internalID: 492323500917238264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Metroid - Objects & Items_33
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 699
-        width: 8
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa9049297d07bc810800000000000000
-      internalID: 1786645748361988527
       vertices: []
       indices: 
       edges: []
@@ -4651,7 +4609,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Metroid - Objects & Items_179
+      name: DoubleJump_Power_1
       rect:
         serializedVersion: 2
         x: 292
@@ -4672,7 +4630,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Metroid - Objects & Items_180
+      name: DoubleJump_Power_2
       rect:
         serializedVersion: 2
         x: 332

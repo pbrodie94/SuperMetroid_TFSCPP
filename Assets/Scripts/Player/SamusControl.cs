@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class SamusControl : MonoBehaviour
 {
+    private bool control = true;
+    [HideInInspector] public bool SetControl
+    {
+        set
+        {
+            control = value;
+        }
+    }
+
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 40;
     [SerializeField] private float jumpHeight = 400;
     private float horizontalInput = 0;
-
-    [Header("Combat")]
-    
 
     private bool jump = false;
 
@@ -29,6 +35,13 @@ public class SamusControl : MonoBehaviour
 
     private void Update()
     {
+        if (!control)
+        {
+            horizontalInput = 0;
+            jump = false;
+            return;
+        }
+
         horizontalInput = Input.GetAxisRaw(InputManager.horizontal) * moveSpeed;
 
         if (Input.GetButtonDown(InputManager.jump))

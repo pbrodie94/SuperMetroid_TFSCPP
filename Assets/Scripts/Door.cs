@@ -7,7 +7,7 @@ public class Door : MonoBehaviour
     [SerializeField] Transform destination;
 
     [SerializeField] private float unlockTime = 5;
-    [SerializeField] private bool LeftDoor = false;
+    [SerializeField] private bool RightDoor = false;
     [SerializeField] private float openDistance = 5;
 
     private float distToPlayer;
@@ -16,7 +16,7 @@ public class Door : MonoBehaviour
     private bool unlocked = false;
 
     private Transform player;
-
+    private SamusControl sc;
     private Room room;
     private HUDManager hud;
     private Animator anim;
@@ -25,7 +25,7 @@ public class Door : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-
+        sc = player.gameObject.GetComponent<SamusControl>();
         room = transform.GetComponentInParent<Room>();
         hud = GameObject.Find("HUD").GetComponent<HUDManager>();
         anim = GetComponent<Animator>();
@@ -34,7 +34,7 @@ public class Door : MonoBehaviour
         if (unlockTime <= 0)
             unlockTime = 3;
 
-        animVar = LeftDoor ? "OpenLeft" : "OpenRight";
+        animVar = RightDoor ? "OpenLeft" : "OpenRight";
     }
 
     private void Update()
@@ -83,6 +83,8 @@ public class Door : MonoBehaviour
 
     private IEnumerator TransitionToRoom(Transform player)
     {
+        sc.SetControl = false;
+
         //Fade screen to black
         hud.FadeScreen(true);
 
@@ -100,11 +102,16 @@ public class Door : MonoBehaviour
 
         //Spawn enemies and pickups in new room
         Room newRoom = destination.GetComponentInParent<Room>();
+        newRoom.SetCameraBounds();
         newRoom.SpawnEntities();
 
-        yield return null;
+        yield return new WaitForSeconds(0.5f);
 
         //Fade screen back
         hud.FadeScreen(false);
+
+        yield return new WaitForSeconds(1.5f);
+
+        sc.SetControl = true;
     }
 }

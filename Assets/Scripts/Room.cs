@@ -25,9 +25,12 @@ public class Room : MonoBehaviour
 
     public void SpawnEntities()
     {
-        foreach (EnemySpawnPoint sp in spawnPoints)
+        if (spawnPoints.Length > 0)
         {
-            sp.SpawnEnemy();
+            foreach (EnemySpawnPoint sp in spawnPoints)
+            {
+                sp.SpawnEnemy();
+            }
         }
     }
 
