@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Room : MonoBehaviour
 {
+    [Tooltip("Takes in a reference of the door and its destination, and the sets it to the door.")]
+    [SerializeField] private DoorDestinations[] doors;
+
     [Tooltip("Sets the X axis bounds for camera movement")]
     [SerializeField] private Vector2 xAxisBounds = Vector2.zero;
     [Tooltip("Sets the y axis bounds for camera movement")]
@@ -16,6 +19,14 @@ public class Room : MonoBehaviour
     private void Start()
     {
         cam = Camera.main.GetComponent<CameraFollow2D>();
+
+        if (doors.Length > 0)
+        {
+            foreach (DoorDestinations d in doors)
+            {
+                d.SetDestination();
+            }
+        }
     }
 
     public void SetCameraBounds()
@@ -56,5 +67,17 @@ public class Room : MonoBehaviour
         {
             Destroy(proj);
         }
+    }
+}
+
+[System.Serializable]
+public struct DoorDestinations
+{
+    public Door door;
+    public Door destinationDoor;
+
+    public void SetDestination()
+    {
+        door.SetDestination(destinationDoor.GetDoorPort());
     }
 }

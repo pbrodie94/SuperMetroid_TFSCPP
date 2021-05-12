@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] Transform destination;
+    private Transform destination;
+
+    [SerializeField] private Transform doorPortL;
+    [SerializeField] private Transform doorPortR;
 
     [SerializeField] private float unlockTime = 5;
     [SerializeField] private bool RightDoor = false;
@@ -113,5 +116,15 @@ public class Door : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 
         sc.SetControl = true;
+    }
+
+    public void SetDestination(Transform d)
+    {
+        destination = d;
+    }
+
+    public Transform GetDoorPort()
+    {
+        return RightDoor ? doorPortL : doorPortR;
     }
 }

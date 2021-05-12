@@ -1,7 +1,2311 @@
 fileFormatVersion: 2
 guid: 7229b3b0464356041b42763a83d08d51
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3189381098889142143
+    second: maridia_0
+  - first:
+      213: 3030101188230245755
+    second: maridia_1
+  - first:
+      213: -4552339958852957625
+    second: maridia_2
+  - first:
+      213: -1043009713076806487
+    second: maridia_3
+  - first:
+      213: 2304979985896798359
+    second: maridia_4
+  - first:
+      213: -7821317200126043132
+    second: maridia_5
+  - first:
+      213: -1373323189486907315
+    second: maridia_6
+  - first:
+      213: -1115317566767167301
+    second: maridia_7
+  - first:
+      213: 431378285861432806
+    second: maridia_8
+  - first:
+      213: -8082651772135327673
+    second: maridia_9
+  - first:
+      213: -7260030500890688385
+    second: maridia_10
+  - first:
+      213: -8026965543426087302
+    second: maridia_11
+  - first:
+      213: -3739703655111643410
+    second: maridia_12
+  - first:
+      213: 8817586202400425882
+    second: maridia_13
+  - first:
+      213: -5466469514159888644
+    second: maridia_14
+  - first:
+      213: 4228371477334680415
+    second: maridia_15
+  - first:
+      213: -8033444383359341962
+    second: maridia_16
+  - first:
+      213: 2087659766013271781
+    second: maridia_17
+  - first:
+      213: -6102932368225190473
+    second: maridia_18
+  - first:
+      213: 7562020545044628683
+    second: maridia_19
+  - first:
+      213: 6108601497007754894
+    second: maridia_20
+  - first:
+      213: 6733755132535192298
+    second: maridia_21
+  - first:
+      213: 5365418296580828080
+    second: maridia_22
+  - first:
+      213: 323359987459042779
+    second: maridia_23
+  - first:
+      213: -1298094162423733929
+    second: maridia_24
+  - first:
+      213: -19660142974543490
+    second: maridia_25
+  - first:
+      213: -1822998084381377230
+    second: maridia_26
+  - first:
+      213: 4258224078783183296
+    second: maridia_27
+  - first:
+      213: 3230250954691766422
+    second: maridia_28
+  - first:
+      213: -1501275567613977172
+    second: maridia_29
+  - first:
+      213: 8182182217131507661
+    second: maridia_30
+  - first:
+      213: 3045331616965157558
+    second: maridia_31
+  - first:
+      213: 3347311414593058640
+    second: maridia_32
+  - first:
+      213: 3795139513442718109
+    second: maridia_33
+  - first:
+      213: -2501075294107080017
+    second: maridia_34
+  - first:
+      213: 1599406384463087977
+    second: maridia_35
+  - first:
+      213: 1584223908280227357
+    second: maridia_36
+  - first:
+      213: 138987536872201019
+    second: maridia_37
+  - first:
+      213: -5838349583694100412
+    second: maridia_38
+  - first:
+      213: 5321182665065688862
+    second: maridia_39
+  - first:
+      213: -6525488948560335994
+    second: maridia_40
+  - first:
+      213: 7166563497268460496
+    second: maridia_41
+  - first:
+      213: 6100292317910824658
+    second: maridia_42
+  - first:
+      213: 8221388400181483717
+    second: maridia_43
+  - first:
+      213: -320254524056956081
+    second: maridia_44
+  - first:
+      213: -7878350104648317742
+    second: maridia_45
+  - first:
+      213: 5540144823303296723
+    second: maridia_46
+  - first:
+      213: -2838322230180113544
+    second: maridia_47
+  - first:
+      213: -4375773559332365374
+    second: maridia_48
+  - first:
+      213: -8681283538408861991
+    second: maridia_49
+  - first:
+      213: -535985108547357153
+    second: maridia_50
+  - first:
+      213: 95686440271209770
+    second: maridia_51
+  - first:
+      213: 2385764727800913903
+    second: maridia_52
+  - first:
+      213: -5712010192326863935
+    second: maridia_53
+  - first:
+      213: 1485668384191913625
+    second: maridia_54
+  - first:
+      213: -5846610137365419466
+    second: maridia_55
+  - first:
+      213: 4150132877055149233
+    second: maridia_56
+  - first:
+      213: -2608998022354758340
+    second: maridia_57
+  - first:
+      213: -1376514952698272846
+    second: maridia_58
+  - first:
+      213: -6650248269517330309
+    second: maridia_59
+  - first:
+      213: 4469421933083579088
+    second: maridia_60
+  - first:
+      213: 1534775517543830157
+    second: maridia_61
+  - first:
+      213: -1471623157667079513
+    second: maridia_62
+  - first:
+      213: -3371376391275207347
+    second: maridia_63
+  - first:
+      213: 2642572780921018178
+    second: maridia_64
+  - first:
+      213: -1221397250753143837
+    second: maridia_65
+  - first:
+      213: -7171936192639306311
+    second: maridia_66
+  - first:
+      213: 8734314936756567183
+    second: maridia_67
+  - first:
+      213: -4349574652131585393
+    second: maridia_68
+  - first:
+      213: -3370186584249729040
+    second: maridia_69
+  - first:
+      213: 3484181091369184007
+    second: maridia_70
+  - first:
+      213: 6176104584133253615
+    second: maridia_71
+  - first:
+      213: 1998182319948979502
+    second: maridia_72
+  - first:
+      213: -1841413856468499758
+    second: maridia_73
+  - first:
+      213: -3203613284760042526
+    second: maridia_74
+  - first:
+      213: 5465034250360436984
+    second: maridia_75
+  - first:
+      213: 7409293720821471790
+    second: maridia_76
+  - first:
+      213: -1656633448113488485
+    second: maridia_77
+  - first:
+      213: -4315396239627675765
+    second: maridia_78
+  - first:
+      213: -1368046874070678055
+    second: maridia_79
+  - first:
+      213: 6768251124210848929
+    second: maridia_80
+  - first:
+      213: -4113478859729981484
+    second: maridia_81
+  - first:
+      213: -1057349879590105459
+    second: maridia_82
+  - first:
+      213: -2744733362936405707
+    second: maridia_83
+  - first:
+      213: 4953947339189840867
+    second: maridia_84
+  - first:
+      213: 6250499367461738409
+    second: maridia_85
+  - first:
+      213: -5179549939534921238
+    second: maridia_86
+  - first:
+      213: 5261250777145437289
+    second: maridia_87
+  - first:
+      213: 4330096353404693604
+    second: maridia_88
+  - first:
+      213: -4907082989069608259
+    second: maridia_89
+  - first:
+      213: 6400057450297697271
+    second: maridia_90
+  - first:
+      213: 6070261408203863312
+    second: maridia_91
+  - first:
+      213: -1009850891564208391
+    second: maridia_92
+  - first:
+      213: 1380337051418992845
+    second: maridia_93
+  - first:
+      213: -3015718346776324846
+    second: maridia_94
+  - first:
+      213: -2158472466564011323
+    second: maridia_95
+  - first:
+      213: -8885404434725219632
+    second: maridia_96
+  - first:
+      213: -492530369835116152
+    second: maridia_97
+  - first:
+      213: -6862067507761650026
+    second: maridia_98
+  - first:
+      213: 3070775037955877650
+    second: maridia_99
+  - first:
+      213: -5368811520177351258
+    second: maridia_100
+  - first:
+      213: -4031545588980302882
+    second: maridia_101
+  - first:
+      213: -3714938409123890960
+    second: maridia_102
+  - first:
+      213: 4518717437613620921
+    second: maridia_103
+  - first:
+      213: 7019380254164854385
+    second: maridia_104
+  - first:
+      213: -6826570930737316956
+    second: maridia_105
+  - first:
+      213: -3249581598486307463
+    second: maridia_106
+  - first:
+      213: -1505465192429478460
+    second: maridia_107
+  - first:
+      213: 3095639539329892478
+    second: maridia_108
+  - first:
+      213: 3339947242931447997
+    second: maridia_109
+  - first:
+      213: -4730777239587102179
+    second: maridia_110
+  - first:
+      213: -797672744402278045
+    second: maridia_111
+  - first:
+      213: 1458056652661300338
+    second: maridia_112
+  - first:
+      213: -968861297302950344
+    second: maridia_113
+  - first:
+      213: -4444194865603026432
+    second: maridia_114
+  - first:
+      213: -3220311031550308386
+    second: maridia_115
+  - first:
+      213: 958935503056469363
+    second: maridia_116
+  - first:
+      213: -6395685152569364945
+    second: maridia_117
+  - first:
+      213: 3288562148330737723
+    second: maridia_118
+  - first:
+      213: 2284381493901744360
+    second: maridia_119
+  - first:
+      213: 3949553093210823202
+    second: maridia_120
+  - first:
+      213: 2892859552871319896
+    second: maridia_121
+  - first:
+      213: 5514087034943931201
+    second: maridia_122
+  - first:
+      213: 2436904442557326907
+    second: maridia_123
+  - first:
+      213: 7539521094488298455
+    second: maridia_124
+  - first:
+      213: -6707756486320587808
+    second: maridia_125
+  - first:
+      213: -3762192392449031308
+    second: maridia_126
+  - first:
+      213: 4654338570050889737
+    second: maridia_127
+  - first:
+      213: 407984915031163205
+    second: maridia_128
+  - first:
+      213: -1203839304644179397
+    second: maridia_129
+  - first:
+      213: -992517332504797329
+    second: maridia_130
+  - first:
+      213: -1618677119608635939
+    second: maridia_131
+  - first:
+      213: -2112462117281068108
+    second: maridia_132
+  - first:
+      213: 7469923235324681736
+    second: maridia_133
+  - first:
+      213: -4755966158527840149
+    second: maridia_134
+  - first:
+      213: 2988304219473925512
+    second: maridia_135
+  - first:
+      213: -7830577587670622479
+    second: maridia_136
+  - first:
+      213: -5003641226477702745
+    second: maridia_137
+  - first:
+      213: -2114523024031985792
+    second: maridia_138
+  - first:
+      213: 5595180074421008173
+    second: maridia_139
+  - first:
+      213: 8157093423942495752
+    second: maridia_140
+  - first:
+      213: -6363139763349225784
+    second: maridia_141
+  - first:
+      213: 1170420600310367292
+    second: maridia_142
+  - first:
+      213: -3678530082353887151
+    second: maridia_143
+  - first:
+      213: -2393632033594043679
+    second: maridia_144
+  - first:
+      213: 1607742487791302098
+    second: maridia_145
+  - first:
+      213: 7503778400406391475
+    second: maridia_146
+  - first:
+      213: -4826951511751784656
+    second: maridia_147
+  - first:
+      213: 2064471124226107541
+    second: maridia_148
+  - first:
+      213: 5857209109191595090
+    second: maridia_149
+  - first:
+      213: -4146501092695727184
+    second: maridia_150
+  - first:
+      213: -8762512611513980448
+    second: maridia_151
+  - first:
+      213: 8859539785691071133
+    second: maridia_152
+  - first:
+      213: -8643717471107689570
+    second: maridia_153
+  - first:
+      213: 6546462463252973999
+    second: maridia_154
+  - first:
+      213: 1183641825688155326
+    second: maridia_155
+  - first:
+      213: 2555654271107668046
+    second: maridia_156
+  - first:
+      213: 5366482855215652839
+    second: maridia_157
+  - first:
+      213: -2722626835610173719
+    second: maridia_158
+  - first:
+      213: -742665479770840078
+    second: maridia_159
+  - first:
+      213: 8674488737192085512
+    second: maridia_160
+  - first:
+      213: -477190113883662281
+    second: maridia_161
+  - first:
+      213: 4445128910761287355
+    second: maridia_162
+  - first:
+      213: 1599481540182801037
+    second: maridia_163
+  - first:
+      213: -2341682502980662701
+    second: maridia_164
+  - first:
+      213: -6249577568417701965
+    second: maridia_165
+  - first:
+      213: 4538213815163373854
+    second: maridia_166
+  - first:
+      213: 6223056725751262811
+    second: maridia_167
+  - first:
+      213: -8642477257593215905
+    second: maridia_168
+  - first:
+      213: 9152590039544936174
+    second: maridia_169
+  - first:
+      213: -2201735487625846073
+    second: maridia_170
+  - first:
+      213: -3298541374221425903
+    second: maridia_171
+  - first:
+      213: 2211537604081158955
+    second: maridia_172
+  - first:
+      213: 8994988220138243501
+    second: maridia_173
+  - first:
+      213: 5004648657808155997
+    second: maridia_174
+  - first:
+      213: -5487950324848620796
+    second: maridia_175
+  - first:
+      213: 4451429184746869167
+    second: maridia_176
+  - first:
+      213: 2060338541072729426
+    second: maridia_177
+  - first:
+      213: -1162627911146519531
+    second: maridia_178
+  - first:
+      213: -8346738632556579800
+    second: maridia_179
+  - first:
+      213: 1638820964216635806
+    second: maridia_180
+  - first:
+      213: -2227590910258379308
+    second: maridia_181
+  - first:
+      213: -3513137884319640796
+    second: maridia_182
+  - first:
+      213: -5421448165648059309
+    second: maridia_183
+  - first:
+      213: 1626594192687419914
+    second: maridia_184
+  - first:
+      213: 1524743562184402111
+    second: maridia_185
+  - first:
+      213: 3349065541293099298
+    second: maridia_186
+  - first:
+      213: 3468426309268800216
+    second: maridia_187
+  - first:
+      213: -2353597362436940459
+    second: maridia_188
+  - first:
+      213: -4933612387385763431
+    second: maridia_189
+  - first:
+      213: 3053976748758919915
+    second: maridia_190
+  - first:
+      213: 6049128112065151890
+    second: maridia_191
+  - first:
+      213: -6834630926630688054
+    second: maridia_192
+  - first:
+      213: -771772498277834847
+    second: maridia_193
+  - first:
+      213: 5623129055770370594
+    second: maridia_194
+  - first:
+      213: 5315942646550225369
+    second: maridia_195
+  - first:
+      213: 8154680873290569555
+    second: maridia_196
+  - first:
+      213: 6052917264546380240
+    second: maridia_197
+  - first:
+      213: 6249484855745899461
+    second: maridia_198
+  - first:
+      213: -419101524427353923
+    second: maridia_199
+  - first:
+      213: 4855932559925777932
+    second: maridia_200
+  - first:
+      213: 3635438664669552849
+    second: maridia_201
+  - first:
+      213: 4676189849903507505
+    second: maridia_202
+  - first:
+      213: -7178770149404635809
+    second: maridia_203
+  - first:
+      213: 7255119087335658123
+    second: maridia_204
+  - first:
+      213: 7463694101426174431
+    second: maridia_205
+  - first:
+      213: -1714146288622767537
+    second: maridia_206
+  - first:
+      213: -291172422067599902
+    second: maridia_207
+  - first:
+      213: 5982628734955723313
+    second: maridia_208
+  - first:
+      213: -1182927991737891892
+    second: maridia_209
+  - first:
+      213: 1160252238219674000
+    second: maridia_210
+  - first:
+      213: 8728977389614364062
+    second: maridia_211
+  - first:
+      213: 1605155440947369771
+    second: maridia_212
+  - first:
+      213: 1945466257240921429
+    second: maridia_213
+  - first:
+      213: -3085742140266044672
+    second: maridia_214
+  - first:
+      213: 7667441108602545634
+    second: maridia_215
+  - first:
+      213: 256931168142456202
+    second: maridia_216
+  - first:
+      213: 4534817524379811936
+    second: maridia_217
+  - first:
+      213: -3072002033120479135
+    second: maridia_218
+  - first:
+      213: 8842366589402825946
+    second: maridia_219
+  - first:
+      213: -9178971936349101566
+    second: maridia_220
+  - first:
+      213: 3875761232403240781
+    second: maridia_221
+  - first:
+      213: -7878889242123963424
+    second: maridia_222
+  - first:
+      213: 2581270789221199055
+    second: maridia_223
+  - first:
+      213: 785707875579753379
+    second: maridia_224
+  - first:
+      213: -4624951974929274929
+    second: maridia_225
+  - first:
+      213: -2775205791899805187
+    second: maridia_226
+  - first:
+      213: 3961874246865091228
+    second: maridia_227
+  - first:
+      213: 2693703550120673139
+    second: maridia_228
+  - first:
+      213: -689207565657862696
+    second: maridia_229
+  - first:
+      213: 8790889245162667825
+    second: maridia_230
+  - first:
+      213: -415031281139671668
+    second: maridia_231
+  - first:
+      213: 6205761621762312647
+    second: maridia_232
+  - first:
+      213: -1817053655406521844
+    second: maridia_233
+  - first:
+      213: 2013033474628418828
+    second: maridia_234
+  - first:
+      213: -2398492064495359371
+    second: maridia_235
+  - first:
+      213: 6524693671576714446
+    second: maridia_236
+  - first:
+      213: -5675346154786378946
+    second: maridia_237
+  - first:
+      213: 1029588037746751111
+    second: maridia_238
+  - first:
+      213: -7388465082282330501
+    second: maridia_239
+  - first:
+      213: -1298227539405482395
+    second: maridia_240
+  - first:
+      213: 9118699413391186147
+    second: maridia_241
+  - first:
+      213: 2827219980088616671
+    second: maridia_242
+  - first:
+      213: 293954025395517935
+    second: maridia_243
+  - first:
+      213: -1936402556009023574
+    second: maridia_244
+  - first:
+      213: 4921743623274865314
+    second: maridia_245
+  - first:
+      213: -5204197649914269889
+    second: maridia_246
+  - first:
+      213: 6166226226657520236
+    second: maridia_247
+  - first:
+      213: -3278500688221860615
+    second: maridia_248
+  - first:
+      213: -202531513553911793
+    second: maridia_249
+  - first:
+      213: 295219803801697080
+    second: maridia_250
+  - first:
+      213: -8404365810248622314
+    second: maridia_251
+  - first:
+      213: -4328594039674272896
+    second: maridia_252
+  - first:
+      213: -1011246121558989959
+    second: maridia_253
+  - first:
+      213: 4975072722097365213
+    second: maridia_254
+  - first:
+      213: 5068786823720444965
+    second: maridia_255
+  - first:
+      213: 7873546633745122226
+    second: maridia_256
+  - first:
+      213: 2680179058676741639
+    second: maridia_257
+  - first:
+      213: -7742173754098024016
+    second: maridia_258
+  - first:
+      213: -4220666003192414098
+    second: maridia_259
+  - first:
+      213: -105040158433765069
+    second: maridia_260
+  - first:
+      213: -6787368451793146347
+    second: maridia_261
+  - first:
+      213: 5730179184937779958
+    second: maridia_262
+  - first:
+      213: -8553137181703162243
+    second: maridia_263
+  - first:
+      213: 5507135963050733116
+    second: maridia_264
+  - first:
+      213: 857455865252062366
+    second: maridia_265
+  - first:
+      213: 155035725364152589
+    second: maridia_266
+  - first:
+      213: 6711520912726424016
+    second: maridia_267
+  - first:
+      213: -8353513652610505148
+    second: maridia_268
+  - first:
+      213: -8362621185820035137
+    second: maridia_269
+  - first:
+      213: -6723341831596431756
+    second: maridia_270
+  - first:
+      213: 7225549151298066031
+    second: maridia_271
+  - first:
+      213: 8459804328778776866
+    second: maridia_272
+  - first:
+      213: 2746111303235699735
+    second: maridia_273
+  - first:
+      213: -7844517182135364208
+    second: maridia_274
+  - first:
+      213: 3089475410067106619
+    second: maridia_275
+  - first:
+      213: 9072033426861724166
+    second: maridia_276
+  - first:
+      213: -3863212974402846284
+    second: maridia_277
+  - first:
+      213: -7367092620508142871
+    second: maridia_278
+  - first:
+      213: 1296587801265498401
+    second: maridia_279
+  - first:
+      213: 7181514875743085356
+    second: maridia_280
+  - first:
+      213: -459114523319848458
+    second: maridia_281
+  - first:
+      213: 4633879201568467365
+    second: maridia_282
+  - first:
+      213: 3668446065281100660
+    second: maridia_283
+  - first:
+      213: -3592597138602206301
+    second: maridia_284
+  - first:
+      213: -5999414756240678184
+    second: maridia_285
+  - first:
+      213: 7212545523376852593
+    second: maridia_286
+  - first:
+      213: 9023410111876733806
+    second: maridia_287
+  - first:
+      213: 6939705957688529629
+    second: maridia_288
+  - first:
+      213: -8748899544012056813
+    second: maridia_289
+  - first:
+      213: -5679433327941910023
+    second: maridia_290
+  - first:
+      213: -7358989251710752619
+    second: maridia_291
+  - first:
+      213: 4666713205721304658
+    second: maridia_292
+  - first:
+      213: 3654473660394247806
+    second: maridia_293
+  - first:
+      213: -2521001276099094923
+    second: maridia_294
+  - first:
+      213: -4961270691078837350
+    second: maridia_295
+  - first:
+      213: 1256137869960095277
+    second: maridia_296
+  - first:
+      213: -1612913719785681721
+    second: maridia_297
+  - first:
+      213: -2979287989000542798
+    second: maridia_298
+  - first:
+      213: -1852354819890041482
+    second: maridia_299
+  - first:
+      213: 7730619340233125364
+    second: maridia_300
+  - first:
+      213: 6610401668749490137
+    second: maridia_301
+  - first:
+      213: -3667350971538696035
+    second: maridia_302
+  - first:
+      213: -7931483438877828152
+    second: maridia_303
+  - first:
+      213: -8028246763491357384
+    second: maridia_304
+  - first:
+      213: -5084396641540671065
+    second: maridia_305
+  - first:
+      213: -6457136259930483409
+    second: maridia_306
+  - first:
+      213: -6779709140787323523
+    second: maridia_307
+  - first:
+      213: -2605313219294182477
+    second: maridia_308
+  - first:
+      213: -2084956026398369737
+    second: maridia_309
+  - first:
+      213: -3304138429614118832
+    second: maridia_310
+  - first:
+      213: -111317827608497046
+    second: maridia_311
+  - first:
+      213: -1815080908353548869
+    second: maridia_312
+  - first:
+      213: -1897750622663579382
+    second: maridia_313
+  - first:
+      213: 4729939852330920066
+    second: maridia_314
+  - first:
+      213: -8722018113547007687
+    second: maridia_315
+  - first:
+      213: 6058259068190233660
+    second: maridia_316
+  - first:
+      213: -2124287094029682632
+    second: maridia_317
+  - first:
+      213: -2787073537458688862
+    second: maridia_318
+  - first:
+      213: 768597648580293510
+    second: maridia_319
+  - first:
+      213: -6900225695543018561
+    second: maridia_320
+  - first:
+      213: 3706188048389373625
+    second: maridia_321
+  - first:
+      213: 3890045038508833753
+    second: maridia_322
+  - first:
+      213: 8714579342189237644
+    second: maridia_323
+  - first:
+      213: 4890454778659481760
+    second: maridia_324
+  - first:
+      213: -9102420209470065368
+    second: maridia_325
+  - first:
+      213: -8348050548622799063
+    second: maridia_326
+  - first:
+      213: -3159423836252201132
+    second: maridia_327
+  - first:
+      213: -1578729483544976263
+    second: maridia_328
+  - first:
+      213: 6868361738935580663
+    second: maridia_329
+  - first:
+      213: 4849184792068761808
+    second: maridia_330
+  - first:
+      213: 3579818269677488693
+    second: maridia_331
+  - first:
+      213: 6146474406462387225
+    second: maridia_332
+  - first:
+      213: -2310152714380548783
+    second: maridia_333
+  - first:
+      213: 1715637434356228273
+    second: maridia_334
+  - first:
+      213: -2003637913434521205
+    second: maridia_335
+  - first:
+      213: -4953235225723757572
+    second: maridia_336
+  - first:
+      213: 5153998328320877657
+    second: maridia_337
+  - first:
+      213: -2476995454733369696
+    second: maridia_338
+  - first:
+      213: 3836859985045183777
+    second: maridia_339
+  - first:
+      213: 103261060686203864
+    second: maridia_340
+  - first:
+      213: 6383709645095898222
+    second: maridia_341
+  - first:
+      213: -4645691039704344213
+    second: maridia_342
+  - first:
+      213: 6603377393663473473
+    second: maridia_343
+  - first:
+      213: -7621381645927731260
+    second: maridia_344
+  - first:
+      213: 1668548921892157967
+    second: maridia_345
+  - first:
+      213: -2082899524263873508
+    second: maridia_346
+  - first:
+      213: 498646255636832965
+    second: maridia_347
+  - first:
+      213: 8857061865869996101
+    second: maridia_348
+  - first:
+      213: -1716085619802380015
+    second: maridia_349
+  - first:
+      213: -3959790145525771512
+    second: maridia_350
+  - first:
+      213: -7885785261698695595
+    second: maridia_351
+  - first:
+      213: -3808958415751340673
+    second: maridia_352
+  - first:
+      213: -1550941069113910903
+    second: maridia_353
+  - first:
+      213: 5497993596544041136
+    second: maridia_354
+  - first:
+      213: -7883804421336375170
+    second: maridia_355
+  - first:
+      213: -5581172078193863962
+    second: maridia_356
+  - first:
+      213: -3240766468842871248
+    second: maridia_357
+  - first:
+      213: -830602788893937886
+    second: maridia_358
+  - first:
+      213: 2696242423522693355
+    second: maridia_359
+  - first:
+      213: -8989610308251617913
+    second: maridia_360
+  - first:
+      213: 6461109681047707596
+    second: maridia_361
+  - first:
+      213: 4545364438483643840
+    second: maridia_362
+  - first:
+      213: 322338836424088137
+    second: maridia_363
+  - first:
+      213: 5695307263421536875
+    second: maridia_364
+  - first:
+      213: -776496316214892313
+    second: maridia_365
+  - first:
+      213: 1683087915062826165
+    second: maridia_366
+  - first:
+      213: -7081772074311089322
+    second: maridia_367
+  - first:
+      213: 243524527410240130
+    second: maridia_368
+  - first:
+      213: 7141542424828795218
+    second: maridia_369
+  - first:
+      213: -3515855407020240542
+    second: maridia_370
+  - first:
+      213: -3767626838676766994
+    second: maridia_371
+  - first:
+      213: -561203867722294643
+    second: maridia_372
+  - first:
+      213: 6341731497230028510
+    second: maridia_373
+  - first:
+      213: 8879786686207752517
+    second: maridia_374
+  - first:
+      213: -4656149474990258073
+    second: maridia_375
+  - first:
+      213: 4908696440054019248
+    second: maridia_376
+  - first:
+      213: -1286940457184037431
+    second: maridia_377
+  - first:
+      213: -3234442656305330958
+    second: maridia_378
+  - first:
+      213: -2273763899825574750
+    second: maridia_379
+  - first:
+      213: 6152279063628657722
+    second: maridia_380
+  - first:
+      213: 1544964777263836596
+    second: maridia_381
+  - first:
+      213: 8076569153261933622
+    second: maridia_382
+  - first:
+      213: -7138766816419054926
+    second: maridia_383
+  - first:
+      213: -4555213103383281652
+    second: maridia_384
+  - first:
+      213: -1783872585743436988
+    second: maridia_385
+  - first:
+      213: 4142805131930355427
+    second: maridia_386
+  - first:
+      213: 4846398749114084044
+    second: maridia_387
+  - first:
+      213: 125131733364355906
+    second: maridia_388
+  - first:
+      213: -470905988150390789
+    second: maridia_389
+  - first:
+      213: -941579089860439637
+    second: maridia_390
+  - first:
+      213: 8405878746563543471
+    second: maridia_391
+  - first:
+      213: 1185882580280520646
+    second: maridia_392
+  - first:
+      213: -5694616144574531339
+    second: maridia_393
+  - first:
+      213: 725040400885740303
+    second: maridia_394
+  - first:
+      213: 6674234820204066631
+    second: maridia_395
+  - first:
+      213: -2147015603633984791
+    second: maridia_396
+  - first:
+      213: -3173005628766291182
+    second: maridia_397
+  - first:
+      213: -5581144394194325479
+    second: maridia_398
+  - first:
+      213: -4210797039631929233
+    second: maridia_399
+  - first:
+      213: -1633087853364011195
+    second: maridia_400
+  - first:
+      213: 3312164586587281817
+    second: maridia_401
+  - first:
+      213: -6914425503016347246
+    second: maridia_402
+  - first:
+      213: 6218187713155440433
+    second: maridia_403
+  - first:
+      213: -6948824757384813094
+    second: maridia_404
+  - first:
+      213: 5952269501184061483
+    second: maridia_405
+  - first:
+      213: 5266020264950282034
+    second: maridia_406
+  - first:
+      213: 269460996585848942
+    second: maridia_407
+  - first:
+      213: 8904987119489038619
+    second: maridia_408
+  - first:
+      213: -4044956896682261297
+    second: maridia_409
+  - first:
+      213: -1235094205773705072
+    second: maridia_410
+  - first:
+      213: 2584125165698402185
+    second: maridia_411
+  - first:
+      213: 362714942320474360
+    second: maridia_412
+  - first:
+      213: -290165359095565946
+    second: maridia_413
+  - first:
+      213: -440503642520936997
+    second: maridia_414
+  - first:
+      213: -8317651914412613819
+    second: maridia_415
+  - first:
+      213: 3838722143185872659
+    second: maridia_416
+  - first:
+      213: -6635036142029903739
+    second: maridia_417
+  - first:
+      213: -4681853371153582989
+    second: maridia_418
+  - first:
+      213: -1091537115572433952
+    second: maridia_419
+  - first:
+      213: 9201120147339652387
+    second: maridia_420
+  - first:
+      213: 2751794850253866855
+    second: maridia_421
+  - first:
+      213: 7922555826728138380
+    second: maridia_422
+  - first:
+      213: 7291180539300469678
+    second: maridia_423
+  - first:
+      213: 8103827807555436719
+    second: maridia_424
+  - first:
+      213: -6015075925086036842
+    second: maridia_425
+  - first:
+      213: 8032143286854205390
+    second: maridia_426
+  - first:
+      213: 1922107489303924157
+    second: maridia_427
+  - first:
+      213: -5816793083042844217
+    second: maridia_428
+  - first:
+      213: 1236294772660206303
+    second: maridia_429
+  - first:
+      213: 5636476133427262930
+    second: maridia_430
+  - first:
+      213: -6718612711241799184
+    second: maridia_431
+  - first:
+      213: 6819875054251337331
+    second: maridia_432
+  - first:
+      213: -4476414537985699855
+    second: maridia_433
+  - first:
+      213: -5345201650141385030
+    second: maridia_434
+  - first:
+      213: -564423765608149094
+    second: maridia_435
+  - first:
+      213: 5182830594508828649
+    second: maridia_436
+  - first:
+      213: 5389598296856393816
+    second: maridia_437
+  - first:
+      213: -122736336685406026
+    second: maridia_438
+  - first:
+      213: -648013572697094333
+    second: maridia_439
+  - first:
+      213: 6084897394478903909
+    second: maridia_440
+  - first:
+      213: 3907775634456980976
+    second: maridia_441
+  - first:
+      213: -639100249611612657
+    second: maridia_442
+  - first:
+      213: -4779969482214836281
+    second: maridia_443
+  - first:
+      213: -7612976254365210871
+    second: maridia_444
+  - first:
+      213: -8804609966269301287
+    second: maridia_445
+  - first:
+      213: -3354294484297331662
+    second: maridia_446
+  - first:
+      213: 4208573805111151529
+    second: maridia_447
+  - first:
+      213: 9205877993526201326
+    second: maridia_448
+  - first:
+      213: 2157860753654876507
+    second: maridia_449
+  - first:
+      213: 3758224174707750976
+    second: maridia_450
+  - first:
+      213: 7258721357350241040
+    second: maridia_451
+  - first:
+      213: 3615905266974119953
+    second: maridia_452
+  - first:
+      213: -6275903936179718787
+    second: maridia_453
+  - first:
+      213: -6588049316572173334
+    second: maridia_454
+  - first:
+      213: 3233906753706813907
+    second: maridia_455
+  - first:
+      213: -9005435479357993080
+    second: maridia_456
+  - first:
+      213: -3491951681963570179
+    second: maridia_457
+  - first:
+      213: 3571945977707056322
+    second: maridia_458
+  - first:
+      213: 487627776249351737
+    second: maridia_459
+  - first:
+      213: -8609012288068101483
+    second: maridia_460
+  - first:
+      213: -604054172319972203
+    second: maridia_461
+  - first:
+      213: -2971573822107798590
+    second: maridia_462
+  - first:
+      213: -166654631745939193
+    second: maridia_463
+  - first:
+      213: 2386808462715135648
+    second: maridia_464
+  - first:
+      213: 8968666472607107204
+    second: maridia_465
+  - first:
+      213: -7192402824725171812
+    second: maridia_466
+  - first:
+      213: -990727903291245546
+    second: maridia_467
+  - first:
+      213: -178645562739117306
+    second: maridia_468
+  - first:
+      213: 5624184914147511277
+    second: maridia_469
+  - first:
+      213: -2787941781352151557
+    second: maridia_470
+  - first:
+      213: -8655108488611213627
+    second: maridia_471
+  - first:
+      213: -7803991693626182940
+    second: maridia_472
+  - first:
+      213: 7725221185002222897
+    second: maridia_473
+  - first:
+      213: -359226146228908482
+    second: maridia_474
+  - first:
+      213: -5692325459472363771
+    second: maridia_475
+  - first:
+      213: 4685717803352873472
+    second: maridia_476
+  - first:
+      213: -4305610654796132812
+    second: maridia_477
+  - first:
+      213: 3093410462674327619
+    second: maridia_478
+  - first:
+      213: -70584839889807802
+    second: maridia_479
+  - first:
+      213: 6477592967673580324
+    second: maridia_480
+  - first:
+      213: 7525172695940106806
+    second: maridia_481
+  - first:
+      213: -6448471889457680894
+    second: maridia_482
+  - first:
+      213: -9145661187244774571
+    second: maridia_483
+  - first:
+      213: -7044137117972248366
+    second: maridia_484
+  - first:
+      213: -790802283276581726
+    second: maridia_485
+  - first:
+      213: 1432989663310639752
+    second: maridia_486
+  - first:
+      213: 1406644027766369144
+    second: maridia_487
+  - first:
+      213: -2769305496974085661
+    second: maridia_488
+  - first:
+      213: -9008312255763927578
+    second: maridia_489
+  - first:
+      213: -8151517732809785347
+    second: maridia_490
+  - first:
+      213: 3391578636702858005
+    second: maridia_491
+  - first:
+      213: -8830183274384235758
+    second: maridia_492
+  - first:
+      213: 1669845908623290846
+    second: maridia_493
+  - first:
+      213: -5165031912239554640
+    second: maridia_494
+  - first:
+      213: -6228430101993389622
+    second: maridia_495
+  - first:
+      213: 2881224829939501383
+    second: maridia_496
+  - first:
+      213: -7692186453824418530
+    second: maridia_497
+  - first:
+      213: -4354395374806937333
+    second: maridia_498
+  - first:
+      213: 4039772162790561712
+    second: maridia_499
+  - first:
+      213: -7871005845374702724
+    second: maridia_500
+  - first:
+      213: -6387302574149659825
+    second: maridia_501
+  - first:
+      213: -6896004046378536374
+    second: maridia_502
+  - first:
+      213: 6816274288987103080
+    second: maridia_503
+  - first:
+      213: -2852623312031889265
+    second: maridia_504
+  - first:
+      213: -4109305500005217589
+    second: maridia_505
+  - first:
+      213: -3470573367361048560
+    second: maridia_506
+  - first:
+      213: -5345239509362397560
+    second: maridia_507
+  - first:
+      213: -8507813739275260173
+    second: maridia_508
+  - first:
+      213: -2207210774171999555
+    second: maridia_509
+  - first:
+      213: 7882975978972338598
+    second: maridia_510
+  - first:
+      213: 5859330129375890633
+    second: maridia_511
+  - first:
+      213: -2435326009090586138
+    second: maridia_512
+  - first:
+      213: -8185898912437182440
+    second: maridia_513
+  - first:
+      213: 7142320285361821694
+    second: maridia_514
+  - first:
+      213: 5662436625770419313
+    second: maridia_515
+  - first:
+      213: -4427538172527603137
+    second: maridia_516
+  - first:
+      213: 8859485342123636358
+    second: maridia_517
+  - first:
+      213: 6886830245492572800
+    second: maridia_518
+  - first:
+      213: 5370033600541113457
+    second: maridia_519
+  - first:
+      213: 6267257741755818277
+    second: maridia_520
+  - first:
+      213: -2331329819722937500
+    second: maridia_521
+  - first:
+      213: -4684581654785697800
+    second: maridia_522
+  - first:
+      213: -817967464889057622
+    second: maridia_523
+  - first:
+      213: 341712920073567391
+    second: maridia_524
+  - first:
+      213: 2255311009255922269
+    second: maridia_525
+  - first:
+      213: 3495162051781254010
+    second: maridia_526
+  - first:
+      213: -3630928064173015528
+    second: maridia_527
+  - first:
+      213: 8677058184749978932
+    second: maridia_528
+  - first:
+      213: 6270240201460016713
+    second: maridia_529
+  - first:
+      213: -757523601881398774
+    second: maridia_530
+  - first:
+      213: 6891584359799024579
+    second: maridia_531
+  - first:
+      213: -3112842267705711606
+    second: maridia_532
+  - first:
+      213: -4903614353726945407
+    second: maridia_533
+  - first:
+      213: 2555240242887443645
+    second: maridia_534
+  - first:
+      213: 4743819216899692061
+    second: maridia_535
+  - first:
+      213: 5159186103202227389
+    second: maridia_536
+  - first:
+      213: -5125339459273274506
+    second: maridia_537
+  - first:
+      213: -3495899183085125797
+    second: maridia_538
+  - first:
+      213: 8088444896652361268
+    second: maridia_539
+  - first:
+      213: -2395102268960186240
+    second: maridia_540
+  - first:
+      213: 1089499484107843932
+    second: maridia_541
+  - first:
+      213: -8970797127282562441
+    second: maridia_542
+  - first:
+      213: -3833952360509435972
+    second: maridia_543
+  - first:
+      213: -4043320201696383190
+    second: maridia_544
+  - first:
+      213: 1991707671534456942
+    second: maridia_545
+  - first:
+      213: -7666998830311531717
+    second: maridia_546
+  - first:
+      213: 1425873668089972837
+    second: maridia_547
+  - first:
+      213: 3996563208478634774
+    second: maridia_548
+  - first:
+      213: 3657773625094337433
+    second: maridia_549
+  - first:
+      213: 5055030746294446987
+    second: maridia_550
+  - first:
+      213: 815457876109051280
+    second: maridia_551
+  - first:
+      213: 2986960352668469307
+    second: maridia_552
+  - first:
+      213: -5431106228921498379
+    second: maridia_553
+  - first:
+      213: 6012501793103512268
+    second: maridia_554
+  - first:
+      213: 1497589400897401135
+    second: maridia_555
+  - first:
+      213: 4305321684329038165
+    second: maridia_556
+  - first:
+      213: -4276225456776228711
+    second: maridia_557
+  - first:
+      213: 5012622552045013923
+    second: maridia_558
+  - first:
+      213: 6803622345709229154
+    second: maridia_559
+  - first:
+      213: -7847945975032458587
+    second: maridia_560
+  - first:
+      213: 3143916490747497568
+    second: maridia_561
+  - first:
+      213: 1528240959012549512
+    second: maridia_562
+  - first:
+      213: -5224986439674803255
+    second: maridia_563
+  - first:
+      213: 8728360397799736314
+    second: maridia_564
+  - first:
+      213: 6552815535462999211
+    second: maridia_565
+  - first:
+      213: -3931566535050269013
+    second: maridia_566
+  - first:
+      213: 1578885867096805437
+    second: maridia_567
+  - first:
+      213: 5519416885512289134
+    second: maridia_568
+  - first:
+      213: -7549590443100428934
+    second: maridia_569
+  - first:
+      213: -8609884625530016600
+    second: maridia_570
+  - first:
+      213: 6859003633789648497
+    second: maridia_571
+  - first:
+      213: -5036181919465843622
+    second: maridia_572
+  - first:
+      213: 2222532940405369781
+    second: maridia_573
+  - first:
+      213: -5096234393227801240
+    second: maridia_574
+  - first:
+      213: -442710118317572828
+    second: maridia_575
+  - first:
+      213: 7979227007739251254
+    second: maridia_576
+  - first:
+      213: -5785710532403456374
+    second: maridia_577
+  - first:
+      213: -3882014203771254318
+    second: maridia_578
+  - first:
+      213: -2975244936373016664
+    second: maridia_579
+  - first:
+      213: 4653496483109388119
+    second: maridia_580
+  - first:
+      213: 8635193956101994049
+    second: maridia_581
+  - first:
+      213: 8610673562388024585
+    second: maridia_582
+  - first:
+      213: 1043407810414225820
+    second: maridia_583
+  - first:
+      213: -754581576711092537
+    second: maridia_584
+  - first:
+      213: -512727911154568685
+    second: maridia_585
+  - first:
+      213: -6070111080897540679
+    second: maridia_586
+  - first:
+      213: 4121330909579924196
+    second: maridia_587
+  - first:
+      213: 6127543872921147631
+    second: maridia_588
+  - first:
+      213: -1333400000654103929
+    second: maridia_589
+  - first:
+      213: -3784793728141717448
+    second: maridia_590
+  - first:
+      213: 434672269592750460
+    second: maridia_591
+  - first:
+      213: -559798904346434328
+    second: maridia_592
+  - first:
+      213: -6007556171420045465
+    second: maridia_593
+  - first:
+      213: -755785211220540306
+    second: maridia_594
+  - first:
+      213: 8850322657095606548
+    second: maridia_595
+  - first:
+      213: -3641528275597724167
+    second: maridia_596
+  - first:
+      213: 653705044755040575
+    second: maridia_597
+  - first:
+      213: 8650615741714708498
+    second: maridia_598
+  - first:
+      213: 1116411862671713054
+    second: maridia_599
+  - first:
+      213: 3676342170802158108
+    second: maridia_600
+  - first:
+      213: -1692922699003497850
+    second: maridia_601
+  - first:
+      213: 994733085119407834
+    second: maridia_602
+  - first:
+      213: -2510449805697897733
+    second: maridia_603
+  - first:
+      213: 4981640809933470024
+    second: maridia_604
+  - first:
+      213: -7501677241695223404
+    second: maridia_605
+  - first:
+      213: 963812269538208107
+    second: maridia_606
+  - first:
+      213: -9125914082428519207
+    second: maridia_607
+  - first:
+      213: 6233656776920862651
+    second: maridia_608
+  - first:
+      213: 9160179523629425446
+    second: maridia_609
+  - first:
+      213: -7547892175584962520
+    second: maridia_610
+  - first:
+      213: 2011042713909706348
+    second: maridia_611
+  - first:
+      213: -835232388817664309
+    second: maridia_612
+  - first:
+      213: 2824866621673448204
+    second: maridia_613
+  - first:
+      213: -6124038249926536862
+    second: maridia_614
+  - first:
+      213: 4177857829254744473
+    second: maridia_615
+  - first:
+      213: 5690715884958313088
+    second: maridia_616
+  - first:
+      213: 2205123352563133400
+    second: maridia_617
+  - first:
+      213: 8016852710335407639
+    second: maridia_618
+  - first:
+      213: 2406253447833153266
+    second: maridia_619
+  - first:
+      213: -6459817596944776237
+    second: maridia_620
+  - first:
+      213: 7533634838026512224
+    second: maridia_621
+  - first:
+      213: 8567401751477001033
+    second: maridia_622
+  - first:
+      213: 2442857022492330302
+    second: maridia_623
+  - first:
+      213: -2418029203599740906
+    second: maridia_624
+  - first:
+      213: -9012246835372384414
+    second: maridia_625
+  - first:
+      213: 5954845213700737220
+    second: maridia_626
+  - first:
+      213: 2412707642682965457
+    second: maridia_627
+  - first:
+      213: -340636852045443079
+    second: maridia_628
+  - first:
+      213: -6218078876601917212
+    second: maridia_629
+  - first:
+      213: 4126795396716557396
+    second: maridia_630
+  - first:
+      213: 4421732073905562311
+    second: maridia_631
+  - first:
+      213: -607400827869225882
+    second: maridia_632
+  - first:
+      213: 4800321170220223329
+    second: maridia_633
+  - first:
+      213: -1534549077441994473
+    second: maridia_634
+  - first:
+      213: 7311621700420858111
+    second: maridia_635
+  - first:
+      213: -7489570468415139411
+    second: maridia_636
+  - first:
+      213: -7270422167465592303
+    second: maridia_637
+  - first:
+      213: 6496771065487059309
+    second: maridia_638
+  - first:
+      213: 8972182565380929025
+    second: maridia_639
+  - first:
+      213: 6190629063697601989
+    second: maridia_640
+  - first:
+      213: 1370922824303454115
+    second: maridia_641
+  - first:
+      213: -2407121522307562340
+    second: maridia_642
+  - first:
+      213: 4525242380391830196
+    second: maridia_643
+  - first:
+      213: 6156650452542424371
+    second: maridia_644
+  - first:
+      213: 1313427235741617117
+    second: maridia_645
+  - first:
+      213: 2060448581725167421
+    second: maridia_646
+  - first:
+      213: -1037701053590567320
+    second: maridia_647
+  - first:
+      213: 802275930419733452
+    second: maridia_648
+  - first:
+      213: 3142027294232497168
+    second: maridia_649
+  - first:
+      213: -5299232813906607448
+    second: maridia_650
+  - first:
+      213: 5726978213586683455
+    second: maridia_651
+  - first:
+      213: -7090350508315829046
+    second: maridia_652
+  - first:
+      213: 4182949932153491718
+    second: maridia_653
+  - first:
+      213: 8477103953847544771
+    second: maridia_654
+  - first:
+      213: -7310900309146828655
+    second: maridia_655
+  - first:
+      213: -3026915143783760447
+    second: maridia_656
+  - first:
+      213: -2552996655933716595
+    second: maridia_657
+  - first:
+      213: -7909994224897911273
+    second: maridia_658
+  - first:
+      213: -1146387756957755632
+    second: maridia_659
+  - first:
+      213: 2344357330412499598
+    second: maridia_660
+  - first:
+      213: 1311580707303171518
+    second: maridia_661
+  - first:
+      213: 1933920588677626293
+    second: maridia_662
+  - first:
+      213: 2806052589980987499
+    second: maridia_663
+  - first:
+      213: -6589464662247172553
+    second: maridia_664
+  - first:
+      213: 6316899188462326351
+    second: maridia_665
+  - first:
+      213: 2708955451018171039
+    second: maridia_666
+  - first:
+      213: 1543711054608051144
+    second: maridia_667
+  - first:
+      213: 2450413183816269485
+    second: maridia_668
+  - first:
+      213: -1167021830720942400
+    second: maridia_669
+  - first:
+      213: -3554114470777870784
+    second: maridia_670
+  - first:
+      213: -272466842322065184
+    second: maridia_671
+  - first:
+      213: 7760733815102898517
+    second: maridia_672
+  - first:
+      213: -7406421679151419873
+    second: maridia_673
+  - first:
+      213: -5507491350512313136
+    second: maridia_674
+  - first:
+      213: -7841502024637720430
+    second: maridia_675
+  - first:
+      213: 920692122481598488
+    second: maridia_676
+  - first:
+      213: 978681005974316461
+    second: maridia_677
+  - first:
+      213: -4306250509422637576
+    second: maridia_678
+  - first:
+      213: 9213259222392931836
+    second: maridia_679
+  - first:
+      213: -8345872919405479079
+    second: maridia_680
+  - first:
+      213: 7017924687005060833
+    second: maridia_681
+  - first:
+      213: 378772607423899930
+    second: maridia_682
+  - first:
+      213: 314024101158842811
+    second: maridia_683
+  - first:
+      213: -5554517675462328107
+    second: maridia_684
+  - first:
+      213: 7821433283261533042
+    second: maridia_685
+  - first:
+      213: -8157158623238338714
+    second: maridia_686
+  - first:
+      213: 1993378630341561570
+    second: maridia_687
+  - first:
+      213: 498272753411319268
+    second: maridia_688
+  - first:
+      213: 7433867499065280977
+    second: maridia_689
+  - first:
+      213: 8011998193820815634
+    second: maridia_690
+  - first:
+      213: 8527779929507369922
+    second: maridia_691
+  - first:
+      213: 1870108737208668173
+    second: maridia_692
+  - first:
+      213: -5978561496988989458
+    second: maridia_693
+  - first:
+      213: -9023584886878938349
+    second: maridia_694
+  - first:
+      213: -2038319330073016539
+    second: maridia_695
+  - first:
+      213: 6029962982589959672
+    second: maridia_696
+  - first:
+      213: -4040412462546237773
+    second: maridia_697
+  - first:
+      213: -5742065842361159994
+    second: maridia_698
+  - first:
+      213: -1535800110775177514
+    second: maridia_699
+  - first:
+      213: -6370668759080719480
+    second: maridia_700
+  - first:
+      213: -8709202253920084258
+    second: maridia_701
+  - first:
+      213: 4779841233353321234
+    second: maridia_702
+  - first:
+      213: -2787881609989881080
+    second: maridia_703
+  - first:
+      213: 6605352509565477786
+    second: maridia_704
+  - first:
+      213: 675955390966427842
+    second: maridia_705
+  - first:
+      213: -8269579036937704097
+    second: maridia_706
+  - first:
+      213: -5351908202055874637
+    second: maridia_707
+  - first:
+      213: 8089588654173458230
+    second: maridia_708
+  - first:
+      213: -2106038392207527590
+    second: maridia_709
+  - first:
+      213: 1469476464385252348
+    second: maridia_710
+  - first:
+      213: 4638717102743598155
+    second: maridia_711
+  - first:
+      213: 2808680519172750835
+    second: maridia_712
+  - first:
+      213: -6483065968390675323
+    second: maridia_713
+  - first:
+      213: -4374623026608380940
+    second: maridia_714
+  - first:
+      213: -2459309772138895438
+    second: maridia_715
+  - first:
+      213: -6193463588584952596
+    second: maridia_716
+  - first:
+      213: 1328164767596739654
+    second: maridia_717
+  - first:
+      213: 9184870456250837256
+    second: maridia_718
+  - first:
+      213: -9105543282900993580
+    second: maridia_719
+  - first:
+      213: -4903669879835184849
+    second: maridia_720
+  - first:
+      213: -6758243905894192374
+    second: maridia_721
+  - first:
+      213: -3892563095432759560
+    second: maridia_722
+  - first:
+      213: -4089812710486919957
+    second: maridia_723
+  - first:
+      213: -4671318765382495368
+    second: maridia_724
+  - first:
+      213: -1861724263548998544
+    second: maridia_725
+  - first:
+      213: 3193201738338759802
+    second: maridia_726
+  - first:
+      213: 2125184350298671967
+    second: maridia_727
+  - first:
+      213: -1858762840611817207
+    second: maridia_728
+  - first:
+      213: -2560948094438109616
+    second: maridia_729
+  - first:
+      213: 1565734226942405934
+    second: maridia_730
+  - first:
+      213: -6704503335084043738
+    second: maridia_731
+  - first:
+      213: -5285365640066031889
+    second: maridia_732
+  - first:
+      213: 4962911887943636434
+    second: maridia_733
+  - first:
+      213: -7274130062383166966
+    second: maridia_734
+  - first:
+      213: 3049987489881603526
+    second: maridia_735
+  - first:
+      213: -5327913973856416913
+    second: maridia_736
+  - first:
+      213: 2219316053972555963
+    second: maridia_737
+  - first:
+      213: 5767066998203665133
+    second: maridia_738
+  - first:
+      213: 175364615392934064
+    second: maridia_739
+  - first:
+      213: -5524710140177636312
+    second: maridia_740
+  - first:
+      213: 1408571482151882789
+    second: maridia_741
+  - first:
+      213: -2727000761141910902
+    second: maridia_742
+  - first:
+      213: 229661511395712819
+    second: maridia_743
+  - first:
+      213: -513583916001995429
+    second: maridia_744
+  - first:
+      213: -7678065233655051426
+    second: maridia_745
+  - first:
+      213: -7516071848314054283
+    second: maridia_746
+  - first:
+      213: 1456843478689128402
+    second: maridia_747
+  - first:
+      213: 7272206729506145433
+    second: maridia_748
+  - first:
+      213: 2397996748222229471
+    second: maridia_749
+  - first:
+      213: 1627487490901933287
+    second: maridia_750
+  - first:
+      213: 5956243821447093182
+    second: maridia_751
+  - first:
+      213: -4411061435353979259
+    second: maridia_752
+  - first:
+      213: -4186514145234537439
+    second: maridia_753
+  - first:
+      213: 7455077673181016810
+    second: maridia_754
+  - first:
+      213: 998657511893487948
+    second: maridia_755
+  - first:
+      213: -357161169518300271
+    second: maridia_756
+  - first:
+      213: 8657696432470304853
+    second: maridia_757
+  - first:
+      213: 1942869297613664918
+    second: maridia_758
+  - first:
+      213: 4976354706367786438
+    second: maridia_759
+  - first:
+      213: 4506071026621728235
+    second: maridia_760
+  - first:
+      213: 646917905124586321
+    second: maridia_761
+  - first:
+      213: 8873406293249895309
+    second: maridia_762
+  - first:
+      213: -5817746245350847562
+    second: maridia_763
+  - first:
+      213: -5381874360669058859
+    second: maridia_764
+  - first:
+      213: 297061950950768701
+    second: maridia_765
+  - first:
+      213: -508488243501774244
+    second: maridia_766
+  - first:
+      213: -3919214630664472843
+    second: maridia_767
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -13883,6 +16187,2337 @@ TextureImporter:
       bones: []
       spriteID: c5a4d99f2ac71f8f0800000000000000
       internalID: -508488243501774244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd34b788570e4ba0800000000000000
+      internalID: -6102932368225190473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e019f52bc16c450800000000000000
+      internalID: 6108601497007754894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd2213023ecc7400800000000000000
+      internalID: 323359987459042779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf34ab1063fc8170800000000000000
+      internalID: 8182182217131507661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4d939a988aded50800000000000000
+      internalID: 6768251124210848929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_81
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df27be65ccf9e6c0800000000000000
+      internalID: -4113478859729981484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_82
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ecab7f2e98351f0800000000000000
+      internalID: -1057349879590105459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_83
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53123037c8fb8e9d0800000000000000
+      internalID: -2744733362936405707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebe66c9bd4ffb440800000000000000
+      internalID: 4953947339189840867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a75c52ee0c3eb650800000000000000
+      internalID: 6250499367461738409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_93
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a3242c31f72310800000000000000
+      internalID: 1380337051418992845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_157
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef5a5659b3997a40800000000000000
+      internalID: 5366482855215652839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_185
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4a09df03af82510800000000000000
+      internalID: 1524743562184402111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_188
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d56a33ba7565fd0800000000000000
+      internalID: -2353597362436940459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_189
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999976e4ca9488bb0800000000000000
+      internalID: -4933612387385763431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_190
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beae31e1ca7e16a20800000000000000
+      internalID: 3053976748758919915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_191
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2930970e7f1d2f350800000000000000
+      internalID: 6049128112065151890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_205
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd97fabad3e549760800000000000000
+      internalID: 7463694101426174431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_217
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06000ed0388eeee30800000000000000
+      internalID: 4534817524379811936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_296
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2623e7ccb2be6110800000000000000
+      internalID: 1256137869960095277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_297
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc02d67487cd99e0800000000000000
+      internalID: -1612913719785681721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_298
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5e804eb5177a6d0800000000000000
+      internalID: -2979287989000542798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_299
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67da8720b1d1b46e0800000000000000
+      internalID: -1852354819890041482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_311
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a643a3c8605847ef0800000000000000
+      internalID: -111317827608497046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_316
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3494c44682431450800000000000000
+      internalID: 6058259068190233660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_317
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838f96794240582e0800000000000000
+      internalID: -2124287094029682632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_318
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac22ec52635259d0800000000000000
+      internalID: -2787073537458688862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_332
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914783248e9ac4550800000000000000
+      internalID: 6146474406462387225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_333
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15561729850b0ffd0800000000000000
+      internalID: -2310152714380548783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_334
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b06a2e182b2fc710800000000000000
+      internalID: 1715637434356228273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_335
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b810b37fee5a134e0800000000000000
+      internalID: -2003637913434521205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_336
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb98c93ec2924bb0800000000000000
+      internalID: -4953235225723757572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_337
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954e58c2c2ea68740800000000000000
+      internalID: 5153998328320877657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_338
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae3c52f1c1ff9dd0800000000000000
+      internalID: -2476995454733369696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_339
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d578de3d34f3530800000000000000
+      internalID: 3836859985045183777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_340
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbc459336bde6100800000000000000
+      internalID: 103261060686203864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_341
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c0d21991e779850800000000000000
+      internalID: 6383709645095898222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_342
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6915320d90378fb0800000000000000
+      internalID: -4645691039704344213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_343
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f72bd0c8e3ab50800000000000000
+      internalID: 6603377393663473473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_344
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfabc8d5c96b3690800000000000000
+      internalID: -7621381645927731260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_345
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a3eb37760e72710800000000000000
+      internalID: 1668548921892157967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_346
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14fb691bed0813e0800000000000000
+      internalID: -2082899524263873508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_347
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2efc7a02c8be600800000000000000
+      internalID: 498646255636832965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_348
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540f6dc17da9aea70800000000000000
+      internalID: 8857061865869996101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_349
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119e583983d3f28e0800000000000000
+      internalID: -1716085619802380015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_350
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80318dea7dffb09c0800000000000000
+      internalID: -3959790145525771512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_351
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e307dc510109290800000000000000
+      internalID: -7885785261698695595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_352
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d18e8608cd32bc0800000000000000
+      internalID: -3808958415751340673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_353
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98996eb9053f97ae0800000000000000
+      internalID: -1550941069113910903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_367
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653086ab1dd78bd90800000000000000
+      internalID: -7081772074311089322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_375
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768851ac8b8026fb0800000000000000
+      internalID: -4656149474990258073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_376
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4f4a3a7613f1440800000000000000
+      internalID: 4908696440054019248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_377
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c57772097ed32ee0800000000000000
+      internalID: -1286940457184037431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_378
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4cc887a83fc13d0800000000000000
+      internalID: -3234442656305330958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_379
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac2acfa7c7f170e0800000000000000
+      internalID: -2273763899825574750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_380
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34b8a25639416550800000000000000
+      internalID: 6152279063628657722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_381
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd2d438741d07510800000000000000
+      internalID: 1544964777263836596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_382
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6341e087adcb51070800000000000000
+      internalID: 8076569153261933622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_383
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bafefc37610eec90800000000000000
+      internalID: -7138766816419054926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_386
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6cf5661533e7930800000000000000
+      internalID: 4142805131930355427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_387
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaa7d82cfdd14340800000000000000
+      internalID: 4846398749114084044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_388
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243bf4506ae8cb100800000000000000
+      internalID: 125131733364355906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_389
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff01bdaf710779f0800000000000000
+      internalID: -470905988150390789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_390
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1dee47ec6dee2f0800000000000000
+      internalID: -941579089860439637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_391
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa10de90f2ea7a470800000000000000
+      internalID: 8405878746563543471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_392
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfa1f67ce9157010800000000000000
+      internalID: 1185882580280520646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_393
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f83e62b9c8a8f0b0800000000000000
+      internalID: -5694616144574531339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_394
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03f996376cdf0a00800000000000000
+      internalID: 725040400885740303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_395
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7477ec51535af9c50800000000000000
+      internalID: 6674234820204066631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_396
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaec221fa44432e0800000000000000
+      internalID: -2147015603633984791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_397
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf113213837f3d0800000000000000
+      internalID: -3173005628766291182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_398
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91072ef5ebacb82b0800000000000000
+      internalID: -5581144394194325479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_399
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60f877f66e3095c0800000000000000
+      internalID: -4210797039631929233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_400
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f9b35ff3b1659e0800000000000000
+      internalID: -1633087853364011195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_401
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d925942c27fd20800000000000000
+      internalID: 3312164586587281817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_402
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2991fc2a3a60b00a0800000000000000
+      internalID: -6914425503016347246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_403
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f145d97c07b4650800000000000000
+      internalID: 6218187713155440433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_404
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad563a913b0d09f90800000000000000
+      internalID: -6948824757384813094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_405
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20b7792395ba9250800000000000000
+      internalID: 5952269501184061483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_406
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237be58c789a41940800000000000000
+      internalID: 5266020264950282034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_407
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60825649515db300800000000000000
+      internalID: 269460996585848942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_408
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19b292ca9ed49b70800000000000000
+      internalID: 8904987119489038619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_409
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4cc71322d6dd7c0800000000000000
+      internalID: -4044956896682261297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_416
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31725086371e54530800000000000000
+      internalID: 3838722143185872659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_417
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588ed6268cd9be3a0800000000000000
+      internalID: -6635036142029903739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_418
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374fce91a27b60fb0800000000000000
+      internalID: -4681853371153582989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_419
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb862fc6c41ad0f0800000000000000
+      internalID: -1091537115572433952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_420
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32daedd3602f0bf70800000000000000
+      internalID: 9201120147339652387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_423
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabde36f11a7f2560800000000000000
+      internalID: 7291180539300469678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_427
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd0418e392bcaa10800000000000000
+      internalID: 1922107489303924157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_457
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbcbb742781a8fc0800000000000000
+      internalID: -3491951681963570179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_458
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc4d1611f9129130800000000000000
+      internalID: 3571945977707056322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_483
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ba2322b95141180800000000000000
+      internalID: -9145661187244774571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_484
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8ce16dc923e3e90800000000000000
+      internalID: -7044137117972248366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_485
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a44bb163818605f0800000000000000
+      internalID: -790802283276581726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_507
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e221d8cf4e1d5b0800000000000000
+      internalID: -5345239509362397560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_528
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4351b6d227a1b6870800000000000000
+      internalID: 8677058184749978932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_529
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946e568fd3e540750800000000000000
+      internalID: 6270240201460016713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_575
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42db5333e7d2bd9f0800000000000000
+      internalID: -442710118317572828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_599
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1364919caa4e7f00800000000000000
+      internalID: 1116411862671713054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_735
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd37c7667bb35a20800000000000000
+      internalID: 3049987489881603526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_740
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824a6bf06694453b0800000000000000
+      internalID: -5524710140177636312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_741
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5209862dc404c8310800000000000000
+      internalID: 1408571482151882789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_742
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82aae9814fb72ad0800000000000000
+      internalID: -2727000761141910902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_743
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f12558debef2300800000000000000
+      internalID: 229661511395712819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_744
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55d85446226fd8f0800000000000000
+      internalID: -513583916001995429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_747
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df1c98dc6fb73410800000000000000
+      internalID: 1456843478689128402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_748
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9944b6d9d711ce460800000000000000
+      internalID: 7272206729506145433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_749
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbe35e5655674120800000000000000
+      internalID: 2397996748222229471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_764
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c98a88cdbf45b0800000000000000
+      internalID: -5381874360669058859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maridia_767
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6fabcee072c99c0800000000000000
+      internalID: -3919214630664472843
       vertices: []
       indices: 
       edges: []
