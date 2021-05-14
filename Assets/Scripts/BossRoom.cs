@@ -55,7 +55,7 @@ public class BossRoom : Room
 
             timeLastshot = Time.time;
 
-            for (int i = 0; i < doors.Length - 1; i++)
+            for (int i = 0; i < doors.Length; i++)
             {
                 doors[i].SetDoorLocked(true);
             }
@@ -67,20 +67,17 @@ public class BossRoom : Room
     public override void DestroyEntities()
     {
         if (!bossDefeated)
+        {
             boss.ResetBoss();
-
-        GameObject[] pickups = GameObject.FindGameObjectsWithTag("Pickup");
-
-        foreach (GameObject p in pickups)
-        {
-            Destroy(p);
         }
 
-        GameObject[] projectiles = GameObject.FindGameObjectsWithTag("Projectile");
+        battling = false;
 
-        foreach (GameObject proj in projectiles)
+        for (int i = 0; i < doors.Length; i++)
         {
-            Destroy(proj);
+            doors[i].SetDoorLocked(false);
         }
+
+        base.DestroyEntities();
     }
 }

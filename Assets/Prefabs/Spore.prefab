@@ -155,8 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1baae928836b3645a2387bca5f5dc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 40
-  damage: 23
+  moveSpeed: 50
+  damage: 12
   lifeTime: 10
 --- !u!114 &4526877770513109367
 MonoBehaviour:
@@ -171,12 +171,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropLifetime: 5
-  dropProbability: 100
-  rareDropProbability: 40
+  dropProbability: 60
+  rareDropProbability: 5
   pickups:
   - {fileID: 1807312287461883585, guid: 76602e3695f3f3645a6effcacae7f4c8, type: 3}
   - {fileID: 6042382094255233604, guid: e151e4557607a6c4da015cdaf634a188, type: 3}
   - {fileID: 7865633975652034003, guid: 44e9c8ea946840642b713b3cc6349aca, type: 3}
   rarePickups:
   - {fileID: 1118787488735724925, guid: a7f82018c8c8a17488e074b071ce1e37, type: 3}
-  - {fileID: 6463817652455844070, guid: a3a995e7d6bdabf4a99a3aca6883b6b7, type: 3}

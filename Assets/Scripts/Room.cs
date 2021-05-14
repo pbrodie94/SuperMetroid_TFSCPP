@@ -77,6 +77,9 @@ public class Room : MonoBehaviour
 
         //Move player to new room
         player.position = destination.position;
+        Vector3 pos = player.position;
+        pos.z = cam.transform.position.z;
+        cam.transform.position = pos;
 
         gm.SetCurrentRoom(this);
 
@@ -102,6 +105,9 @@ public class Room : MonoBehaviour
 
         //Move player to new room
         player.position = destination.position;
+        Vector3 pos = player.position;
+        pos.z = cam.transform.position.z;
+        cam.transform.position = pos;
 
         gm.SetCurrentRoom(this);
 

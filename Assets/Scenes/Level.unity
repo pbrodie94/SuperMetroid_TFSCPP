@@ -16560,6 +16560,10 @@ MonoBehaviour:
   doorDestinations:
   - door: {fileID: 1533306114}
     destinationDoor: {fileID: 149853717}
+  - door: {fileID: 592934634}
+    destinationDoor: {fileID: 806921907}
+  - door: {fileID: 1622384807}
+    destinationDoor: {fileID: 149853717}
   xAxisBounds: {x: 18.04, y: 41}
   yAxisBounds: {x: 0, y: 0}
   spawnPoints:
@@ -17272,6 +17276,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1008983659769739606, guid: d97d47d24c6c83942bb4d818711b0600, type: 3}
   m_PrefabInstance: {fileID: 1575809307}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &592934634 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4746280820853908568, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
+  m_PrefabInstance: {fileID: 2098012036}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2a41718338ffd4193c600d864eae59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &611462801
 GameObject:
   m_ObjectHideFlags: 0
@@ -21482,13 +21497,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1411937757}
     m_Modifications:
+    - target: {fileID: 1795901303780415403, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.23
+      objectReference: {fileID: 0}
     - target: {fileID: 5766041317415433896, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5766041317415433896, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.894
+      value: -8.902
       objectReference: {fileID: 0}
     - target: {fileID: 5766041317415433896, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23623,6 +23642,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 34.201397, y: 2.5515423}
   m_EdgeRadius: 0
+--- !u!114 &1622384807 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4746280820853908568, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
+  m_PrefabInstance: {fileID: 1936091976}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2a41718338ffd4193c600d864eae59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1624257376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5766041317415433896, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
@@ -24679,6 +24709,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1411937757}
     m_Modifications:
+    - target: {fileID: 1795901303780415403, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4746280820853908568, guid: db9960545a728c34a81f5d79b40cc7a5, type: 3}
       propertyPath: RightDoor
       value: 1
@@ -41912,7 +41946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7635634401241471298, guid: 37e408fcbe3f924428b79a300e3a0921, type: 3}
       propertyPath: baseDamage
-      value: 40
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 7635634401241471298, guid: 37e408fcbe3f924428b79a300e3a0921, type: 3}
       propertyPath: wayPoints.Array.data[0]
@@ -41934,6 +41968,14 @@ PrefabInstance:
       propertyPath: wayPoints.Array.data[4]
       value: 
       objectReference: {fileID: 1962987802}
+    - target: {fileID: 7635634401241471298, guid: 37e408fcbe3f924428b79a300e3a0921, type: 3}
+      propertyPath: baseActionDurationRange.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7635634401241471298, guid: 37e408fcbe3f924428b79a300e3a0921, type: 3}
+      propertyPath: baseActionDurationRange.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7635634401241471310, guid: 37e408fcbe3f924428b79a300e3a0921, type: 3}
       propertyPath: m_TagString
       value: Boss

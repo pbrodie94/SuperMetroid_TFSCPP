@@ -16,10 +16,12 @@ public class SporeSpawn : MonoBehaviour
     [SerializeField] private float moveSpeedIncrease = 1;
     [SerializeField] private float movementSmoothing = 0.5f;
     [SerializeField] private Vector2 baseMoveAmplitude;
-    private Vector2 moveAmplitude;
-    [SerializeField] private Vector2 actionDurationRange;
+    [SerializeField] private Vector2 baseActionDurationRange;
     [SerializeField] private float percentIncrease = 0.2f; //max 20% increase
+
     private float moveTimer = 0;
+    private Vector2 actionDurationRange;
+    private Vector2 moveAmplitude;
 
     private Vector3 wayPoint = Vector3.zero;
     private bool waypointPhase = false;
@@ -44,6 +46,8 @@ public class SporeSpawn : MonoBehaviour
     private Vector3 startPosition = new Vector3(148.02f, -71, 0);
     private Vector3 moveVelocity = Vector3.zero;
 
+    private float timeLastDamaged = 0;
+
     private SporeSpawnStats stats;
 
     private Rigidbody2D rb;
@@ -63,10 +67,19 @@ public class SporeSpawn : MonoBehaviour
 
         stats = GetComponentInChildren<SporeSpawnStats>();
 
-        if (actionDurationRange == Vector2.zero)
+        if (baseMoveAmplitude == Vector2.zero)
         {
-            actionDurationRange = new Vector2(5, 10);
+            baseMoveAmplitude = new Vector2(7, 9);
         }
+
+        moveAmplitude = baseMoveAmplitude;
+
+        if (baseActionDurationRange == Vector2.zero)
+        {
+            baseActionDurationRange = new Vector2(5, 10);
+        }
+
+        actionDurationRange = baseActionDurationRange;
 
         if (baseDamage <= 0)
         {
@@ -306,8 +319,10 @@ public class SporeSpawn : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && Time.time >= timeLastDamaged + 1)
         {
+            timeLastDamaged = Time.time;
+
             Stats s = collision.gameObject.GetComponent<Stats>();
             s.TakeDamage(damage);
         }    
@@ -315,8 +330,10 @@ public class SporeSpawn : MonoBehaviour
 
     public void ReportPlayerCollision(GameObject p)
     {
-        if (pausing)
+        if (pausing && Time.time >= timeLastDamaged + 1)
         {
+            timeLastDamaged = Time.time;
+
             Stats s = p.GetComponent<Stats>();
             s.TakeDamage(damage);
         }
@@ -324,11 +341,21 @@ public class SporeSpawn : MonoBehaviour
 
     public void ResetBoss()
     {
+        battling = false;
+
         core.tag = "Untagged";
 
         stats.ResetHealth();
+        moveAmplitude = baseMoveAmplitude;
+        actionDurationRange = baseActionDurationRange;
 
         transform.position = defaultPosition;
         UpdateRopePosition();
+        rb.velocity = Vector2.zero;
+        moveTimer = 0;
+
+        resetPosition = true;
+        col.enabled = true;
+        pausing = false;
     }
 }
