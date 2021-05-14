@@ -100,7 +100,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1216338657
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -8941556546035749447, guid: 1cf0f0516674d2d4da90cb820bf48bfd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -182,7 +182,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1216338657
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -3060622693910884953, guid: 1cf0f0516674d2d4da90cb820bf48bfd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -357,12 +357,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2a41718338ffd4193c600d864eae59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
   doorPortL: {fileID: 4861821830998815045}
   doorPortR: {fileID: 2342689677054795924}
   unlockTime: 5
   RightDoor: 0
   openDistance: 5
+  missileLocked: 0
 --- !u!1 &7872962839015350038
 GameObject:
   m_ObjectHideFlags: 0

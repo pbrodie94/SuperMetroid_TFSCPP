@@ -199,7 +199,16 @@ public class SporeSpawn : MonoBehaviour
         moveTimer += Time.fixedDeltaTime;
 
         float x = Mathf.Cos(moveSpeedIncrease * moveTimer) * (moveAmplitude.x * moveSpeedIncrease) * Time.deltaTime * 40;
-        float y = Mathf.Cos(moveSpeedIncrease * (2 * moveTimer)) * (moveAmplitude.y * moveSpeedIncrease) * Time.deltaTime * 40;
+        float y;
+
+        if (phase > 2)
+        {
+            y = Mathf.Sin(moveSpeedIncrease * (2 * moveTimer)) * (moveAmplitude.y * moveSpeedIncrease) * Time.deltaTime * 40;
+        }
+        else
+        {
+            y = Mathf.Cos(moveSpeedIncrease * (2 * moveTimer)) * (moveAmplitude.y * moveSpeedIncrease) * Time.deltaTime * 40;
+        }
 
         Vector3 targetVelocity = new Vector3(x, y, 0);
 
