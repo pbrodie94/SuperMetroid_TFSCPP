@@ -4,10 +4,28 @@ using UnityEngine;
 
 public class PickUp : MonoBehaviour
 {
-
+    private float lifeTime = 10;
     public enum PickupType {Missile, Health, MissileBoost, ReserveTank, EnergyTank, LifeUp}
     public PickupType pickup;
     [SerializeField] private int value;
+
+    private void Start()
+    {
+        if (lifeTime > 0)
+        {
+            Destroy(gameObject, lifeTime);
+        }
+    }
+
+    public void SetLifetime(float lifeTime)
+    {
+        if (lifeTime > 0)
+        {
+            this.lifeTime = lifeTime;
+
+            Destroy(gameObject, lifeTime);
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

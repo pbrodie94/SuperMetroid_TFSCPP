@@ -8,6 +8,7 @@ public class SporeSpawnStats : Stats
     protected override void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        defaultMaterial = spriteRenderer.material;
 
         base.Start();
     }

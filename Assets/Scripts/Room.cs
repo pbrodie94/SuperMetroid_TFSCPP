@@ -16,7 +16,7 @@ public class Room : MonoBehaviour
 
     private CameraFollow2D cam;
 
-    private void Start()
+    protected virtual void Start()
     {
         cam = Camera.main.GetComponent<CameraFollow2D>();
 
@@ -29,12 +29,18 @@ public class Room : MonoBehaviour
         }
     }
 
-    public void SetCameraBounds()
+    public virtual void SetUpRoom()
+    {
+        SetCameraBounds();
+        SpawnEntities();
+    }
+
+    protected void SetCameraBounds()
     {
         cam.SetCameraBounds(xAxisBounds, yAxisBounds);
     }
 
-    public void SpawnEntities()
+    protected void SpawnEntities()
     {
         if (spawnPoints.Length > 0)
         {
@@ -45,7 +51,7 @@ public class Room : MonoBehaviour
         }
     }
 
-    public void DestroyEntities()
+    public virtual void DestroyEntities()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 

@@ -7,59 +7,23 @@ public class SporeDude : MonoBehaviour
     [SerializeField] private GameObject spore;
     [SerializeField] private Transform mouth;
 
-    [SerializeField] private int numberOfShots = 3;
-    [SerializeField] private float shotInterval = 1;
-
-    private float timeLastAttacked;
-    private float timeLastShot;
-
     private Animator anim;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
-
-        if (shotInterval <= 0)
-        {
-            shotInterval = 1;
-        }
-
-        if (numberOfShots <= 0)
-        {
-            numberOfShots = 3;
-        }
     }
 
-    public void Shoot()
+    public IEnumerator Shoot()
     {
-        int shots = 0;
-
         anim.SetBool("Open", true);
-        timeLastShot = Time.time + 2;
 
-        while (shots < numberOfShots)
-        {
-            if (Time.time >= timeLastShot + shotInterval)
-            {
-                timeLastShot = Time.time;
-                ShootSpore();
+        yield return new WaitForSeconds(1.5f);
 
-                shots++;
-            }
-        }
+        Instantiate(spore, mouth.position, Quaternion.identity);
+
+        yield return new WaitForSeconds(1);
 
         anim.SetBool("Open", false);
-
-        timeLastAttacked = Time.time;
-    }
-
-    void ShootSpore()
-    {
-        Instantiate(spore, mouth.position, Quaternion.identity);
-    }
-
-    public float GetLastAttacked()
-    {
-        return timeLastAttacked;
     }
 }

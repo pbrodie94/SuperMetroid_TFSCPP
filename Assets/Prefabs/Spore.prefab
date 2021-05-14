@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6208441374415230562}
   - component: {fileID: 6208441374415230561}
   - component: {fileID: 6208441374415230560}
-  - component: {fileID: 6208441374415230591}
   - component: {fileID: 6208441374415230590}
+  - component: {fileID: 2813984294109189099}
   - component: {fileID: 456927632120779818}
+  - component: {fileID: 4526877770513109367}
   m_Layer: 0
   m_Name: Spore
   m_TagString: Untagged
@@ -72,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216338657
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 363315943194604541, guid: 4af2bb41ad459e241b4db2544bfa17ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -105,7 +106,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!50 &6208441374415230591
+--- !u!58 &6208441374415230590
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6208441374415230589}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.125
+--- !u!50 &2813984294109189099
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -126,22 +143,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &6208441374415230590
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6208441374415230589}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.125
 --- !u!114 &456927632120779818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,3 +155,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1baae928836b3645a2387bca5f5dc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 40
+  damage: 23
+  lifeTime: 10
+--- !u!114 &4526877770513109367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6208441374415230589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a5b7641175c84397db58a452e7b25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropLifetime: 5
+  dropProbability: 100
+  rareDropProbability: 40
+  pickups:
+  - {fileID: 1807312287461883585, guid: 76602e3695f3f3645a6effcacae7f4c8, type: 3}
+  - {fileID: 6042382094255233604, guid: e151e4557607a6c4da015cdaf634a188, type: 3}
+  - {fileID: 7865633975652034003, guid: 44e9c8ea946840642b713b3cc6349aca, type: 3}
+  rarePickups:
+  - {fileID: 1118787488735724925, guid: a7f82018c8c8a17488e074b071ce1e37, type: 3}
+  - {fileID: 6463817652455844070, guid: a3a995e7d6bdabf4a99a3aca6883b6b7, type: 3}

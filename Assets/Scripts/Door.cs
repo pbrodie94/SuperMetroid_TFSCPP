@@ -105,8 +105,7 @@ public class Door : MonoBehaviour
 
         //Spawn enemies and pickups in new room
         Room newRoom = destination.GetComponentInParent<Room>();
-        newRoom.SetCameraBounds();
-        newRoom.SpawnEntities();
+        newRoom.SetUpRoom();
 
         yield return new WaitForSeconds(0.5f);
 
