@@ -5,6 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     private int damage;
+    [SerializeField] private bool missile = false;
     private GameObject shooter;
     private Rigidbody2D rb;
     private Animator anim;
@@ -47,6 +48,11 @@ public class Projectile : MonoBehaviour
                 {
                     Door d = collision.gameObject.GetComponent<Door>();
                     d.UnlockDoor();
+
+                    if (missile)
+                    {
+                        d.DestroyMissileLock();
+                    }
                 }
             }
 

@@ -13,6 +13,9 @@ public class Door : MonoBehaviour
     [SerializeField] private bool RightDoor = false;
     [SerializeField] private float openDistance = 5;
 
+    private bool locked = false;
+    [SerializeField] private bool missileLocked = false;
+
     private float distToPlayer;
     private float timeUnlocked;
     private string animVar;
@@ -38,6 +41,8 @@ public class Door : MonoBehaviour
             unlockTime = 3;
 
         animVar = RightDoor ? "OpenLeft" : "OpenRight";
+
+        anim.SetBool("MissileLocked", missileLocked);
     }
 
     private void Update()
@@ -70,51 +75,41 @@ public class Door : MonoBehaviour
 
     public void UnlockDoor()
     {
-        unlocked = true;
+        if (!locked && !missileLocked)
+        {
+            unlocked = true;
 
-        timeUnlocked = Time.time;
+            timeUnlocked = Time.time;
+        }
 
+    }
+
+    public void DestroyMissileLock()
+    {
+        missileLocked = false;
+        anim.SetBool("MissileLocked", false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            StartCoroutine(TransitionToRoom(collision.transform));
+            Room destinationRoom = destination.gameObject.GetComponentInParent<Room>();
+
+            StartCoroutine(destinationRoom.TransitionToRoom(room, destination));
         }
     }
 
-    private IEnumerator TransitionToRoom(Transform player)
+    public void SetMissileLock(bool mLock)
     {
-        sc.SetControl = false;
+        missileLocked = mLock;
+        anim.SetBool("MissileLocked", mLock);
+    }
 
-        //Fade screen to black
-        hud.FadeScreen(true);
-
-        yield return new WaitForSeconds(0.5f);
-
-        //Destroy enemies and pickups in current room
-        room.DestroyEntities();
-
-        yield return null;
-
-        //Move player to new room
-        player.position = destination.position;
-
-        yield return null;
-
-        //Spawn enemies and pickups in new room
-        Room newRoom = destination.GetComponentInParent<Room>();
-        newRoom.SetUpRoom();
-
-        yield return new WaitForSeconds(0.5f);
-
-        //Fade screen back
-        hud.FadeScreen(false);
-
-        yield return new WaitForSeconds(1.5f);
-
-        sc.SetControl = true;
+    public void SetDoorLocked(bool locked)
+    {
+        this.locked = locked;
+        anim.SetBool("Locked", locked);
     }
 
     public void SetDestination(Transform d)

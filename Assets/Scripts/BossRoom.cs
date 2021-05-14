@@ -11,6 +11,8 @@ public class BossRoom : Room
     [SerializeField] private SporeDude[] sporeDudes;
     [SerializeField] private float shootInterval = 5;
 
+    [SerializeField] private Door[] doors;
+
     private float timeLastshot = 0;
  
     protected override void Start()
@@ -53,12 +55,20 @@ public class BossRoom : Room
 
             timeLastshot = Time.time;
 
+            for (int i = 0; i < doors.Length - 1; i++)
+            {
+                doors[i].SetDoorLocked(true);
+            }
+
             battling = true;
         }
     }
 
     public override void DestroyEntities()
     {
+        if (!bossDefeated)
+            boss.ResetBoss();
+
         GameObject[] pickups = GameObject.FindGameObjectsWithTag("Pickup");
 
         foreach (GameObject p in pickups)

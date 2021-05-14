@@ -40,6 +40,7 @@ public class SporeSpawn : MonoBehaviour
     private bool moving = false;
     private bool pausing = false;
     private bool resetPosition = true;
+    private Vector3 defaultPosition = Vector3.zero;
     private Vector3 startPosition = new Vector3(148.02f, -71, 0);
     private Vector3 moveVelocity = Vector3.zero;
 
@@ -71,6 +72,8 @@ public class SporeSpawn : MonoBehaviour
         {
             baseDamage = 60;
         }
+
+        defaultPosition = transform.position;
 
         maxHp = stats.GetHealth();
         waypointMoveSpeed = 10;
@@ -317,5 +320,15 @@ public class SporeSpawn : MonoBehaviour
             Stats s = p.GetComponent<Stats>();
             s.TakeDamage(damage);
         }
+    }
+
+    public void ResetBoss()
+    {
+        core.tag = "Untagged";
+
+        stats.ResetHealth();
+
+        transform.position = defaultPosition;
+        UpdateRopePosition();
     }
 }
