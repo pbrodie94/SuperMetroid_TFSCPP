@@ -10585,7 +10585,7 @@ GameObject:
   - component: {fileID: 8848952764929868572}
   - component: {fileID: 8848952764929868575}
   m_Layer: 0
-  m_Name: TunnelRoom 1
+  m_Name: TunnelRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10631,8 +10631,7 @@ MonoBehaviour:
     destinationDoor: {fileID: 0}
   xAxisBounds: {x: 18.04, y: 41}
   yAxisBounds: {x: 0, y: 0}
-  spawnPoints:
-  - {fileID: 0}
+  spawnPoints: []
 --- !u!1 &8848952765078311050
 GameObject:
   m_ObjectHideFlags: 0
