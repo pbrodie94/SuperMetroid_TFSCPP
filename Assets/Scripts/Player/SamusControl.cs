@@ -20,6 +20,10 @@ public class SamusControl : MonoBehaviour
 
     private bool jump = false;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource suitAudio;
+    [SerializeField] private AudioClip jumpAudio;
+
     //Components
     private CharacterController2D controller;
     private Animator anim;
@@ -47,6 +51,7 @@ public class SamusControl : MonoBehaviour
         if (Input.GetButtonDown(InputManager.jump))
         {
             jump = true;
+            suitAudio.PlayOneShot(jumpAudio);
         }
 
         if (Input.GetButtonUp(InputManager.fire))

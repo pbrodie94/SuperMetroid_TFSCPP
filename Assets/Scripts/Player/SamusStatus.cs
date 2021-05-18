@@ -22,6 +22,12 @@ public class SamusStatus : Stats
     private string PlayLayer = "MidGround";
     Animator anim;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource voiceAudio;
+    [SerializeField] private AudioClip[] hurtAudio;
+    [SerializeField] private AudioClip[] lowHealthPant;
+    [SerializeField] private AudioClip dieAudio;
+
     HUDManager hud;
     GameManager gm;
 
@@ -55,6 +61,9 @@ public class SamusStatus : Stats
     public override void TakeDamage(int damage)
     {
         health -= damage;
+
+        int hurtIndex = Random.Range(0, hurtAudio.Length);
+        voiceAudio.PlayOneShot(hurtAudio[hurtIndex]);
 
         StartCoroutine(Flash(flashInterval, flashDuration, Time.time));
 
