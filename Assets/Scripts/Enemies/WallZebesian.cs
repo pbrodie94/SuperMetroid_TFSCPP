@@ -208,7 +208,6 @@ public class WallZebesian : EnemyAI
 
         if (hit)
         {
-            Debug.Log(hit.transform.gameObject);
             return false;
         } else
         {

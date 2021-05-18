@@ -23,6 +23,15 @@ public class CameraFollow2D : MonoBehaviour
     {
         if (!target)
             target = GameObject.FindGameObjectWithTag("Player").transform;
+
+        //Set position to wherever the player is
+        Vector3 pos = target.position;
+        pos.z = transform.position.z;
+
+        pos.x = Mathf.Clamp(pos.x, xBounds.x, xBounds.y);
+        pos.y = Mathf.Clamp(pos.y, yBounds.x, yBounds.y);
+
+        transform.position = pos;
     }
 
     private void FixedUpdate()

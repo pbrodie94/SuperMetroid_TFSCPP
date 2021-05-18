@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 2c2d26d30f214904dafc8ff5aa0c8f40
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3253340683447471469
+    second: SNES - Super Metroid - Samuss Starship_0
+  - first:
+      213: 7388258650306415473
+    second: SNES - Super Metroid - Samuss Starship_1
+  - first:
+      213: -4523248667465069064
+    second: SNES - Super Metroid - Samuss Starship_2
+  - first:
+      213: -4953534743738026145
+    second: SNES - Super Metroid - Samuss Starship_3
+  - first:
+      213: 2868114708611756303
+    second: SNES - Super Metroid - Samuss Starship_4
+  - first:
+      213: -2398573858311015658
+    second: SNES - Super Metroid - Samuss Starship_5
+  - first:
+      213: 8187681068597720157
+    second: SNES - Super Metroid - Samuss Starship_6
+  - first:
+      213: 7008356690670819328
+    second: SNES - Super Metroid - Samuss Starship_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +65,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samuss Starship_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39279c5a2efc9d2d0800000000000000
+      internalID: -3253340683447471469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samuss Starship_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b8838091e588660800000000000000
+      internalID: 7388258650306415473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samuss Starship_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd4cf85d413a31c0800000000000000
+      internalID: -4523248667465069064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samuss Starship_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5770f04562814bb0800000000000000
+      internalID: -4953534743738026145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samuss Starship_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0170eda1279dc720800000000000000
+      internalID: 2868114708611756303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samuss Starship_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61375d7b8cd86bed0800000000000000
+      internalID: -2398573858311015658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samuss Starship_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5435fb3d8c70a170800000000000000
+      internalID: 8187681068597720157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samuss Starship_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0089aae374fa24160800000000000000
+      internalID: 7008356690670819328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

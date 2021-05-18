@@ -10,9 +10,11 @@ public class GameManager : MonoBehaviour
     public delegate void PlayerSpawn();
     public static event PlayerSpawn OnPlayerSpawn;
 
+    [SerializeField] private Room currentRoom;
+
     private Transform player;
 
-    public Transform spawnPoint;
+    public Transform startSpawnPoint;
     public Transform checkPoint;
 
     private SamusStatus samusStatus;
@@ -33,14 +35,29 @@ public class GameManager : MonoBehaviour
 
     public void RespawnPlayer()
     {
-        if (!checkPoint)
+        Room spawnRoom;
+        Transform spawnPoint;
+
+        if (checkPoint)
         {
-            player.position = spawnPoint.position;
+            spawnPoint = checkPoint;
+            spawnRoom = checkPoint.gameObject.GetComponentInParent<Room>();
+        } else
+        {
+            spawnPoint = startSpawnPoint;
+            spawnRoom = startSpawnPoint.gameObject.GetComponentInParent<Room>();
         }
+
+        spawnRoom.SetSpawnRoom(currentRoom, spawnPoint);
     }
 
     public void PlayerSpawned()
     {
         OnPlayerSpawn();
+    }
+
+    public void SetCurrentRoom(Room room)
+    {
+        currentRoom = room;
     }
 }

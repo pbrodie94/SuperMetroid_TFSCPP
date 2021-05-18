@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] Transform destination;
+    private Transform destination;
+
+    [SerializeField] private Transform doorPortL;
+    [SerializeField] private Transform doorPortR;
 
     [SerializeField] private float unlockTime = 5;
-    [SerializeField] private bool LeftDoor = false;
+    [SerializeField] private bool RightDoor = false;
     [SerializeField] private float openDistance = 5;
+
+    private bool locked = false;
+    [SerializeField] private bool missileLocked = false;
 
     private float distToPlayer;
     private float timeUnlocked;
@@ -16,7 +22,7 @@ public class Door : MonoBehaviour
     private bool unlocked = false;
 
     private Transform player;
-
+    private SamusControl sc;
     private Room room;
     private HUDManager hud;
     private Animator anim;
@@ -25,7 +31,7 @@ public class Door : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-
+        sc = player.gameObject.GetComponent<SamusControl>();
         room = transform.GetComponentInParent<Room>();
         hud = GameObject.Find("HUD").GetComponent<HUDManager>();
         anim = GetComponent<Animator>();
@@ -34,7 +40,9 @@ public class Door : MonoBehaviour
         if (unlockTime <= 0)
             unlockTime = 3;
 
-        animVar = LeftDoor ? "OpenLeft" : "OpenRight";
+        animVar = RightDoor ? "OpenLeft" : "OpenRight";
+
+        anim.SetBool("MissileLocked", missileLocked);
     }
 
     private void Update()
@@ -67,44 +75,50 @@ public class Door : MonoBehaviour
 
     public void UnlockDoor()
     {
-        unlocked = true;
+        if (!locked && !missileLocked)
+        {
+            unlocked = true;
 
-        timeUnlocked = Time.time;
+            timeUnlocked = Time.time;
+        }
 
+    }
+
+    public void DestroyMissileLock()
+    {
+        missileLocked = false;
+        anim.SetBool("MissileLocked", false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            StartCoroutine(TransitionToRoom(collision.transform));
+            Room destinationRoom = destination.gameObject.GetComponentInParent<Room>();
+
+            StartCoroutine(destinationRoom.TransitionToRoom(room, destination));
         }
     }
 
-    private IEnumerator TransitionToRoom(Transform player)
+    public void SetMissileLock(bool mLock)
     {
-        //Fade screen to black
-        hud.FadeScreen(true);
+        missileLocked = mLock;
+        anim.SetBool("MissileLocked", mLock);
+    }
 
-        yield return new WaitForSeconds(0.5f);
+    public void SetDoorLocked(bool locked)
+    {
+        this.locked = locked;
+        anim.SetBool("Locked", locked);
+    }
 
-        //Destroy enemies and pickups in current room
-        room.DestroyEntities();
+    public void SetDestination(Transform d)
+    {
+        destination = d;
+    }
 
-        yield return null;
-
-        //Move player to new room
-        player.position = destination.position;
-
-        yield return null;
-
-        //Spawn enemies and pickups in new room
-        Room newRoom = destination.GetComponentInParent<Room>();
-        newRoom.SpawnEntities();
-
-        yield return null;
-
-        //Fade screen back
-        hud.FadeScreen(false);
+    public Transform GetDoorPort()
+    {
+        return RightDoor ? doorPortL : doorPortR;
     }
 }

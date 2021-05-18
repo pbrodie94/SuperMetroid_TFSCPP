@@ -217,7 +217,7 @@ MonoBehaviour:
   missiles: 0
   maxMissiles: 0
   projectileVelocity: 1000
-  fireRate: 300
+  fireRate: 400
   powerBeamProjectile: {fileID: 6915447095321942738, guid: d9621a5d58ccaac46955e470a53e93dc, type: 3}
   powerBeamDamage: 10
   missileProjectile: {fileID: 6245911730026708352, guid: 462345bc704cf3844aeb36da9dff3d1c, type: 3}
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 8332674196152487451}
   m_Layer: 0
   m_Name: Samus
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,7 +403,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1216338657
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 6131639450306032523, guid: 95ddc9650925c514ca38f01d8a1e0834, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
