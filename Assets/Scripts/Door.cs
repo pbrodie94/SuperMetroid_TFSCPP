@@ -25,7 +25,6 @@ public class Door : MonoBehaviour
     private float timeUnlocked;
     private string animVar;
     private bool unlocked = false;
-    private bool doorEntered = false;
 
     private Transform player;
     private SamusControl sc;
@@ -78,7 +77,7 @@ public class Door : MonoBehaviour
                 unlocked = false;
                 col.enabled = true;
 
-                if (!doorEntered)
+                if (anim.GetBool(animVar))
                 {
                     audioSource.PlayOneShot(doorClose);
                 }
@@ -112,13 +111,10 @@ public class Door : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            doorEntered = true;
 
             Room destinationRoom = destination.gameObject.GetComponentInParent<Room>();
 
             StartCoroutine(destinationRoom.TransitionToRoom(room, destination));
-
-            doorEntered = false;
         }
     }
 
