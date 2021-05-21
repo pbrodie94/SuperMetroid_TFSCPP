@@ -16,6 +16,8 @@ public class SamusControl : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 40;
     [SerializeField] private float jumpHeight = 400;
+    private bool doubleJump = true;
+    private bool hasDoubleJumped = false;
     private float horizontalInput = 0;
 
     private bool jump = false;
@@ -48,16 +50,50 @@ public class SamusControl : MonoBehaviour
 
         horizontalInput = Input.GetAxisRaw(InputManager.horizontal) * moveSpeed;
 
-        if (Input.GetButtonDown(InputManager.jump))
+        if (Input.GetButtonDown(InputManager.jump) && (controller.IsGrounded() || (doubleJump && !hasDoubleJumped)))
         {
             jump = true;
             suitAudio.PlayOneShot(jumpAudio);
+            
+            if (controller.IsGrounded())
+            {
+                anim.SetBool(AnimationVars.Jumping, true);
+            } else
+            {
+                hasDoubleJumped = true;
+                anim.SetBool(AnimationVars.Jumping, false);
+                anim.SetBool(AnimationVars.DoubleJumping, true);
+            }
         }
 
         if (Input.GetButtonUp(InputManager.fire))
         {
             anim.SetBool(AnimationVars.Attacking, false);
         }
+
+        if (controller.IsGrounded())
+        {
+            hasDoubleJumped = false;
+            //anim.SetBool(AnimationVars.Jumping, false);
+            anim.SetBool(AnimationVars.DoubleJumping, false);
+
+        } else
+        {
+
+            Debug.Log(anim.GetBool(AnimationVars.Jumping));
+
+            if (anim.GetBool(AnimationVars.Jumping))
+            {
+                if (controller.GetVelocity().y < 0)
+                {
+                    //Falling
+                    anim.SetBool(AnimationVars.Jumping, false);
+                }
+
+            }
+        }
+
+        anim.SetBool(AnimationVars.Grounded, controller.IsGrounded());
     }
 
     private void FixedUpdate()
