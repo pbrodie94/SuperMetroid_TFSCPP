@@ -22,6 +22,11 @@ public class HUDManager : MonoBehaviour
     private bool fade = false;
     private float timeFaded = 0;
 
+    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private Text[] pauseText;
+    private int pauseSelection = 0;
+    private bool paused = false;
+
     private CanvasGroup cg;
 
     private void Start()
@@ -85,6 +90,61 @@ public class HUDManager : MonoBehaviour
                 fadeColour.a = a;
                 screenFade.color = fadeColour;
             }
+        }
+
+        if (paused)
+        {
+
+        }
+
+        if (Input.GetButtonDown(InputManager.pause))
+        {
+            if (paused)
+            {
+                //Unpause
+                pauseMenu.SetActive(false);
+                pauseSelection = 0;
+                paused = false;
+            } else
+            {
+                //Pause
+                pauseMenu.SetActive(true);
+                paused = true;
+            }
+        }
+    }
+
+    void PauseMenuSelection(int selection)
+    {
+        switch (selection)
+        {
+            case 0:
+                //Resume
+
+                pauseMenu.SetActive(false);
+                pauseSelection = 0;
+                paused = false;
+
+                break;
+
+            case 1:
+                //Options
+
+                break;
+
+            case 2:
+                //Quit to main menu
+
+
+
+                break;
+
+            case 3:
+                //Quit to desktop
+
+                Application.Quit();
+
+                break;
         }
     }
 
