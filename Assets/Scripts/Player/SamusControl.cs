@@ -57,10 +57,11 @@ public class SamusControl : MonoBehaviour
             
             if (controller.IsGrounded())
             {
-                anim.SetBool(AnimationVars.Jumping, jump);
+                anim.SetBool(AnimationVars.Jumping, true);
             } else
             {
                 hasDoubleJumped = true;
+                anim.SetBool(AnimationVars.Jumping, false);
                 anim.SetBool(AnimationVars.DoubleJumping, true);
             }
         }
@@ -73,11 +74,14 @@ public class SamusControl : MonoBehaviour
         if (controller.IsGrounded())
         {
             hasDoubleJumped = false;
-            anim.SetBool(AnimationVars.Jumping, false);
+            //anim.SetBool(AnimationVars.Jumping, false);
             anim.SetBool(AnimationVars.DoubleJumping, false);
 
         } else
         {
+
+            Debug.Log(anim.GetBool(AnimationVars.Jumping));
+
             if (anim.GetBool(AnimationVars.Jumping))
             {
                 if (controller.GetVelocity().y < 0)
@@ -90,8 +94,6 @@ public class SamusControl : MonoBehaviour
         }
 
         anim.SetBool(AnimationVars.Grounded, controller.IsGrounded());
-
-        Debug.Log("Velocity: " + controller.GetVelocity() + " Animator Jumping: " + anim.GetBool(AnimationVars.Jumping));
     }
 
     private void FixedUpdate()
