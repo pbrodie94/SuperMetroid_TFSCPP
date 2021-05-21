@@ -80,8 +80,6 @@ public class SamusControl : MonoBehaviour
         } else
         {
 
-            Debug.Log(anim.GetBool(AnimationVars.Jumping));
-
             if (anim.GetBool(AnimationVars.Jumping))
             {
                 if (controller.GetVelocity().y < 0)
