@@ -52,7 +52,7 @@ public class SamusStatus : Stats
 
         if (lives <= 0)
         {
-            lives = 3;
+            //lives = 3;
         }
 
         hud.UpdateLives(lives);
@@ -139,7 +139,7 @@ public class SamusStatus : Stats
         hud.FadeUI(true);
         anim.SetBool("Dead", true);
 
-        yield return new WaitForSeconds(8);
+        yield return new WaitForSeconds(5);
 
         //restart at checkpoint, or start
         if (lives > 0)
@@ -172,6 +172,7 @@ public class SamusStatus : Stats
         else
         {
             //Game over
+            hud.GameOver();
         }
     }
 }

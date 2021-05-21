@@ -26,10 +26,15 @@ public class HUDManager : MonoBehaviour
     [Header("Pause Menu")]
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private Text[] pauseMenuItems;
-    private int pauseMenuSelection = 0;
+    private int menuSelection = 0;
     private Color defaultColor = Color.white;
     private Color selectedColor = Color.cyan;
     private bool paused = false;
+
+    [Header("Game Over Menu")]
+    [SerializeField] private GameObject gameOverMenu;
+    [SerializeField] private Text[] goText;
+    private bool gameOver = false;
 
     private GameManager gm;
     private CanvasGroup cg;
@@ -43,7 +48,7 @@ public class HUDManager : MonoBehaviour
 
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
 
-        cg = GetComponent<CanvasGroup>();
+        cg = GetComponentInChildren<CanvasGroup>();
 
         fadeColour = screenFade.color;
 
@@ -104,6 +109,11 @@ public class HUDManager : MonoBehaviour
             PauseMenu();
         }
 
+        if (gameOver)
+        {
+            GameOverMenu();
+        }
+
         //Checks for pause button
         if (Input.GetButtonDown(InputManager.pause))
         {
@@ -117,23 +127,23 @@ public class HUDManager : MonoBehaviour
         if (Input.GetButtonDown(InputManager.select) && Input.GetAxisRaw(InputManager.select) > 0)
         {
             //Changes the menu selection index
-            pauseMenuSelection--;
+            menuSelection--;
 
             //Loops the menu if the selection goes out of bounds
-            if (pauseMenuSelection < 0)
+            if (menuSelection < 0)
             {
-                pauseMenuSelection = pauseMenuItems.Length - 1;
+                menuSelection = pauseMenuItems.Length - 1;
             }
 
         } else if (Input.GetButtonDown(InputManager.select) && Input.GetAxisRaw(InputManager.select) < 0)
         {
             //Changes the menu selection index
-            pauseMenuSelection++;
+            menuSelection++;
 
             //Loops the menu if the selection goes out of bounds
-            if (pauseMenuSelection > pauseMenuItems.Length - 1)
+            if (menuSelection > pauseMenuItems.Length - 1)
             {
-                pauseMenuSelection = 0;
+                menuSelection = 0;
             }
         }
 
@@ -144,12 +154,12 @@ public class HUDManager : MonoBehaviour
         }
 
         //Sets the selected menu item to the selected colour
-        pauseMenuItems[pauseMenuSelection].color = selectedColor;
+        pauseMenuItems[menuSelection].color = selectedColor;
 
         //Selects the selected menu item on button press
         if (Input.GetButtonDown(InputManager.submit))
         {
-            PauseMenuSelection(pauseMenuSelection);
+            PauseMenuSelection(menuSelection);
         }
     }
 
@@ -181,7 +191,7 @@ public class HUDManager : MonoBehaviour
             screenFade.color = c;
 
             //Ensures the pause menu starts at the top
-            pauseMenuSelection = 0;
+            menuSelection = 0;
 
             //Sets all menu items to unselected
             for (int i = 0; i < pauseMenuItems.Length; i++)
@@ -190,7 +200,7 @@ public class HUDManager : MonoBehaviour
             }
 
             //Sets the selected menu item to selected colour
-            pauseMenuItems[pauseMenuSelection].color = selectedColor;
+            pauseMenuItems[menuSelection].color = selectedColor;
 
             //Stops time
             Time.timeScale = 0;
@@ -233,6 +243,100 @@ public class HUDManager : MonoBehaviour
                 break;
 
             case 3:
+                //Quit to Desktop
+
+                Application.Quit();
+
+                break;
+        }
+    }
+
+    private void GameOverMenu()
+    {
+        //Gets input for menu selection
+        if (Input.GetButtonDown(InputManager.select) && Input.GetAxisRaw(InputManager.select) > 0)
+        {
+            //Changes the menu selection index
+            menuSelection--;
+
+            //Loops the menu if the selection goes out of bounds
+            if (menuSelection < 0)
+            {
+                menuSelection = goText.Length - 1;
+            }
+
+        }
+        else if (Input.GetButtonDown(InputManager.select) && Input.GetAxisRaw(InputManager.select) < 0)
+        {
+            //Changes the menu selection index
+            menuSelection++;
+
+            //Loops the menu if the selection goes out of bounds
+            if (menuSelection > goText.Length - 1)
+            {
+                menuSelection = 0;
+            }
+        }
+
+        //Sets all menu items to unselected colour
+        for (int i = 0; i < goText.Length; i++)
+        {
+            goText[i].color = defaultColor;
+        }
+
+        //Sets the selected menu item to the selected colour
+        goText[menuSelection].color = selectedColor;
+
+        //Selects the selected menu item on button press
+        if (Input.GetButtonDown(InputManager.submit))
+        {
+            GameOverSelection(menuSelection);
+        }
+    }
+
+    public void GameOver()
+    {
+        gameOver = true;
+        Time.timeScale = 0;
+        gameOverMenu.SetActive(true);
+        menuSelection = 0;
+
+        for (int i = 0; i < goText.Length; i++)
+        {
+            goText[i].color = defaultColor;
+        }
+
+        goText[menuSelection].color = selectedColor;
+    }
+
+    private void GameOverSelection(int selection)
+    {
+        //Directs pause menu selections
+        switch (selection)
+        {
+            case 0:
+                //Restart Level
+                gameOver = false;
+                gameOverMenu.SetActive(false);
+
+                Time.timeScale = 1;
+                gm.RestartLevel();
+
+                cg.alpha = 1;
+
+                break;
+
+            case 1:
+                //Quit to Main Menu
+                gameOver = false;
+                gameOverMenu.SetActive(false);
+
+                Time.timeScale = 1;
+                gm.LoadLevel(LevelManager.MainMenu);
+
+                break;
+
+            case 2:
                 //Quit to Desktop
 
                 Application.Quit();
