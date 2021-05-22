@@ -171,5 +171,10 @@ public class WeaponManager : MonoBehaviour
 
         hud.UpdateMissiles(missiles);
     }
+
+    public int GetMissileMax()
+    {
+        return maxMissiles;
+    }
 }
 

@@ -112,12 +112,12 @@ public class TitleScreen : MonoBehaviour
 
                 break;
 
-            case 3:
+            //case 3:
                 //Options
 
-                break;
+                //break;
 
-            case 4:
+            case 3:
                 //Quit
 
                 Application.Quit();

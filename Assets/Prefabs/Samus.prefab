@@ -40,7 +40,7 @@ AudioSource:
   m_GameObject: {fileID: 2985818134291333726}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3711243805414871863, guid: 23d41d58a10cd8946b995098762ee949, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -167,7 +167,7 @@ AudioSource:
   m_GameObject: {fileID: 3960653633405241759}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3229808200525663960, guid: 23d41d58a10cd8946b995098762ee949, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -294,7 +294,7 @@ AudioSource:
   m_GameObject: {fileID: 5337726069806918395}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6699954174384705034, guid: 23d41d58a10cd8946b995098762ee949, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -607,7 +607,7 @@ MonoBehaviour:
   powerBeamProjectile: {fileID: 6915447095321942738, guid: d9621a5d58ccaac46955e470a53e93dc, type: 3}
   powerBeamDamage: 10
   missileProjectile: {fileID: 6245911730026708352, guid: 462345bc704cf3844aeb36da9dff3d1c, type: 3}
-  missileDamage: 20
+  missileDamage: 25
   barrelPositions:
   - {fileID: 8332674194739317960}
   - {fileID: 8332674195189091786}

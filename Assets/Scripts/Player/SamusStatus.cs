@@ -22,6 +22,8 @@ public class SamusStatus : Stats
     private string PlayLayer = "MidGround";
     Animator anim;
 
+    private bool godMode = false;
+
     [Header("Audio")]
     [SerializeField] private AudioSource voiceAudio;
     [SerializeField] private AudioClip[] hurtAudio;
@@ -56,6 +58,28 @@ public class SamusStatus : Stats
         }
 
         hud.UpdateLives(lives);
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown(InputManager.godMode) && !godMode)
+        {
+            EnableGodMode();
+        }
+    }
+
+    private void EnableGodMode()
+    {
+        WeaponManager wm = GetComponent<WeaponManager>();
+        int mTanks = 50 - wm.GetMissileMax();
+        int eTanks = 14 - maxEnergyTanks;
+
+        for (int i = 0; i < eTanks; i++)
+        {
+            PickupEnergyTank();
+        }
+
+        wm.IncreaseMissiles(mTanks);
     }
 
     public override void TakeDamage(int damage)

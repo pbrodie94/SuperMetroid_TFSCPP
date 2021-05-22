@@ -12,4 +12,5 @@ public class InputManager : MonoBehaviour
     public const string pause = "Pause";
     public const string submit = "Submit";
     public const string select = "Select";
+    public const string godMode = "GodMode";
 }
