@@ -115,6 +115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickup: 0
   value: 5
+  pickupAudioSource: {fileID: 6301931486774698561, guid: 659525cf7079aad45942f169d706d3e6, type: 3}
+  pickupAudio: {fileID: 8300000, guid: c054645f730a3544797490e3f7ad5812, type: 3}
 --- !u!95 &4789643778208842288
 Animator:
   serializedVersion: 3
