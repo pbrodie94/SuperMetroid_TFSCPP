@@ -25,6 +25,7 @@ public class HUDManager : MonoBehaviour
 
     [Header("Pause Menu")]
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject optionsPanel;
     [SerializeField] private Text[] pauseMenuItems;
     private int pauseMenuSelection = 0;
     private Color defaultColor = Color.white;
@@ -187,6 +188,8 @@ public class HUDManager : MonoBehaviour
             for (int i = 0; i < pauseMenuItems.Length; i++)
             {
                 pauseMenuItems[i].color = defaultColor;
+
+                pauseMenuItems[i].GetComponent<PauseMenuItem>().menuItemIndex = i;
             }
 
             //Sets the selected menu item to selected colour
@@ -199,7 +202,7 @@ public class HUDManager : MonoBehaviour
         }
     }
 
-    private void PauseMenuSelection(int selection)
+    public void PauseMenuSelection(int selection)
     {
         //Directs pause menu selections
         switch (selection)
@@ -219,12 +222,14 @@ public class HUDManager : MonoBehaviour
 
                 break;
 
-            //case 2:
+            case 2:
                 //Options
 
-                 //break;
+                optionsPanel.SetActive(true);
 
-            case 2:
+                 break;
+
+            case 3:
                 //Quit to Main Menu
 
                 Pause();
@@ -232,7 +237,7 @@ public class HUDManager : MonoBehaviour
 
                 break;
 
-            case 3:
+            case 4:
                 //Quit to Desktop
 #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
@@ -242,6 +247,11 @@ public class HUDManager : MonoBehaviour
 
                 break;
         }
+    }
+
+    public void UpdateMenuSelection(int selectionIndex)
+    {
+        pauseMenuSelection = selectionIndex;
     }
 
     public void InitializeEnergy(int energy, int energyTanks, int maxEnergyTanks)
@@ -339,6 +349,18 @@ public class HUDManager : MonoBehaviour
     {
         Hud,
         Screen
+    }
+
+    public void BackButton()
+    {
+        //Close options menu
+
+        optionsPanel.SetActive(false);
+    }
+
+    public bool IsPaused()
+    {
+        return paused;
     }
 }
 

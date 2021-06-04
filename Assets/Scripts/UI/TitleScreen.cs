@@ -25,7 +25,7 @@ public class TitleScreen : MonoBehaviour
         {
             menuItems[i].color = defaultColor;
 
-            menuItems[i].GetComponent<MenuItem>().menuItemIndex = i;
+            menuItems[i].GetComponent<TitleMenuItem>().menuItemIndex = i;
         }
 
         menuItems[menuSelection].color = selectedColor;

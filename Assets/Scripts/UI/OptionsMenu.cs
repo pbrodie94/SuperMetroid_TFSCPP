@@ -6,22 +6,30 @@ using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
+    [Header("Mixer")]
     [SerializeField] private AudioMixer masterMixer;
 
+    [Header("Sliders")]
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider ambianceSlider;
     [SerializeField] private Slider sfxSlider;
     [SerializeField] private Slider masterSlider;
 
+    [Header("Slider Text")]
     [SerializeField] private Text musicText;
     [SerializeField] private Text ambianceText;
     [SerializeField] private Text sfxText;
     [SerializeField] private Text masterText;
 
+    [Header("Toggles")]
+    [SerializeField] private Toggle muteToggle;
+
     private float maxMusicVol = -3;
     private float maxSFXVol;
     private float maxAmbianceVol = -12;
     private float maxMastervol = 0;
+
+    private bool muted = false;
 
     private void Start()
     {
@@ -39,6 +47,8 @@ public class OptionsMenu : MonoBehaviour
         musicText.text = Mathf.RoundToInt(musicSlider.value).ToString();
         sfxText.text = Mathf.RoundToInt(sfxSlider.value).ToString();
         masterText.text = Mathf.RoundToInt(masterSlider.value).ToString();
+
+        muteToggle.isOn = false;
     }
 
     public void SetMusicVolume(float musicVol)
@@ -70,10 +80,28 @@ public class OptionsMenu : MonoBehaviour
 
     public void SetMasterVol(float masterVol)
     {
-        float vol = (masterVol / 100) *  80;
-        vol -= 80;
-        masterMixer.SetFloat("masterVol", vol);
+        if (!muteToggle.isOn)
+        {
+            float vol = (masterVol / 100) * 80;
+            vol -= 80;
+            masterMixer.SetFloat("masterVol", vol);
+        } else
+        {
+            Debug.Log("Set vol to 0");
+            masterMixer.SetFloat("masterVol", -80);
+        }
 
         masterText.text = Mathf.RoundToInt(masterSlider.value).ToString();
+    }
+
+    public void SetAudioMute()
+    {
+        if (!muteToggle.isOn)
+        {
+            SetMasterVol(masterSlider.value);
+        } else
+        {
+            SetMasterVol(-80);
+        }
     }
 }
