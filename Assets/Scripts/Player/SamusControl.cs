@@ -29,13 +29,11 @@ public class SamusControl : MonoBehaviour
     //Components
     private CharacterController2D controller;
     private Animator anim;
-    private HUDManager
- hud;
+
     private void Start()
     {
         anim = transform.GetComponentInChildren<Animator>();
         controller = GetComponent<CharacterController2D>();
-        hud = GameObject.Find("HUD").GetComponent<HUDManager>();
 
         controller.jump = jumpHeight;
         controller.TwoWayAnims = true;
@@ -43,9 +41,6 @@ public class SamusControl : MonoBehaviour
 
     private void Update()
     {
-        if (hud.IsPaused())
-            return;
-
         if (!control)
         {
             horizontalInput = 0;

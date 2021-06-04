@@ -56,9 +56,6 @@ public class WeaponManager : MonoBehaviour
 
     private void Update()
     {
-        if (hud.IsPaused())
-            return;
-
         if (Input.GetButton(InputManager.fire))
         {
             if (Time.time >= (timeLastShot + fireRate))

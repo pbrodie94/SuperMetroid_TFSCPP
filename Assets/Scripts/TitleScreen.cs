@@ -11,21 +11,23 @@ public class TitleScreen : MonoBehaviour
     private Color defaultColor = Color.white;
     private Color selectedColor = Color.cyan;
 
-    [Header("Menu Screens")]
     [SerializeField] private GameObject instructionsPanel;
-    [SerializeField] private GameObject creditsPanel;
-    [SerializeField] private GameObject optionsPanel;
+    private bool instructions = false;
 
+    [SerializeField] private GameObject creditsPanel;
+    private bool credits = false;
+
+    //[SerializeField] private GameObject optionsPanel;
+    private bool options = false;
 
     private void Start()
     {
+
         menuSelection = 0;
 
         for (int i = 0; i < menuItems.Length; i++)
         {
             menuItems[i].color = defaultColor;
-
-            menuItems[i].GetComponent<TitleMenuItem>().menuItemIndex = i;
         }
 
         menuItems[menuSelection].color = selectedColor;
@@ -33,7 +35,7 @@ public class TitleScreen : MonoBehaviour
 
     private void Update()
     {
-        if (!instructionsPanel.activeSelf && !creditsPanel.activeSelf && !optionsPanel.activeSelf)
+        if (!instructions && !credits && !options)
         {
             if (Input.GetButtonDown(InputManager.select) && Input.GetAxisRaw(InputManager.select) > 0)
             {
@@ -66,22 +68,25 @@ public class TitleScreen : MonoBehaviour
                 SelectItem(menuSelection);
             }
 
-        } else if (instructionsPanel.activeSelf)
+        } else if (instructions)
         {
             if (Input.anyKeyDown)
             {
                 instructionsPanel.SetActive(false);
+                instructions = false;
             }
-        } else if (creditsPanel.activeSelf)
+        } else if (credits)
         {
             if (Input.anyKeyDown)
             {
                 creditsPanel.SetActive(false);
+                credits = false;
             }
         }
     }
 
-    public void SelectItem(int selection)
+
+    void SelectItem(int selection)
     {
         switch (selection)
         {
@@ -95,6 +100,7 @@ public class TitleScreen : MonoBehaviour
                 //Show Instructions Page
 
                 instructionsPanel.SetActive(true);
+                instructions = true;
 
                 break;
 
@@ -102,36 +108,21 @@ public class TitleScreen : MonoBehaviour
                 //Show credits
 
                 creditsPanel.SetActive(true);
+                credits = true;
 
                 break;
 
-            case 3:
+            //case 3:
                 //Options
 
-                optionsPanel.SetActive(true);
+                //break;
 
-                break;
-
-            case 4:
+            case 3:
                 //Quit
-#if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-#else
+
                 Application.Quit();
-#endif
+
                 break;
         }
-    }
-
-    public void UpdateMenuSelection(int selectionIndex)
-    {
-        menuSelection = selectionIndex;
-    }
-
-    public void BackButton()
-    {
-        //Close options menu
-
-        optionsPanel.SetActive(false);
     }
 }
