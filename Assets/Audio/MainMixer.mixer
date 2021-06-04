@@ -166,7 +166,6 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-<<<<<<< HEAD
   m_ExposedParameters:
   - guid: 989d085556de77a4fa8902cb38921e1e
     name: ambianceVol
@@ -176,9 +175,6 @@ AudioMixerController:
     name: musicVol
   - guid: 79775912f3124064a8b6984ade17b47d
     name: sfxVol
-=======
-  m_ExposedParameters: []
->>>>>>> parent of 4f1fdab (Merge pull request #28 from pbrodie94/revert-27-TitleScreenOptions)
   m_AudioMixerGroupViews:
   - guids:
     - 9fd37003a420a384c885543eca7d39c2

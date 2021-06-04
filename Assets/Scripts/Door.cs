@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
 public class Door : MonoBehaviour
 {
     private Transform destination;
@@ -17,10 +16,6 @@ public class Door : MonoBehaviour
     private bool locked = false;
     [SerializeField] private bool missileLocked = false;
 
-    [Header("Audio")]
-    [SerializeField] private AudioClip doorOpen;
-    [SerializeField] private AudioClip doorClose;
-
     private float distToPlayer;
     private float timeUnlocked;
     private string animVar;
@@ -31,7 +26,6 @@ public class Door : MonoBehaviour
     private Room room;
     private HUDManager hud;
     private Animator anim;
-    private AudioSource audioSource;
     private BoxCollider2D col;
 
     private void Start()
@@ -41,7 +35,6 @@ public class Door : MonoBehaviour
         room = transform.GetComponentInParent<Room>();
         hud = GameObject.Find("HUD").GetComponent<HUDManager>();
         anim = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();
         col = GetComponent<BoxCollider2D>();
 
         if (unlockTime <= 0)
@@ -63,11 +56,6 @@ public class Door : MonoBehaviour
             //If the player is within range, open the door
             if (distToPlayer <= openDistance)
             {
-                if (!anim.GetBool(animVar))
-                {
-                    audioSource.PlayOneShot(doorOpen);
-                }
-
                 anim.SetBool(animVar, true);
                 col.enabled = false;
             }
@@ -76,11 +64,6 @@ public class Door : MonoBehaviour
             {
                 unlocked = false;
                 col.enabled = true;
-
-                if (anim.GetBool(animVar))
-                {
-                    audioSource.PlayOneShot(doorClose);
-                }
             }
 
         } else
@@ -111,7 +94,6 @@ public class Door : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-
             Room destinationRoom = destination.gameObject.GetComponentInParent<Room>();
 
             StartCoroutine(destinationRoom.TransitionToRoom(room, destination));
