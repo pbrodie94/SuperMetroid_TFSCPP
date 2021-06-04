@@ -54,8 +54,9 @@ public class CharacterController2D : MonoBehaviour
 
         //Debug.Log(IsGrounded());
 
-        if (jump)
+        if (jump && IsGrounded())
         {
+            anim.SetBool(AnimationVars.Jumping, jump);
             rb.AddForce(new Vector2(0, jumpForce));
         }
     }
@@ -68,6 +69,11 @@ public class CharacterController2D : MonoBehaviour
         {
             if (colliders[i].gameObject != gameObject)
             {
+                if (anim.GetBool(AnimationVars.Jumping) && rb.velocity.y < 0)
+                {
+                    anim.SetBool(AnimationVars.Jumping, false);
+                }
+
                 return true;
             }
         }
@@ -91,10 +97,5 @@ public class CharacterController2D : MonoBehaviour
         {
             characterRenderer.flipX = !characterRenderer.flipX;
         }
-    }
-
-    public Vector3 GetVelocity()
-    {
-        return rb.velocity;
     }
 }
