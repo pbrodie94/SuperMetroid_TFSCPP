@@ -32,11 +32,6 @@ public class WeaponManager : MonoBehaviour
     [Header("Barrel Locations")]
     [SerializeField] private Transform[] barrelPositions;
 
-    [Header("Audio")]
-    [SerializeField] private AudioSource weaponAudio;
-    [SerializeField] private AudioClip powerBeamShot;
-    [SerializeField] private AudioClip missileShot;
-
     HUDManager hud;
 
     CharacterController2D controller;
@@ -56,9 +51,6 @@ public class WeaponManager : MonoBehaviour
 
     private void Update()
     {
-        if (hud.IsPaused())
-            return;
-
         if (Input.GetButton(InputManager.fire))
         {
             if (Time.time >= (timeLastShot + fireRate))
@@ -88,7 +80,6 @@ public class WeaponManager : MonoBehaviour
         Vector2 dir;
         int projectileDirection = 0;
         int damage = powerBeamDamage;
-        AudioClip shot = powerBeamShot;
 
         if (controller.IsFacingRight())
         {
@@ -111,7 +102,6 @@ public class WeaponManager : MonoBehaviour
 
                 proj = powerBeamProjectile;
                 damage = powerBeamDamage;
-                shot = powerBeamShot;
 
                 break;
 
@@ -119,8 +109,6 @@ public class WeaponManager : MonoBehaviour
 
                 proj = missileProjectile;
                 damage = missileDamage;
-                shot = missileShot;
-
                 break;
 
             default:
@@ -134,7 +122,6 @@ public class WeaponManager : MonoBehaviour
         GameObject go = Instantiate(proj, barrel, Quaternion.identity);
         go.gameObject.GetComponent<Projectile>().SetStats(gameObject, damage);
         Rigidbody2D b = go.GetComponent<Rigidbody2D>();
-        weaponAudio.PlayOneShot(shot);
 
         if (weapon == WeaponType.Missile)
         {
@@ -173,11 +160,6 @@ public class WeaponManager : MonoBehaviour
         missiles = maxMissiles;
 
         hud.UpdateMissiles(missiles);
-    }
-
-    public int GetMissileMax()
-    {
-        return maxMissiles;
     }
 }
 
