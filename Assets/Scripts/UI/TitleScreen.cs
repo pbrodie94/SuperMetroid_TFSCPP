@@ -11,23 +11,21 @@ public class TitleScreen : MonoBehaviour
     private Color defaultColor = Color.white;
     private Color selectedColor = Color.cyan;
 
+    [Header("Menu Screens")]
     [SerializeField] private GameObject instructionsPanel;
-    private bool instructions = false;
-
     [SerializeField] private GameObject creditsPanel;
-    private bool credits = false;
+    [SerializeField] private GameObject optionsPanel;
 
-    //[SerializeField] private GameObject optionsPanel;
-    private bool options = false;
 
     private void Start()
     {
-
         menuSelection = 0;
 
         for (int i = 0; i < menuItems.Length; i++)
         {
             menuItems[i].color = defaultColor;
+
+            menuItems[i].GetComponent<MenuItem>().menuItemIndex = i;
         }
 
         menuItems[menuSelection].color = selectedColor;
@@ -35,7 +33,7 @@ public class TitleScreen : MonoBehaviour
 
     private void Update()
     {
-        if (!instructions && !credits && !options)
+        if (!instructionsPanel.activeSelf && !creditsPanel.activeSelf && !optionsPanel.activeSelf)
         {
             if (Input.GetButtonDown(InputManager.select) && Input.GetAxisRaw(InputManager.select) > 0)
             {
@@ -68,25 +66,22 @@ public class TitleScreen : MonoBehaviour
                 SelectItem(menuSelection);
             }
 
-        } else if (instructions)
+        } else if (instructionsPanel.activeSelf)
         {
             if (Input.anyKeyDown)
             {
                 instructionsPanel.SetActive(false);
-                instructions = false;
             }
-        } else if (credits)
+        } else if (creditsPanel.activeSelf)
         {
             if (Input.anyKeyDown)
             {
                 creditsPanel.SetActive(false);
-                credits = false;
             }
         }
     }
 
-
-    void SelectItem(int selection)
+    public void SelectItem(int selection)
     {
         switch (selection)
         {
@@ -100,7 +95,6 @@ public class TitleScreen : MonoBehaviour
                 //Show Instructions Page
 
                 instructionsPanel.SetActive(true);
-                instructions = true;
 
                 break;
 
@@ -108,21 +102,36 @@ public class TitleScreen : MonoBehaviour
                 //Show credits
 
                 creditsPanel.SetActive(true);
-                credits = true;
 
                 break;
-
-            //case 3:
-                //Options
-
-                //break;
 
             case 3:
-                //Quit
+                //Options
 
-                Application.Quit();
+                optionsPanel.SetActive(true);
 
                 break;
+
+            case 4:
+                //Quit
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+#else
+                Application.Quit();
+#endif
+                break;
         }
+    }
+
+    public void UpdateMenuSelection(int selectionIndex)
+    {
+        menuSelection = selectionIndex;
+    }
+
+    public void BackButton()
+    {
+        //Close options menu
+
+        optionsPanel.SetActive(false);
     }
 }

@@ -234,8 +234,11 @@ public class HUDManager : MonoBehaviour
 
             case 3:
                 //Quit to Desktop
-
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+#else
                 Application.Quit();
+#endif
 
                 break;
         }
