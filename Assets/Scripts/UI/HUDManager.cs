@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class HUDManager : MonoBehaviour
 {
+    [Header("HUD")]
     private ScreenFade fadeType = ScreenFade.Hud;
     [SerializeField] private Image screenFade;
     [SerializeField] private Slider energySider;
@@ -22,7 +23,6 @@ public class HUDManager : MonoBehaviour
     private bool fade = false;
     private float timeFaded = 0;
 
-<<<<<<< HEAD:Assets/Scripts/UI/HUDManager.cs
     [Header("Pause Menu")]
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject optionsPanel;
@@ -33,8 +33,6 @@ public class HUDManager : MonoBehaviour
     private bool paused = false;
 
     private GameManager gm;
-=======
->>>>>>> parent of 8dbdfe2 (Merge pull request #36 from pbrodie94/revert-28-revert-27-TitleScreenOptions):Assets/Scripts/HUDManager.cs
     private CanvasGroup cg;
 
     private void Start()
@@ -43,6 +41,8 @@ public class HUDManager : MonoBehaviour
             energyText = transform.Find("HealthText").GetComponent<Text>();
         if (!missileText)
             missileText = transform.Find("missileText").GetComponent<Text>();
+
+        gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
 
         cg = GetComponent<CanvasGroup>();
 
@@ -70,7 +70,7 @@ public class HUDManager : MonoBehaviour
                 } else if (fadeType == ScreenFade.Screen)
                 {
                     a = screenFade.color.a;
-                    alpha = 255;
+                    alpha = 3;
                 }
             }
             else
@@ -99,7 +99,6 @@ public class HUDManager : MonoBehaviour
                 screenFade.color = fadeColour;
             }
         }
-<<<<<<< HEAD:Assets/Scripts/UI/HUDManager.cs
 
         if (paused)
         {
@@ -248,8 +247,6 @@ public class HUDManager : MonoBehaviour
 
                 break;
         }
-=======
->>>>>>> parent of 8dbdfe2 (Merge pull request #36 from pbrodie94/revert-28-revert-27-TitleScreenOptions):Assets/Scripts/HUDManager.cs
     }
 
     public void UpdateMenuSelection(int selectionIndex)
