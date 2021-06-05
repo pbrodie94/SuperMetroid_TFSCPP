@@ -96,11 +96,6 @@ public class SporeSpawn : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (stats.GetHealth() <= 0)
-        {
-            Destroy(gameObject);
-        }
-
         if (battling)
         {
             if (resetPosition)
@@ -208,7 +203,7 @@ public class SporeSpawn : MonoBehaviour
 
         if (phase > 2)
         {
-            y = Mathf.Sin(moveSpeedIncrease * (3 * moveTimer)) * (moveAmplitude.y * moveSpeedIncrease) * Time.deltaTime * 40;
+            y = Mathf.Sin(moveSpeedIncrease * (2 * moveTimer)) * (moveAmplitude.y * moveSpeedIncrease) * Time.deltaTime * 40;
         }
         else
         {
