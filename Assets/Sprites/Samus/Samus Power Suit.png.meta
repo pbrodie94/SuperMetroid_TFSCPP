@@ -91,55 +91,55 @@ TextureImporter:
     second: Samus Power Suit_28
   - first:
       213: 8289758822961084683
-    second: Samus Power Suit_29
+    second: Samus_PS_Jump_L_4
   - first:
       213: 8515968128459124557
-    second: Samus Power Suit_30
+    second: Samus_PS_Jump_L_3
   - first:
       213: 3765484569241579170
-    second: Samus Power Suit_31
+    second: Samus_PS_Jump_L_2
   - first:
       213: -408553182991422113
-    second: Samus Power Suit_32
+    second: Samus_PS_Jump_L_1
   - first:
       213: 1011900023791892387
-    second: Samus Power Suit_33
+    second: Samus_PS_Jump_R_1
   - first:
       213: 1645759068281639320
-    second: Samus Power Suit_34
+    second: Samus_PS_Jump_R_2
   - first:
       213: 2224629646396177828
-    second: Samus Power Suit_35
+    second: Samus_PS_Jump_R_3
   - first:
       213: -114154348379684997
-    second: Samus Power Suit_36
+    second: Samus_PS_Jump_R_4
   - first:
       213: 5516877784373490730
     second: Samus Power Suit_37
   - first:
       213: 4171090348898364913
-    second: Samus Power Suit_38
+    second: Samus_PS_Jump_L_8
   - first:
       213: -7574277340832231758
-    second: Samus Power Suit_39
+    second: Samus_PS_Jump_L_7
   - first:
       213: 6917091022605289531
-    second: Samus Power Suit_40
+    second: Samus_PS_Jump_L_6
   - first:
       213: 3323078609893024242
-    second: Samus Power Suit_41
+    second: Samus_PS_Jump_L_5
   - first:
       213: -4829512190608253832
-    second: Samus Power Suit_42
+    second: Samus_PS_Jump_R_5
   - first:
       213: 1596227554154706688
-    second: Samus Power Suit_43
+    second: Samus_PS_Jump_R_6
   - first:
       213: -1444814478033573539
-    second: Samus Power Suit_44
+    second: Samus_PS_Jump_R_7
   - first:
       213: -2339506933736022075
-    second: Samus Power Suit_45
+    second: Samus_PS_Jump_R_8
   - first:
       213: -1363470369803420900
     second: Samus Power Suit_46
@@ -1789,7 +1789,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_29
+      name: Samus_PS_Jump_L_4
       rect:
         serializedVersion: 2
         x: 52
@@ -1810,7 +1810,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_30
+      name: Samus_PS_Jump_L_3
       rect:
         serializedVersion: 2
         x: 100
@@ -1831,7 +1831,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_31
+      name: Samus_PS_Jump_L_2
       rect:
         serializedVersion: 2
         x: 153
@@ -1852,7 +1852,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_32
+      name: Samus_PS_Jump_L_1
       rect:
         serializedVersion: 2
         x: 202
@@ -1873,7 +1873,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_33
+      name: Samus_PS_Jump_R_1
       rect:
         serializedVersion: 2
         x: 252
@@ -1894,7 +1894,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_34
+      name: Samus_PS_Jump_R_2
       rect:
         serializedVersion: 2
         x: 303
@@ -1915,7 +1915,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_35
+      name: Samus_PS_Jump_R_3
       rect:
         serializedVersion: 2
         x: 350
@@ -1936,7 +1936,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_36
+      name: Samus_PS_Jump_R_4
       rect:
         serializedVersion: 2
         x: 402
@@ -1978,7 +1978,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_38
+      name: Samus_PS_Jump_L_8
       rect:
         serializedVersion: 2
         x: 51
@@ -1999,7 +1999,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_39
+      name: Samus_PS_Jump_L_7
       rect:
         serializedVersion: 2
         x: 103
@@ -2020,7 +2020,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_40
+      name: Samus_PS_Jump_L_6
       rect:
         serializedVersion: 2
         x: 152
@@ -2041,7 +2041,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_41
+      name: Samus_PS_Jump_L_5
       rect:
         serializedVersion: 2
         x: 202
@@ -2062,7 +2062,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_42
+      name: Samus_PS_Jump_R_5
       rect:
         serializedVersion: 2
         x: 253
@@ -2083,7 +2083,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_43
+      name: Samus_PS_Jump_R_6
       rect:
         serializedVersion: 2
         x: 302
@@ -2104,7 +2104,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_44
+      name: Samus_PS_Jump_R_7
       rect:
         serializedVersion: 2
         x: 352
@@ -2125,7 +2125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus Power Suit_45
+      name: Samus_PS_Jump_R_8
       rect:
         serializedVersion: 2
         x: 401

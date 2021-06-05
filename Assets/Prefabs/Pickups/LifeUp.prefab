@@ -144,3 +144,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickup: 5
   value: 1
+  pickupAudioSource: {fileID: 6301931486774698561, guid: 659525cf7079aad45942f169d706d3e6, type: 3}
+  pickupAudio: {fileID: 8300000, guid: f7fa771ffbc26ef4281e13788b0fb679, type: 3}
