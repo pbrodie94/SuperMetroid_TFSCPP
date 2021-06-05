@@ -9,16 +9,12 @@ public class PickUp : MonoBehaviour
     public PickupType pickup;
     [SerializeField] private int value;
 
-    [SerializeField] private GameObject pickupAudioSource;
-    [SerializeField] private AudioClip pickupAudio;
-
     private void Start()
     {
         if (lifeTime > 0)
         {
             Destroy(gameObject, lifeTime);
         }
-
     }
 
     public void SetLifetime(float lifeTime)
@@ -37,11 +33,6 @@ public class PickUp : MonoBehaviour
         {
             WeaponManager wm = collision.gameObject.GetComponent<WeaponManager>();
             SamusStatus stats = collision.gameObject.GetComponent<SamusStatus>();
-
-            GameObject go = Instantiate(pickupAudioSource, transform.position, Quaternion.identity);
-            AudioSource a = go.GetComponent<AudioSource>();
-            a.PlayOneShot(pickupAudio);
-            Destroy(go, pickupAudio.length);
 
             switch (pickup)
             {
