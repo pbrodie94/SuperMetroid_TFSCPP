@@ -1,0 +1,23 @@
+L/R Buttons: L button aims Samus' weapon down at a angle
+
+R button:Aims Samus' weapon up at an angle
+
+Press both L and R at the same time when Samus is Kneeling to Aim Straight up.
+
+Control Pad: Up aims Samus' weapon Upwards.
+
+Left/Right: Makes Samus run left or right
+
+Down: Press once to make Samus kneel press again to make Samus roll into a ball (if you have the morphing ball). Press down on the control pad while samus is in the air to aim her weapon downwards.
+
+Select button: Press select to cycle through the special items on the top of the screen.
+
+Y button: Cancel button Press Y to turn of the selected special item and switch back to Samus' beam weapon.
+
+X button: Fire button: Press X to fire beams and missles press and hold down X to fire rapid fire shots or charge your beam. When in morphing ball press X to lay a bomb.
+
+A button: Jump Button: Press the A button to make Samus Jump.
+
+B button: Dash button: Press and hold the B button to make Samus run.
+
+Start button: press start to pause the game and show the map screen.
