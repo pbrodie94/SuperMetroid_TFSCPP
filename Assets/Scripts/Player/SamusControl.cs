@@ -16,18 +16,26 @@ public class SamusControl : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 40;
     [SerializeField] private float jumpHeight = 400;
+    private bool doubleJump = true;
+    private bool hasDoubleJumped = false;
     private float horizontalInput = 0;
 
     private bool jump = false;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource suitAudio;
+    [SerializeField] private AudioClip jumpAudio;
+
     //Components
     private CharacterController2D controller;
     private Animator anim;
-
+    private HUDManager
+ hud;
     private void Start()
     {
         anim = transform.GetComponentInChildren<Animator>();
         controller = GetComponent<CharacterController2D>();
+        hud = GameObject.Find("HUD").GetComponent<HUDManager>();
 
         controller.jump = jumpHeight;
         controller.TwoWayAnims = true;
@@ -35,6 +43,9 @@ public class SamusControl : MonoBehaviour
 
     private void Update()
     {
+        if (hud.IsPaused())
+            return;
+
         if (!control)
         {
             horizontalInput = 0;
@@ -44,15 +55,48 @@ public class SamusControl : MonoBehaviour
 
         horizontalInput = Input.GetAxisRaw(InputManager.horizontal) * moveSpeed;
 
-        if (Input.GetButtonDown(InputManager.jump))
+        if (Input.GetButtonDown(InputManager.jump) && (controller.IsGrounded() || (doubleJump && !hasDoubleJumped)))
         {
             jump = true;
+            suitAudio.PlayOneShot(jumpAudio);
+            
+            if (controller.IsGrounded())
+            {
+                anim.SetBool(AnimationVars.Jumping, true);
+            } else
+            {
+                hasDoubleJumped = true;
+                anim.SetBool(AnimationVars.Jumping, false);
+                anim.SetBool(AnimationVars.DoubleJumping, true);
+            }
         }
 
         if (Input.GetButtonUp(InputManager.fire))
         {
             anim.SetBool(AnimationVars.Attacking, false);
         }
+
+        if (controller.IsGrounded())
+        {
+            hasDoubleJumped = false;
+            //anim.SetBool(AnimationVars.Jumping, false);
+            anim.SetBool(AnimationVars.DoubleJumping, false);
+
+        } else
+        {
+
+            if (anim.GetBool(AnimationVars.Jumping))
+            {
+                if (controller.GetVelocity().y < 0)
+                {
+                    //Falling
+                    anim.SetBool(AnimationVars.Jumping, false);
+                }
+
+            }
+        }
+
+        anim.SetBool(AnimationVars.Grounded, controller.IsGrounded());
     }
 
     private void FixedUpdate()
