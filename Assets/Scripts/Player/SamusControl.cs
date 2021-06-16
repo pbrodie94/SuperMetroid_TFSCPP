@@ -24,7 +24,11 @@ public class SamusControl : MonoBehaviour
 
     [Header("Audio")]
     [SerializeField] private AudioSource suitAudio;
+    [SerializeField] private AudioSource feetAudio;
     [SerializeField] private AudioClip jumpAudio;
+    [SerializeField] private AudioClip[] footSteps;
+
+    private int footStepIndex = 0;
 
     //Components
     private CharacterController2D controller;
@@ -103,5 +107,16 @@ public class SamusControl : MonoBehaviour
     {
         controller.Move(horizontalInput * Time.fixedDeltaTime, jump);
         jump = false;
+    }
+
+    public void Footstep()
+    {
+        feetAudio.PlayOneShot(footSteps[footStepIndex]);
+        footStepIndex++;
+
+        if (footStepIndex >= footSteps.Length)
+        {
+            footStepIndex = 0;
+        }
     }
 }

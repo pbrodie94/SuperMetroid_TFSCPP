@@ -9,6 +9,8 @@ public class Stats : MonoBehaviour
     [SerializeField] protected float flashInterval = 0.1f;
     [SerializeField] protected float flashDuration = 0.2f;
 
+    protected bool dead = false;
+
     protected SpriteRenderer spriteRenderer;
     protected Material defaultMaterial;
     protected Material flashMaterial;
@@ -27,10 +29,15 @@ public class Stats : MonoBehaviour
         {
             flashDuration = 0.2f;
         }
+
+        dead = false;
     }
 
     public virtual void TakeDamage(int damage)
     {
+        if (dead)
+            return;
+
         health -= damage;
 
         StartCoroutine(Flash(flashInterval, flashDuration, Time.time));

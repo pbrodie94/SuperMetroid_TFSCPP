@@ -28,6 +28,15 @@ public class WallZebesian : EnemyAI
     [SerializeField] private Transform top;
     [SerializeField] private Transform bottom;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource bodyAudio;
+
+    [SerializeField] private AudioClip attackSound;
+    [SerializeField] private AudioClip[] moveSound;
+
+    private float moveSoundInterval = 1.5f;
+    private float timeLastMoveSound = 0;
+
     protected override void Start()
     {
         base.Start();
@@ -101,7 +110,6 @@ public class WallZebesian : EnemyAI
 
     void Alerted()
     {
-
         AdjustPosition();
 
         if (canShoot && Time.time >= timeLastAttacked + attackFrequency)
@@ -159,6 +167,24 @@ public class WallZebesian : EnemyAI
                     rb.velocity = new Vector2(0, -crawlSpeed);
 
                     anim.SetFloat("Speed", -crawlSpeed);
+
+                    if (bodyAudio && moveSound[0])
+                    {
+                        int moveIndex = 0;
+
+                        if (moveSound.Length > 1)
+                        {
+                            moveIndex = Random.Range(0, moveSound.Length - 1);
+                        }
+
+                        if (Time.time >= timeLastMoveSound + moveSoundInterval)
+                        {
+                            bodyAudio.PlayOneShot(moveSound[moveIndex]);
+
+                            timeLastMoveSound = Time.time;
+                        }
+                    }
+
                 } else
                 {
                     anim.SetFloat("Speed", 0);
@@ -176,6 +202,24 @@ public class WallZebesian : EnemyAI
                     rb.velocity = new Vector2(0, crawlSpeed);
 
                     anim.SetFloat("Speed", crawlSpeed);
+
+                    if (bodyAudio && moveSound[0])
+                    {
+                        int moveIndex = 0;
+
+                        if (moveSound.Length > 1)
+                        {
+                            moveIndex = Random.Range(0, moveSound.Length - 1);
+                        }
+
+                        if (Time.time >= timeLastMoveSound + moveSoundInterval)
+                        {
+                            bodyAudio.PlayOneShot(moveSound[moveIndex]);
+
+                            timeLastMoveSound = Time.time;
+                        }
+                    }
+
                 } else
                 {
                     anim.SetFloat("Speed", 0);
@@ -239,6 +283,11 @@ public class WallZebesian : EnemyAI
         Projectile proj = go.GetComponent<Projectile>();
         proj.SetStats(gameObject, damage);
         body.AddForce(shootDir * projectileForce);
+
+        if (bodyAudio && attackSound)
+        {
+            bodyAudio.PlayOneShot(attackSound);
+        }
     }
 
     public void BeginAttack()
