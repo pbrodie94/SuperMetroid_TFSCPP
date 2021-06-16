@@ -9,9 +9,11 @@ public class BossRoom : Room
 
     [SerializeField] private SporeSpawn boss;
     [SerializeField] private SporeDude[] sporeDudes;
-    [SerializeField] private float shootInterval = 5;
+    [SerializeField] private float shootInterval = 2;
 
     [SerializeField] private Door[] doors;
+
+    private MusicManager musicManager;
 
     private float timeLastshot = 0;
  
@@ -21,6 +23,8 @@ public class BossRoom : Room
 
         if (!boss)
             GameObject.Find("SporeSpawn").GetComponent<SporeSpawn>();
+
+        musicManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<MusicManager>();
 
         if (shootInterval <= 0)
         {
@@ -53,6 +57,8 @@ public class BossRoom : Room
             //Start boss battle
             StartCoroutine(boss.BeginBattle());
 
+            musicManager.TransitionMusic(1);
+
             timeLastshot = Time.time;
 
             for (int i = 0; i < doors.Length; i++)
@@ -68,6 +74,8 @@ public class BossRoom : Room
     {
         if (!bossDefeated)
         {
+            musicManager.TransitionMusic(0);
+
             boss.ResetBoss();
         }
 
@@ -79,5 +87,17 @@ public class BossRoom : Room
         }
 
         base.DestroyEntities();
+    }
+
+    public void BossDefeated()
+    {
+        bossDefeated = true;
+
+        musicManager.TransitionMusic(0);
+
+        for (int i = 0; i < doors.Length; i++)
+        {
+            doors[i].SetDoorLocked(false);
+        }
     }
 }

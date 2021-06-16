@@ -36,6 +36,8 @@ public class SporeSpawn : MonoBehaviour
     [SerializeField] private Transform[] wayPoints;
     [SerializeField] private Transform[] ropeBois;
 
+    [SerializeField] private BossRoom bossRoom;
+
     private int maxHp;
     private float actionDuration;
     private float timeStartAction;
@@ -53,6 +55,17 @@ public class SporeSpawn : MonoBehaviour
     private Rigidbody2D rb;
     private PolygonCollider2D col;
     private Animator anim;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource bodyAudio;
+
+    [SerializeField] private AudioClip[] moveSound;
+    [SerializeField] private AudioClip rushSound;
+
+    private int moveSoundIndex = 0;
+    private float moveSoundInterval = 1.5f;
+    private float timeLastMoveSound = 0;
+    private bool rushSoundPlayed = false;
 
     private void Start()
     {
@@ -99,6 +112,8 @@ public class SporeSpawn : MonoBehaviour
         if (stats.GetHealth() <= 0)
         {
             Destroy(gameObject);
+
+            bossRoom.BossDefeated();
         }
 
         if (battling)
@@ -130,7 +145,6 @@ public class SporeSpawn : MonoBehaviour
             {
                 if (!waypointPhase && Time.time > timeStartAction + actionDuration)
                 {
-
                     rb.velocity = Vector2.zero;
 
                     if (phase > 1)
@@ -146,6 +160,7 @@ public class SporeSpawn : MonoBehaviour
 
                         moving = false;
                     }
+
                 } else if (waypointPhase)
                 {
 
@@ -168,11 +183,21 @@ public class SporeSpawn : MonoBehaviour
 
                             wayPoint = GetNewWaypoint(wayPoint);
                             timeStartAction = Time.time;
+
+                            rushSoundPlayed = false;
                         }
 
                         Vector3 dir = wayPoint - transform.position;
 
                         rb.MovePosition(transform.position + dir.normalized * waypointMoveSpeed * Time.fixedDeltaTime);
+
+                        if (bodyAudio && rushSound && !rushSoundPlayed)
+                        {
+                            bodyAudio.PlayOneShot(rushSound);
+
+                            rushSoundPlayed = true;
+                        }
+
                     } else
                     {
                         rb.velocity = Vector2.zero;
@@ -206,18 +231,40 @@ public class SporeSpawn : MonoBehaviour
         float x = Mathf.Cos(moveSpeedIncrease * moveTimer) * (moveAmplitude.x * moveSpeedIncrease) * Time.deltaTime * 40;
         float y;
 
-        if (phase > 2)
+        /*if (phase > 2)
         {
             y = Mathf.Sin(moveSpeedIncrease * (3 * moveTimer)) * (moveAmplitude.y * moveSpeedIncrease) * Time.deltaTime * 40;
         }
         else
-        {
+        {*/
             y = Mathf.Cos(moveSpeedIncrease * (2 * moveTimer)) * (moveAmplitude.y * moveSpeedIncrease) * Time.deltaTime * 40;
-        }
+        //}
 
         Vector3 targetVelocity = new Vector3(x, y, 0);
 
         rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref moveVelocity, movementSmoothing);
+
+        if (bodyAudio && moveSound[0])
+        {
+            if (moveSound.Length == 1)
+            {
+                moveSoundIndex = 0;
+            }
+
+            if (Time.time >= timeLastMoveSound + moveSoundInterval)
+            {
+                bodyAudio.PlayOneShot(moveSound[moveSoundIndex]);
+
+                moveSoundIndex++;
+
+                if (moveSoundIndex > moveSound.Length - 1)
+                {
+                    moveSoundIndex = 0;
+                }
+
+                timeLastMoveSound = Time.time;
+            }
+        }
     }
 
     Vector3 GetNewWaypoint(Vector3 currentWaypoint)

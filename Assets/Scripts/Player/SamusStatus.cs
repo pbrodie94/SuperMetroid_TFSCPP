@@ -8,7 +8,6 @@ public class SamusStatus : Stats
     private int maxEnergyTanks = 0;
 
     [SerializeField] private int lives = 3;
-    private bool dead = false;
     public bool isDead 
     { 
         get
@@ -84,10 +83,10 @@ public class SamusStatus : Stats
 
     public override void TakeDamage(int damage)
     {
-        health -= damage;
+        if (dead)
+            return;
 
-        int hurtIndex = Random.Range(0, hurtAudio.Length);
-        voiceAudio.PlayOneShot(hurtAudio[hurtIndex]);
+        health -= damage;
 
         StartCoroutine(Flash(flashInterval, flashDuration, Time.time));
 
@@ -99,6 +98,7 @@ public class SamusStatus : Stats
             health = 99;
 
             health -= excessDamage;
+
         } else if (health <= 0 && energyTanks <= 0 && !dead)
         {
             health = 0;
@@ -106,6 +106,10 @@ public class SamusStatus : Stats
             dead = true;
 
             StartCoroutine(Die());
+        } else
+        {
+            int hurtIndex = Random.Range(0, hurtAudio.Length);
+            voiceAudio.PlayOneShot(hurtAudio[hurtIndex]);
         }
 
         hud.UpdateEnergy(health, energyTanks, maxEnergyTanks);
@@ -162,6 +166,8 @@ public class SamusStatus : Stats
         gm.PlayerDie();
         hud.FadeUI(true);
         anim.SetBool("Dead", true);
+
+        voiceAudio.PlayOneShot(dieAudio);
 
         yield return new WaitForSeconds(8);
 
